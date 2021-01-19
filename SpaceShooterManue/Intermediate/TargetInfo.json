@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "SpaceShooterManue",
+			"Path": "C:\\Users\\emman\\Desktop\\Legacy Mob Game Jams\\SpaceShooter\\SpaceShooterManue\\Source\\SpaceShooterManue.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "SpaceShooterManueEditor",
+			"Path": "C:\\Users\\emman\\Desktop\\Legacy Mob Game Jams\\SpaceShooter\\SpaceShooterManue\\Source\\SpaceShooterManueEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

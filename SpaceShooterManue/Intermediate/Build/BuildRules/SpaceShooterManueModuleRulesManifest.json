@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\emman\\Desktop\\Legacy Mob Game Jams\\SpaceShooter\\SpaceShooterManue\\Source\\SpaceShooterManue\\SpaceShooterManue.Build.cs",
+		"C:\\Users\\emman\\Desktop\\Legacy Mob Game Jams\\SpaceShooter\\SpaceShooterManue\\Source\\SpaceShooterManue.Target.cs",
+		"C:\\Users\\emman\\Desktop\\Legacy Mob Game Jams\\SpaceShooter\\SpaceShooterManue\\Source\\SpaceShooterManueEditor.Target.cs"
+	],
+	"EngineVersion": "4.26.0"
+}
