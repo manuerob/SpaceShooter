@@ -9,6 +9,10 @@ ASSM_Spaceship_Pawn::ASSM_Spaceship_Pawn()
  	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	bUseControllerRotationPitch = false;
+	bUseControllerRotationYaw = false;
+	bUseControllerRotationRoll = false;
+
 }
 
 // Called when the game starts or when spawned
@@ -30,5 +34,13 @@ void ASSM_Spaceship_Pawn::SetupPlayerInputComponent(UInputComponent* PlayerInput
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+}
+
+void ASSM_Spaceship_Pawn::MoveHorizontal(float AxisValue)
+{
+}
+
+void ASSM_Spaceship_Pawn::MoveVertical(float AxisValue)
+{
 }
 
