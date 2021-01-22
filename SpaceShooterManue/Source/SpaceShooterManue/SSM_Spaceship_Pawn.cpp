@@ -26,6 +26,14 @@ void ASSM_Spaceship_Pawn::BeginPlay()
 // Called every frame
 void ASSM_Spaceship_Pawn::Tick(float DeltaTime)
 {
+	const float CurrentAcc = -GetActorRotation().Pitch * DeltaTime * Acceleration;
+	const float newForwardSpeed = CurrentForwardSpeed * CurrentAcc;
+	CurrentForwardSpeed = FMath::Clamp(newForwardSpeed, MinSpeed, MaxSpeed);
+
+	const FVector LocalMove = FVector(CurrentForwardSpeed * DeltaTime, 0.f, 0.f);
+
+	AddActorLocalOffset(LocalMove, true);
+
 	FRotator DeltaRotation(0, 0, 0);
 	DeltaRotation.Pitch = CurrentPitchSpeed * DeltaTime;
 	DeltaRotation.Yaw = CurrentYawSpeed * DeltaTime;

@@ -67,7 +67,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASSM_Spaceship_Pawn); \
 	FORCEINLINE static uint32 __PPO__CurrentPitchSpeed() { return STRUCT_OFFSET(ASSM_Spaceship_Pawn, CurrentPitchSpeed); } \
 	FORCEINLINE static uint32 __PPO__CurrentRollSpeed() { return STRUCT_OFFSET(ASSM_Spaceship_Pawn, CurrentRollSpeed); } \
 	FORCEINLINE static uint32 __PPO__RollRateMultiplier() { return STRUCT_OFFSET(ASSM_Spaceship_Pawn, RollRateMultiplier); } \
-	FORCEINLINE static uint32 __PPO__PitchRateMultiplier() { return STRUCT_OFFSET(ASSM_Spaceship_Pawn, PitchRateMultiplier); }
+	FORCEINLINE static uint32 __PPO__PitchRateMultiplier() { return STRUCT_OFFSET(ASSM_Spaceship_Pawn, PitchRateMultiplier); } \
+	FORCEINLINE static uint32 __PPO__CurrentForwardSpeed() { return STRUCT_OFFSET(ASSM_Spaceship_Pawn, CurrentForwardSpeed); }
 
 
 #define SpaceShooterManue_Source_SpaceShooterManue_SSM_Spaceship_Pawn_h_19_PROLOG

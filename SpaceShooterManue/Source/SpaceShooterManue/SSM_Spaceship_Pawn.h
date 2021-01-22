@@ -48,6 +48,8 @@ protected:
 		float RollRateMultiplier;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Flight)
 		float PitchRateMultiplier;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Flight)
+		float CurrentForwardSpeed;
 
 public:	
 	// Called every frame

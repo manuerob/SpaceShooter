@@ -68,6 +68,10 @@ void EmptyLinkFunctionForGeneratedCodeSSM_Spaceship_Pawn() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PitchRateMultiplier_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_PitchRateMultiplier;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentForwardSpeed_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_CurrentForwardSpeed;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -147,6 +151,13 @@ void EmptyLinkFunctionForGeneratedCodeSSM_Spaceship_Pawn() {}
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASSM_Spaceship_Pawn_Statics::NewProp_PitchRateMultiplier = { "PitchRateMultiplier", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASSM_Spaceship_Pawn, PitchRateMultiplier), METADATA_PARAMS(Z_Construct_UClass_ASSM_Spaceship_Pawn_Statics::NewProp_PitchRateMultiplier_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASSM_Spaceship_Pawn_Statics::NewProp_PitchRateMultiplier_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASSM_Spaceship_Pawn_Statics::NewProp_CurrentForwardSpeed_MetaData[] = {
+		{ "Category", "Flight" },
+		{ "ModuleRelativePath", "SSM_Spaceship_Pawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASSM_Spaceship_Pawn_Statics::NewProp_CurrentForwardSpeed = { "CurrentForwardSpeed", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASSM_Spaceship_Pawn, CurrentForwardSpeed), METADATA_PARAMS(Z_Construct_UClass_ASSM_Spaceship_Pawn_Statics::NewProp_CurrentForwardSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASSM_Spaceship_Pawn_Statics::NewProp_CurrentForwardSpeed_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASSM_Spaceship_Pawn_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASSM_Spaceship_Pawn_Statics::NewProp_FloatingMovement,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASSM_Spaceship_Pawn_Statics::NewProp_Acceleration,
@@ -157,6 +168,7 @@ void EmptyLinkFunctionForGeneratedCodeSSM_Spaceship_Pawn() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASSM_Spaceship_Pawn_Statics::NewProp_CurrentRollSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASSM_Spaceship_Pawn_Statics::NewProp_RollRateMultiplier,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASSM_Spaceship_Pawn_Statics::NewProp_PitchRateMultiplier,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASSM_Spaceship_Pawn_Statics::NewProp_CurrentForwardSpeed,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ASSM_Spaceship_Pawn_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ASSM_Spaceship_Pawn>::IsAbstract,
@@ -185,7 +197,7 @@ void EmptyLinkFunctionForGeneratedCodeSSM_Spaceship_Pawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASSM_Spaceship_Pawn, 1683022852);
+	IMPLEMENT_CLASS(ASSM_Spaceship_Pawn, 2648863657);
 	template<> SPACESHOOTERMANUE_API UClass* StaticClass<ASSM_Spaceship_Pawn>()
 	{
 		return ASSM_Spaceship_Pawn::StaticClass();
