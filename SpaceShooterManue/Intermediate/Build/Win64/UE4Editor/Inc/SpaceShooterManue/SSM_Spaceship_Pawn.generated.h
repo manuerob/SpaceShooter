@@ -59,7 +59,15 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASSM_Spaceship_Pawn); \
 
 
 #define SpaceShooterManue_Source_SpaceShooterManue_SSM_Spaceship_Pawn_h_22_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__FloatingMovement() { return STRUCT_OFFSET(ASSM_Spaceship_Pawn, FloatingMovement); }
+	FORCEINLINE static uint32 __PPO__FloatingMovement() { return STRUCT_OFFSET(ASSM_Spaceship_Pawn, FloatingMovement); } \
+	FORCEINLINE static uint32 __PPO__Acceleration() { return STRUCT_OFFSET(ASSM_Spaceship_Pawn, Acceleration); } \
+	FORCEINLINE static uint32 __PPO__MaxSpeed() { return STRUCT_OFFSET(ASSM_Spaceship_Pawn, MaxSpeed); } \
+	FORCEINLINE static uint32 __PPO__MinSpeed() { return STRUCT_OFFSET(ASSM_Spaceship_Pawn, MinSpeed); } \
+	FORCEINLINE static uint32 __PPO__CurrentYawSpeed() { return STRUCT_OFFSET(ASSM_Spaceship_Pawn, CurrentYawSpeed); } \
+	FORCEINLINE static uint32 __PPO__CurrentPitchSpeed() { return STRUCT_OFFSET(ASSM_Spaceship_Pawn, CurrentPitchSpeed); } \
+	FORCEINLINE static uint32 __PPO__CurrentRollSpeed() { return STRUCT_OFFSET(ASSM_Spaceship_Pawn, CurrentRollSpeed); } \
+	FORCEINLINE static uint32 __PPO__RollRateMultiplier() { return STRUCT_OFFSET(ASSM_Spaceship_Pawn, RollRateMultiplier); } \
+	FORCEINLINE static uint32 __PPO__PitchRateMultiplier() { return STRUCT_OFFSET(ASSM_Spaceship_Pawn, PitchRateMultiplier); }
 
 
 #define SpaceShooterManue_Source_SpaceShooterManue_SSM_Spaceship_Pawn_h_19_PROLOG

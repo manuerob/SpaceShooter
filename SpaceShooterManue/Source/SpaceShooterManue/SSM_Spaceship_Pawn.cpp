@@ -2,6 +2,7 @@
 
 
 #include "SSM_Spaceship_Pawn.h"
+#include "Kismet/KismetMathLibrary.h"
 
 // Sets default values
 ASSM_Spaceship_Pawn::ASSM_Spaceship_Pawn()
@@ -9,9 +10,9 @@ ASSM_Spaceship_Pawn::ASSM_Spaceship_Pawn()
  	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	bUseControllerRotationPitch = false;
-	bUseControllerRotationYaw = false;
-	bUseControllerRotationRoll = false;
+	//bUseControllerRotationPitch = false;
+	//bUseControllerRotationYaw = false;
+	//bUseControllerRotationRoll = false;
 
 }
 
@@ -25,6 +26,13 @@ void ASSM_Spaceship_Pawn::BeginPlay()
 // Called every frame
 void ASSM_Spaceship_Pawn::Tick(float DeltaTime)
 {
+	FRotator DeltaRotation(0, 0, 0);
+	DeltaRotation.Pitch = CurrentPitchSpeed * DeltaTime;
+	DeltaRotation.Yaw = CurrentYawSpeed * DeltaTime;
+	DeltaRotation.Roll = CurrentRollSpeed * DeltaTime;
+
+	AddActorLocalRotation(DeltaRotation);
+
 	Super::Tick(DeltaTime);
 
 }
@@ -36,11 +44,47 @@ void ASSM_Spaceship_Pawn::SetupPlayerInputComponent(UInputComponent* PlayerInput
 
 }
 
-void ASSM_Spaceship_Pawn::MoveHorizontal(float AxisValue)
+void ASSM_Spaceship_Pawn::ProcessMouseYInput(float Value)
 {
 }
 
-void ASSM_Spaceship_Pawn::MoveVertical(float AxisValue)
+void ASSM_Spaceship_Pawn::ProcessMouseXInput(float Value)
 {
 }
+
+void ASSM_Spaceship_Pawn::ProcessKeyRoll(float Rate)
+{
+	if (FMath::Abs(Rate) > .2f) {
+		ProcessRoll(Rate * 2.f);
+	}
+}
+
+void ASSM_Spaceship_Pawn::ProcessKeyPitch(float Rate)
+{
+	if (FMath::Abs(Rate) > .2f) {
+		ProcessPitch(Rate*2.f);
+	}
+}
+
+void ASSM_Spaceship_Pawn::ProcessRoll(float Value)
+{
+	float TargetRollSpeed = Value * RollRateMultiplier;
+	CurrentRollSpeed = FMath::FInterpTo(CurrentRollSpeed, TargetRollSpeed, GetWorld()->GetDeltaSeconds(), 2.f);
+}
+
+void ASSM_Spaceship_Pawn::ProcessPitch(float Value)
+{
+	float TargetPitchSpeed = Value * PitchRateMultiplier;
+	CurrentPitchSpeed = FMath::FInterpTo(CurrentPitchSpeed, TargetPitchSpeed, GetWorld()->GetDeltaSeconds(), 2.f);
+}
+
+//void ASSM_Spaceship_Pawn::MoveHorizontal(float AxisValue)
+//{
+//	AddMovementInput(FVector(AxisValue, 0.0f, 0.0f), 0.5f, true);
+//}
+//
+//void ASSM_Spaceship_Pawn::MoveVertical(float AxisValue)
+//{
+//	AddMovementInput(FVector(0.0f, 0.0f, AxisValue), 0.5f, true);
+//}
 

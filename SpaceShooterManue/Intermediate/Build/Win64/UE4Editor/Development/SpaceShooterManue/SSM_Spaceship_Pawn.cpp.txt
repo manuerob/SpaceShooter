@@ -124,3 +124,6 @@ C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Edi
 C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
 C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Inc\SpaceShooterManue\SSM_Spaceship_Pawn.generated.h
+C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet/KismetMathLibrary.h
+C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetMathLibrary.generated.h
+C:\Program Files (x86)\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet\KismetMathLibrary.inl

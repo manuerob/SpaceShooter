@@ -32,6 +32,23 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		UFloatingPawnMovement* FloatingMovement;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Flight)
+		float Acceleration;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Flight)
+		float MaxSpeed;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Flight)
+		float MinSpeed;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Flight)
+		float CurrentYawSpeed;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Flight)
+		float CurrentPitchSpeed;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Flight)
+		float CurrentRollSpeed;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Flight)
+		float RollRateMultiplier;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Flight)
+		float PitchRateMultiplier;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -39,8 +56,14 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	virtual void MoveHorizontal(float AxisValue);
+	virtual void ProcessMouseYInput(float Value);
+	virtual void ProcessMouseXInput(float Value);
 
-	virtual void MoveVertical(float AxisValue);
+	virtual void ProcessKeyRoll(float Rate);
+	virtual void ProcessKeyPitch(float Rate);
+
+	virtual void ProcessRoll(float Value);
+	virtual void ProcessPitch(float Value);
+
 
 };

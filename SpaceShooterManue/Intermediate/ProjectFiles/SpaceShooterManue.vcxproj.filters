@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SpaceShooterManue.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{F2CD903F-BA0D-4C94-8704-E007400AA91A}</UniqueIdentifier>
+      <UniqueIdentifier>{0E87B83C-3D54-4FE3-9704-D6FC6A26E4D9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SpaceShooterManue.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,9 @@
     <None Include="..\..\Source\SpaceShooterManueEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{E1B7205D-38E2-4D4E-8BA1-F3A8EFB60FD4}</UniqueIdentifier>
+      <UniqueIdentifier>{3F8567DA-D94B-44A8-823B-619076CAC11C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +25,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\SpaceShooterManue">
-      <UniqueIdentifier>{8198ADC9-9B20-4057-9C31-A05038D28FBB}</UniqueIdentifier>
+      <UniqueIdentifier>{577BF99B-E114-4CEA-B13F-F84E80428B58}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SpaceShooterManue\SpaceShooterManue.Build.cs">
       <Filter>Source\SpaceShooterManue</Filter>
@@ -39,6 +40,12 @@
       <Filter>Source\SpaceShooterManue</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\SpaceShooterManue\SpaceShooterManueGameModeBase.h">
+      <Filter>Source\SpaceShooterManue</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceShooterManue\SSM_PlayerController.cpp">
+      <Filter>Source\SpaceShooterManue</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceShooterManue\SSM_PlayerController.h">
       <Filter>Source\SpaceShooterManue</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\SpaceShooterManue\SSM_Spaceship_Pawn.cpp">
