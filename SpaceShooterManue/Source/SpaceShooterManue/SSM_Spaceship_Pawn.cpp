@@ -20,6 +20,9 @@ ASSM_Spaceship_Pawn::ASSM_Spaceship_Pawn()
 void ASSM_Spaceship_Pawn::BeginPlay()
 {
 	Super::BeginPlay();
+
+	FTimerHandle UnusedHandle;
+	GetWorldTimerManager().SetTimer(UnusedHandle, this, &ASSM_Spaceship_Pawn::SpawnObstacle, 0.05f, true);
 	
 }
 

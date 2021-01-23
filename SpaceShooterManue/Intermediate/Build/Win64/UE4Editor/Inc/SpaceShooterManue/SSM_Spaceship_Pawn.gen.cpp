@@ -19,8 +19,36 @@ void EmptyLinkFunctionForGeneratedCodeSSM_Spaceship_Pawn() {}
 	UPackage* Z_Construct_UPackage__Script_SpaceShooterManue();
 	ENGINE_API UClass* Z_Construct_UClass_UFloatingPawnMovement_NoRegister();
 // End Cross Module References
+	static FName NAME_ASSM_Spaceship_Pawn_SpawnObstacle = FName(TEXT("SpawnObstacle"));
+	void ASSM_Spaceship_Pawn::SpawnObstacle()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_ASSM_Spaceship_Pawn_SpawnObstacle),NULL);
+	}
 	void ASSM_Spaceship_Pawn::StaticRegisterNativesASSM_Spaceship_Pawn()
 	{
+	}
+	struct Z_Construct_UFunction_ASSM_Spaceship_Pawn_SpawnObstacle_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ASSM_Spaceship_Pawn_SpawnObstacle_Statics::Function_MetaDataParams[] = {
+		{ "Category", "SPawner" },
+		{ "ModuleRelativePath", "SSM_Spaceship_Pawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ASSM_Spaceship_Pawn_SpawnObstacle_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASSM_Spaceship_Pawn, nullptr, "SpawnObstacle", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08080800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASSM_Spaceship_Pawn_SpawnObstacle_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ASSM_Spaceship_Pawn_SpawnObstacle_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ASSM_Spaceship_Pawn_SpawnObstacle()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ASSM_Spaceship_Pawn_SpawnObstacle_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_ASSM_Spaceship_Pawn_NoRegister()
 	{
@@ -29,6 +57,7 @@ void EmptyLinkFunctionForGeneratedCodeSSM_Spaceship_Pawn() {}
 	struct Z_Construct_UClass_ASSM_Spaceship_Pawn_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -79,6 +108,9 @@ void EmptyLinkFunctionForGeneratedCodeSSM_Spaceship_Pawn() {}
 	UObject* (*const Z_Construct_UClass_ASSM_Spaceship_Pawn_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_APawn,
 		(UObject* (*)())Z_Construct_UPackage__Script_SpaceShooterManue,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_ASSM_Spaceship_Pawn_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ASSM_Spaceship_Pawn_SpawnObstacle, "SpawnObstacle" }, // 448520896
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASSM_Spaceship_Pawn_Statics::Class_MetaDataParams[] = {
@@ -178,11 +210,11 @@ void EmptyLinkFunctionForGeneratedCodeSSM_Spaceship_Pawn() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_ASSM_Spaceship_Pawn_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_ASSM_Spaceship_Pawn_Statics::PropPointers),
 		0,
 		0x009000A4u,
@@ -197,7 +229,7 @@ void EmptyLinkFunctionForGeneratedCodeSSM_Spaceship_Pawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASSM_Spaceship_Pawn, 2648863657);
+	IMPLEMENT_CLASS(ASSM_Spaceship_Pawn, 3515242498);
 	template<> SPACESHOOTERMANUE_API UClass* StaticClass<ASSM_Spaceship_Pawn>()
 	{
 		return ASSM_Spaceship_Pawn::StaticClass();
