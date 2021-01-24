@@ -1948,3 +1948,1201 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.23-00.02.18:338][298]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/SSM_Spaceship_Pawn_BPFCDE734E452B5D9FF4B2AC87249A5B48.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Blueprint/SSM_Spaceship_Pawn_BP.uasset'
 [2021.01.23-00.02.18:349][298]AssetCheck: New page: Asset Save: SSM_Spaceship_Pawn_BP
 [2021.01.23-00.02.18:349][298]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/SSM_Spaceship_Pawn_BP.SSM_Spaceship_Pawn_BP
+[2021.01.23-00.09.29:302][890]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.01.23-00.09.29:302][890]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.01.23-00.09.32:716][ 92]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/MyMyActor_BP.MyMyActor_BP
+[2021.01.23-00.10.30:512][297]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/FarmAnimals_v1.1/ChickenBrown.fbx)
+[2021.01.23-00.10.30:536][297]LogFbx: Loading FBX Scene from ../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/FarmAnimals_v1.1/ChickenBrown.fbx
+[2021.01.23-00.10.30:543][297]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.23-00.10.32:203][297]LogSlate: Window 'FBX Import Options' being destroyed
+[2021.01.23-00.10.32:231][297]LogMaterial: Display: Missing cached shader map for material phong2, compiling. 
+[2021.01.23-00.10.32:267][297]LogFbx: Display: Triangulating static mesh ChickenBrown
+[2021.01.23-00.10.32:289][297]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 12
+[2021.01.23-00.10.32:289][297]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 10
+[2021.01.23-00.10.32:289][297]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2021.01.23-00.10.32:289][297]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.01.23-00.10.32:289][297]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2021.01.23-00.10.32:289][297]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2021.01.23-00.10.32:290][297]LogStaticMesh: Building static mesh ChickenBrown...
+[2021.01.23-00.10.32:297][297]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/FarmAnimals_v1/ChickenBrown.ChickenBrown
+[2021.01.23-00.10.32:300][297]LogStaticMesh: Warning: ChickenBrown has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2021.01.23-00.10.32:300][297]LogStaticMesh: Warning: ChickenBrown has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2021.01.23-00.10.32:313][297]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.01.23-00.10.32:313][297]FBXImport: Warning: ChickenBrown has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2021.01.23-00.10.32:313][297]FBXImport: Warning: ChickenBrown has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2021.01.23-00.10.32:354][297]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/FarmAnimals_v1.1/CowBlW.fbx)
+[2021.01.23-00.10.32:416][297]LogFbx: Loading FBX Scene from ../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/FarmAnimals_v1.1/CowBlW.fbx
+[2021.01.23-00.10.32:423][297]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.23-00.10.32:430][297]LogMaterial: Display: Missing cached shader map for material Material_006, compiling. 
+[2021.01.23-00.10.32:438][297]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 12
+[2021.01.23-00.10.32:438][297]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 10
+[2021.01.23-00.10.32:438][297]LogFbx: Display: Triangulating static mesh CowBlW.001
+[2021.01.23-00.10.32:472][297]LogStaticMesh: Building static mesh CowBlW...
+[2021.01.23-00.10.32:479][297]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/FarmAnimals_v1/CowBlW.CowBlW
+[2021.01.23-00.10.32:493][297]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.01.23-00.10.32:497][297]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/FarmAnimals_v1.1/DuckWhite.fbx)
+[2021.01.23-00.10.32:511][297]LogFbx: Loading FBX Scene from ../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/FarmAnimals_v1.1/DuckWhite.fbx
+[2021.01.23-00.10.32:517][297]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.23-00.10.32:520][297]LogMaterial: Display: Missing cached shader map for material Material_007, compiling. 
+[2021.01.23-00.10.32:529][297]LogFbx: Display: Triangulating static mesh DuckWhite.001
+[2021.01.23-00.10.32:555][297]LogStaticMesh: Building static mesh DuckWhite...
+[2021.01.23-00.10.32:561][297]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/FarmAnimals_v1/DuckWhite.DuckWhite
+[2021.01.23-00.10.32:563][297]LogStaticMesh: Warning: DuckWhite has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2021.01.23-00.10.32:563][297]LogStaticMesh: Warning: DuckWhite has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2021.01.23-00.10.32:574][297]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.01.23-00.10.32:574][297]FBXImport: Warning: DuckWhite has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2021.01.23-00.10.32:574][297]FBXImport: Warning: DuckWhite has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2021.01.23-00.10.32:579][297]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/FarmAnimals_v1.1/Pig.fbx)
+[2021.01.23-00.10.32:590][297]LogFbx: Loading FBX Scene from ../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/FarmAnimals_v1.1/Pig.fbx
+[2021.01.23-00.10.32:596][297]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.23-00.10.32:598][297]LogMaterial: Display: Missing cached shader map for material Material_008, compiling. 
+[2021.01.23-00.10.32:608][297]LogFbx: Display: Triangulating static mesh Pig.001
+[2021.01.23-00.10.32:643][297]LogStaticMesh: Building static mesh Pig...
+[2021.01.23-00.10.32:652][297]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/FarmAnimals_v1/Pig.Pig
+[2021.01.23-00.10.32:672][297]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.01.23-00.10.32:679][297]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/FarmAnimals_v1.1/SheepWhite.fbx)
+[2021.01.23-00.10.32:691][297]LogFbx: Loading FBX Scene from ../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/FarmAnimals_v1.1/SheepWhite.fbx
+[2021.01.23-00.10.32:698][297]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.23-00.10.32:702][297]LogMaterial: Display: Missing cached shader map for material Material_009, compiling. 
+[2021.01.23-00.10.32:713][297]LogFbx: Display: Triangulating static mesh SheepWhite.001
+[2021.01.23-00.10.32:747][297]LogStaticMesh: Building static mesh SheepWhite...
+[2021.01.23-00.10.32:756][297]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/FarmAnimals_v1/SheepWhite.SheepWhite
+[2021.01.23-00.10.32:779][297]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.01.23-00.10.33:305][305]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 44
+[2021.01.23-00.10.33:559][320]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 38
+[2021.01.23-00.10.33:674][327]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 33
+[2021.01.23-00.10.33:691][328]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 28
+[2021.01.23-00.10.33:843][337]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 24
+[2021.01.23-00.10.33:925][342]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 20
+[2021.01.23-00.10.33:925][342]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 17
+[2021.01.23-00.10.33:925][342]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 14
+[2021.01.23-00.10.35:041][407]LogSlate: Window 'Message Log' being destroyed
+[2021.01.23-00.10.35:047][407]LogSlate: Window 'Message Log' being destroyed
+[2021.01.23-00.10.35:674][441]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 11
+[2021.01.23-00.10.35:972][457]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 9
+[2021.01.23-00.10.36:083][463]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 7
+[2021.01.23-00.10.36:148][467]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.01.23-00.10.36:375][479]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 5
+[2021.01.23-00.10.36:480][485]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2021.01.23-00.10.36:573][490]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2021.01.23-00.10.36:775][501]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2021.01.23-00.10.36:934][510]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2021.01.23-00.10.49:112][237]LogActorFactory: Actor Factory created Pig
+[2021.01.23-00.10.49:845][281]LogActorFactory: Actor Factory created Pig
+[2021.01.23-00.10.51:221][363]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pig)
+[2021.01.23-00.10.53:054][473]Cmd: DELETE
+[2021.01.23-00.10.53:055][473]Cmd: ACTOR DELETE
+[2021.01.23-00.10.53:064][473]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.23-00.10.53:092][473]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2021.01.23-00.10.53:094][473]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2021.01.23-00.13.09:422][701]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2021.01.23-00.13.09:440][701]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/MainMenu_Auto29F1F991A46FB13C023C00A9B44587BD7.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Autosaves/Game/Maps/MainMenu_Auto2.umap'
+[2021.01.23-00.13.09:444][701]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MainMenu' took 0.048
+[2021.01.23-00.13.09:444][701]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.048
+[2021.01.23-00.13.09:445][701]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/FarmAnimals_v1/ChickenBrown] ([1] browsable assets)...
+[2021.01.23-00.13.09:463][701]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/FarmAnimals_v1/ChickenBrown.ChickenBrown]
+[2021.01.23-00.13.09:463][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/FarmAnimals_v1/ChickenBrown]
+[2021.01.23-00.13.09:473][701]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/ChickenBrown_Auto2C18D851F481D157547801793285538AD.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Autosaves/Game/Assets/FarmAnimals_v1/ChickenBrown_Auto2.uasset'
+[2021.01.23-00.13.09:474][701]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/FarmAnimals_v1/CowBlW] ([1] browsable assets)...
+[2021.01.23-00.13.09:491][701]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/FarmAnimals_v1/CowBlW.CowBlW]
+[2021.01.23-00.13.09:491][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/FarmAnimals_v1/CowBlW]
+[2021.01.23-00.13.09:500][701]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/CowBlW_Auto2C411A7704B37B5691E1001BEFF01D88D.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Autosaves/Game/Assets/FarmAnimals_v1/CowBlW_Auto2.uasset'
+[2021.01.23-00.13.09:501][701]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/FarmAnimals_v1/DuckWhite] ([1] browsable assets)...
+[2021.01.23-00.13.09:517][701]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/FarmAnimals_v1/DuckWhite.DuckWhite]
+[2021.01.23-00.13.09:517][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/FarmAnimals_v1/DuckWhite]
+[2021.01.23-00.13.09:525][701]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/DuckWhite_Auto2EC2122B84CD8470D70B6898DCC897D08.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Autosaves/Game/Assets/FarmAnimals_v1/DuckWhite_Auto2.uasset'
+[2021.01.23-00.13.09:526][701]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/FarmAnimals_v1/Pig] ([1] browsable assets)...
+[2021.01.23-00.13.09:543][701]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/FarmAnimals_v1/Pig.Pig]
+[2021.01.23-00.13.09:543][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/FarmAnimals_v1/Pig]
+[2021.01.23-00.13.09:551][701]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Pig_Auto27A8C2F92438DE92F7CA33CBE388FB2B4.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Autosaves/Game/Assets/FarmAnimals_v1/Pig_Auto2.uasset'
+[2021.01.23-00.13.09:552][701]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/FarmAnimals_v1/SheepWhite] ([1] browsable assets)...
+[2021.01.23-00.13.09:568][701]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/FarmAnimals_v1/SheepWhite.SheepWhite]
+[2021.01.23-00.13.09:568][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/FarmAnimals_v1/SheepWhite]
+[2021.01.23-00.13.09:576][701]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/SheepWhite_Auto255F427A44A20E44F49FE33B5488EA41F.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Autosaves/Game/Assets/FarmAnimals_v1/SheepWhite_Auto2.uasset'
+[2021.01.23-00.13.09:577][701]LogFileHelpers: Auto-saving content packages took 0.132
+[2021.01.23-00.15.16:131][262]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/FarmAnimals_v1.1.fbx)
+[2021.01.23-00.15.16:138][262]LogFbx: Loading FBX Scene from ../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/FarmAnimals_v1.1.fbx
+[2021.01.23-00.15.16:142][262]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.23-00.15.18:402][262]LogSlate: Window 'FBX Import Options' being destroyed
+[2021.01.23-00.15.18:425][262]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2021.01.23-00.15.18:432][262]LogFbx: Display: Triangulating static mesh CowBlW
+[2021.01.23-00.15.18:462][262]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 12
+[2021.01.23-00.15.18:462][262]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 10
+[2021.01.23-00.15.18:462][262]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2021.01.23-00.15.18:462][262]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.01.23-00.15.18:462][262]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2021.01.23-00.15.18:462][262]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2021.01.23-00.15.18:463][262]LogStaticMesh: Building static mesh FarmAnimals_v1_1...
+[2021.01.23-00.15.18:471][262]LogStaticMesh: Built static mesh [0.01s] /Game/FarmAnimals_v1_1.FarmAnimals_v1_1
+[2021.01.23-00.15.18:485][262]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.01.23-00.15.21:235][411]LogSlate: Window 'Message Log' being destroyed
+[2021.01.23-00.15.21:238][411]LogSlate: Window 'Message Log' being destroyed
+[2021.01.23-00.15.23:847][567]LogActorFactory: Actor Factory created FarmAnimals_v1_1
+[2021.01.23-00.15.24:299][594]LogActorFactory: Actor Factory created FarmAnimals_v1_1
+[2021.01.23-00.15.40:033][537]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FarmAnimals_v1_1)
+[2021.01.23-00.15.52:112][259]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2021.01.23-00.15.53:269][259]LogSlate: Window 'Delete Assets' being destroyed
+[2021.01.23-00.15.53:354][259]LogUObjectGlobals: Force Deleting 2 Package(s):
+	Asset Name: /Game/Material.Material
+	Asset Name: /Game/FarmAnimals_v1_1.FarmAnimals_v1_1
+[2021.01.23-00.15.53:879][259]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2021.01.23-00.16.00:180][454]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/FarmAnimals_v1.1.fbx)
+[2021.01.23-00.16.00:189][454]LogFbx: Loading FBX Scene from ../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/FarmAnimals_v1.1.fbx
+[2021.01.23-00.16.00:193][454]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.23-00.16.01:444][454]LogSlate: Window 'FBX Import Options' being destroyed
+[2021.01.23-00.16.01:458][454]LogMaterial: Display: Missing cached shader map for material Material, compiling. 
+[2021.01.23-00.16.01:465][454]LogFbx: Display: Triangulating static mesh CowBlW
+[2021.01.23-00.16.01:492][454]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 12
+[2021.01.23-00.16.01:492][454]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 10
+[2021.01.23-00.16.01:492][454]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2021.01.23-00.16.01:492][454]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.01.23-00.16.01:492][454]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2021.01.23-00.16.01:492][454]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2021.01.23-00.16.01:492][454]LogStaticMesh: Building static mesh FarmAnimals_v1_1...
+[2021.01.23-00.16.01:499][454]LogStaticMesh: Built static mesh [0.01s] /Game/FarmAnimals_v1_1.FarmAnimals_v1_1
+[2021.01.23-00.16.01:512][454]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.01.23-00.16.05:109][653]LogSlate: Window 'Message Log' being destroyed
+[2021.01.23-00.16.05:113][653]LogSlate: Window 'Message Log' being destroyed
+[2021.01.23-00.20.15:398][764]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{3fcf37a0-2dda-41a2-b40d-829e194cbae9}.
+[2021.01.23-00.20.15:398][764]LogAudioMixer: Resetting audio stream to device id 
+[2021.01.23-00.20.15:491][764]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.23-00.20.15:492][764]LogAudioMixer: Display: 1: FrontRight
+[2021.01.23-00.20.15:492][764]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.23-00.20.15:492][764]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.23-00.20.15:492][764]LogAudioMixer: Display: 4: BackLeft
+[2021.01.23-00.20.15:492][764]LogAudioMixer: Display: 5: BackRight
+[2021.01.23-00.20.15:492][764]LogAudioMixer: Display: 6: SideLeft
+[2021.01.23-00.20.15:492][764]LogAudioMixer: Display: 7: SideRight
+[2021.01.23-00.20.15:739][765]LogAudioMixer: Resetting audio stream to device id 
+[2021.01.23-00.20.15:794][765]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.23-00.20.15:794][765]LogAudioMixer: Display: 1: FrontRight
+[2021.01.23-00.20.15:794][765]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.23-00.20.15:794][765]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.23-00.20.15:794][765]LogAudioMixer: Display: 4: BackLeft
+[2021.01.23-00.20.15:794][765]LogAudioMixer: Display: 5: BackRight
+[2021.01.23-00.20.15:794][765]LogAudioMixer: Display: 6: SideLeft
+[2021.01.23-00.20.15:794][765]LogAudioMixer: Display: 7: SideRight
+[2021.01.23-00.35.24:018][769]LogAudioMixer: Resetting audio stream to device id 
+[2021.01.23-00.35.24:321][769]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.23-00.35.24:321][769]LogAudioMixer: Display: 1: FrontRight
+[2021.01.23-00.35.24:321][769]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.23-00.35.24:321][769]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.23-00.35.24:321][769]LogAudioMixer: Display: 4: BackLeft
+[2021.01.23-00.35.24:321][769]LogAudioMixer: Display: 5: BackRight
+[2021.01.23-00.35.24:321][769]LogAudioMixer: Display: 6: SideLeft
+[2021.01.23-00.35.24:321][769]LogAudioMixer: Display: 7: SideRight
+[2021.01.23-00.35.24:474][770]LogHttp: Warning: 0000026A0C7E8800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDE212924-46FF-54FD-9B18-75A51C1D1859%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.0-14830424%2B%2B%2BUE4%2BRelease-4.26&UserID=3a073eb047e2c886bad706a894471607%7C7e678e2c091546379eaf134d5e39a60e%7C65fa91b6-b939-42a3-a348-5e2ef80114fc&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.01.23-00.35.24:474][770]LogHttp: Warning: 0000026A0C7E8800: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2021.01.23-00.35.24:474][770]LogHttp: Warning: 0000026A0C7E8800: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x269e9147eb0 [can pipeline])
+[2021.01.23-00.35.24:474][770]LogHttp: Warning: 0000026A0C7E8800: libcurl info message cache 1 (Re-using existing connection! (#0) with host datarouter.ol.epicgames.com)
+[2021.01.23-00.35.24:474][770]LogHttp: Warning: 0000026A0C7E8800: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.6.187.79) port 443 (#0))
+[2021.01.23-00.35.24:474][770]LogHttp: Warning: 0000026A0C7E8800: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.01.23-00.35.24:474][770]LogHttp: Warning: 0000026A0C7E8800: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2021.01.23-00.35.24:475][770]LogHttp: Warning: 0000026A0C7E8800: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.01.23-00.35.24:475][770]LogHttp: Warning: 0000026A0C7E8800: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2021.01.23-00.35.24:475][770]LogHttp: Warning: 0000026A0C7E8800: libcurl info message cache 7 (Closing connection 0)
+[2021.01.23-00.35.24:475][770]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDE212924-46FF-54FD-9B18-75A51C1D1859%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.0-14830424%2B%2B%2BUE4%2BRelease-4.26&UserID=3a073eb047e2c886bad706a894471607%7C7e678e2c091546379eaf134d5e39a60e%7C65fa91b6-b939-42a3-a348-5e2ef80114fc&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.01.24-20.38.33:586][779]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.01.24-20.38.34:564][779]LogAudioMixer: Resetting audio stream to device id 
+[2021.01.24-20.38.34:684][779]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.24-20.38.34:684][779]LogAudioMixer: Display: 1: FrontRight
+[2021.01.24-20.38.34:684][779]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.24-20.38.34:684][779]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.24-20.38.34:684][779]LogAudioMixer: Display: 4: BackLeft
+[2021.01.24-20.38.34:684][779]LogAudioMixer: Display: 5: BackRight
+[2021.01.24-20.38.34:684][779]LogAudioMixer: Display: 6: SideLeft
+[2021.01.24-20.38.34:684][779]LogAudioMixer: Display: 7: SideRight
+[2021.01.24-20.38.35:845][779]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{3fcf37a0-2dda-41a2-b40d-829e194cbae9}.
+[2021.01.24-20.38.36:056][779]LogUObjectHash: Compacting FUObjectHashTables data took  11.51ms
+[2021.01.24-20.38.36:178][779]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/MainMenu_Auto3BA857291467415C636E5A4BC1AD832F9.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Autosaves/Game/Maps/MainMenu_Auto3.umap'
+[2021.01.24-20.38.36:215][779]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MainMenu' took 0.330
+[2021.01.24-20.38.36:215][779]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.330
+[2021.01.24-20.38.36:216][779]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FarmAnimals_v1_1] ([1] browsable assets)...
+[2021.01.24-20.38.36:240][779]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FarmAnimals_v1_1.FarmAnimals_v1_1]
+[2021.01.24-20.38.36:240][779]OBJ SavePackage: Finished generating thumbnails for package [/Game/FarmAnimals_v1_1]
+[2021.01.24-20.38.36:293][779]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/FarmAnimals_v1_1_Auto3C505F8274774ABFAC46525846C79278C.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Autosaves/Game/FarmAnimals_v1_1_Auto3.uasset'
+[2021.01.24-20.38.36:326][779]LogFileHelpers: Auto-saving content packages took 0.111
+[2021.01.24-20.38.36:440][780]LogHttp: Warning: 0000026A0CBAC100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDE212924-46FF-54FD-9B18-75A51C1D1859%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.0-14830424%2B%2B%2BUE4%2BRelease-4.26&UserID=3a073eb047e2c886bad706a894471607%7C7e678e2c091546379eaf134d5e39a60e%7C65fa91b6-b939-42a3-a348-5e2ef80114fc&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.01.24-20.38.36:440][780]LogHttp: Warning: 0000026A0CBAC100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.01.24-20.38.36:440][780]LogHttp: Warning: 0000026A0CBAC100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.01.24-20.38.36:440][780]LogHttp: Warning: 0000026A0CBAC100: libcurl info message cache 1 (Closing connection 1)
+[2021.01.24-20.38.36:441][780]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDE212924-46FF-54FD-9B18-75A51C1D1859%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.0-14830424%2B%2B%2BUE4%2BRelease-4.26&UserID=3a073eb047e2c886bad706a894471607%7C7e678e2c091546379eaf134d5e39a60e%7C65fa91b6-b939-42a3-a348-5e2ef80114fc&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.01.24-20.38.36:796][780]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2021.01.24-20.38.36:797][780]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2021.01.24-20.38.36:797][780]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2021.01.24-20.38.36:819][780]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.01.24-20.38.36:829][780]LogAudioMixer: Resetting audio stream to device id 
+[2021.01.24-20.38.36:914][780]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.24-20.38.36:914][780]LogAudioMixer: Display: 1: FrontRight
+[2021.01.24-20.38.36:914][780]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.24-20.38.36:914][780]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.24-20.38.36:914][780]LogAudioMixer: Display: 4: BackLeft
+[2021.01.24-20.38.36:914][780]LogAudioMixer: Display: 5: BackRight
+[2021.01.24-20.38.36:914][780]LogAudioMixer: Display: 6: SideLeft
+[2021.01.24-20.38.36:914][780]LogAudioMixer: Display: 7: SideRight
+[2021.01.24-20.38.46:690][809]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.01.24-20.38.46:691][809]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.01.24-20.52.24:062][747]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.01.24-20.52.24:062][747]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.01.24-20.54.44:999][347]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.24-20.54.45:017][347]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.24-20.54.45:019][347]PIE: New page: PIE session: MainMenu (Jan 24, 2021, 10:54:45 AM)
+[2021.01.24-20.54.45:020][347]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2021.01.24-20.54.45:031][347]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010703s)
+[2021.01.24-20.54.45:040][347]LogAIModule: Creating AISystem for world MainMenu
+[2021.01.24-20.54.45:044][347]LogPlayLevel: PIE: World Init took: (0.012455s)
+[2021.01.24-20.54.45:044][347]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.024055s)
+[2021.01.24-20.54.45:087][347]LogUObjectHash: Compacting FUObjectHashTables data took   4.59ms
+[2021.01.24-20.54.45:091][347]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2021.01.24-20.54.45:091][347]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.24-20.54.45:091][347]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.24-20.54.45:091][347]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.24-20.54.45:091][347]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.24-20.54.45:091][347]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.24-20.54.45:092][347]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.24-20.54.45:092][347]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.24-20.54.45:092][347]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.24-20.54.45:093][347]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.24-20.54.45:093][347]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.24-20.54.45:100][347]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.24-20.54.45:100][347]LogAudioMixer: Display: 1: FrontRight
+[2021.01.24-20.54.45:100][347]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.24-20.54.45:100][347]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.24-20.54.45:100][347]LogAudioMixer: Display: 4: BackLeft
+[2021.01.24-20.54.45:100][347]LogAudioMixer: Display: 5: BackRight
+[2021.01.24-20.54.45:100][347]LogAudioMixer: Display: 6: SideLeft
+[2021.01.24-20.54.45:100][347]LogAudioMixer: Display: 7: SideRight
+[2021.01.24-20.54.45:152][347]LogAudioMixer: Display: Using Audio Device Speakers (3- Realtek(R) Audio)
+[2021.01.24-20.54.45:153][347]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.24-20.54.45:153][347]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.24-20.54.45:153][347]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.24-20.54.45:154][347]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.24-20.54.45:154][347]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.24-20.54.45:154][347]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2021.01.24-20.54.45:177][347]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.24-20.54.45:178][347]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.24-20.54.45:178][347]LogInit: FAudioDevice initialized.
+[2021.01.24-20.54.45:178][347]LogAudio: Display: Audio Device (ID: 12) registered with world 'MainMenu'.
+[2021.01.24-20.54.45:192][347]LogLoad: Game class is 'GameModeBase'
+[2021.01.24-20.54.45:198][347]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2021.01.24-15.54.45
+[2021.01.24-20.54.45:199][347]LogWorld: Bringing up level for play took: 0.004072
+[2021.01.24-20.54.45:200][347]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2021.01.24-20.54.45:213][347]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-20.54.45:218][347]PIE: Server logged in
+[2021.01.24-20.54.45:219][347]PIE: Play in editor total start time 0.21 seconds.
+[2021.01.24-20.54.46:939][399]LogNet: Browse: /Game/Maps/SpaceMap
+[2021.01.24-20.54.46:939][399]LogLoad: LoadMap: /Game/Maps/SpaceMap
+[2021.01.24-20.54.46:939][399]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2021.01.24-20.54.46:941][399]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-20.54.46:942][399]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-20.54.46:976][399]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.24-20.54.46:985][399]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2021.01.24-20.54.47:028][399]LogAudio: Display: Audio Device (ID: 12) registered with world 'SpaceMap'.
+[2021.01.24-20.54.47:029][399]LogAIModule: Creating AISystem for world SpaceMap
+[2021.01.24-20.54.47:029][399]LogLoad: Game class is 'SpaceShooterManueGameModeBase_BP_C'
+[2021.01.24-20.54.47:035][399]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap up for play (max tick rate 60) at 2021.01.24-15.54.47
+[2021.01.24-20.54.47:035][399]LogWorld: Bringing up level for play took: 0.003729
+[2021.01.24-20.54.47:038][399]LogLoad: Took 0.098532 seconds to LoadMap(/Game/Maps/SpaceMap)
+[2021.01.24-20.55.38:944][954]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-20.55.38:944][954]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.24-20.55.38:945][954]LogWorld: UWorld::CleanupWorld for SpaceMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-20.55.38:952][954]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-20.55.38:969][954]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.24-20.55.39:002][954]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-20.55.39:040][954]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.24-20.55.39:040][954]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.24-20.55.39:040][954]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.24-20.55.39:081][954]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-20.55.39:093][954]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2021.01.24-20.55.39:128][955]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2021.01.24-21.07.55:809][489]LogHotReload: New module detected: UE4Editor-SpaceShooterManue-0025.dll
+[2021.01.24-21.08.29:967][591]LogHotReload: New module detected: UE4Editor-SpaceShooterManue-0026.dll
+[2021.01.24-21.08.31:000][595]LogHotReload: Starting Hot-Reload from IDE
+[2021.01.24-21.08.31:396][595]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SpaceShooterManue' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2021.01.24-21.08.31:402][595]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2021.01.24-21.08.31:576][595]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0235 seconds. Added 3605 classes and 861 folders.
+[2021.01.24-21.08.31:608][595]Display: HotReload took  0.6s.
+[2021.01.24-21.21.47:747][ 77]LogHotReload: New module detected: UE4Editor-SpaceShooterManue-0027.dll
+[2021.01.24-21.22.59:338][290]LogHotReload: New module detected: UE4Editor-SpaceShooterManue-0028.dll
+[2021.01.24-21.25.44:627][782]LogHotReload: New module detected: UE4Editor-SpaceShooterManue-0029.dll
+[2021.01.24-21.26.53:701][987]LogHotReload: New module detected: UE4Editor-SpaceShooterManue-0031.dll
+[2021.01.24-21.26.54:733][991]LogHotReload: Starting Hot-Reload from IDE
+[2021.01.24-21.26.55:139][991]LogHotReload: Re-instancing MyActor after hot-reload.
+[2021.01.24-21.26.55:263][991]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SpaceShooterManue' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2021.01.24-21.26.55:270][991]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2021.01.24-21.26.55:451][991]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0108 seconds. Added 3605 classes and 861 folders.
+[2021.01.24-21.26.55:473][991]Display: HotReload took  0.7s.
+[2021.01.24-21.27.04:651][ 18]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.01.24-21.27.04:651][ 18]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.01.24-21.27.11:425][100]Candidate modules for hot reload:
+[2021.01.24-21.27.11:425][100]  SpaceShooterManue
+[2021.01.24-21.27.11:425][100]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SpaceShooterManue,9425 SpaceShooterManueEditor Win64 Development -Project="C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/SpaceShooterManue.uproject" "C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/SpaceShooterManue.uproject"  -IgnoreJunk]
+[2021.01.24-21.27.11:433][100]Warning: Starting HotReload took  0.0s.
+[2021.01.24-21.27.13:691][146]CompilerResultsLog: New page: Compilation - Jan 24, 2021, 11:27:13 AM
+[2021.01.24-21.27.13:691][146]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter).
+[2021.01.24-21.27.13:691][146]CompilerResultsLog: Building SpaceShooterManueEditor...
+[2021.01.24-21.27.13:691][146]CompilerResultsLog: Using Visual Studio 2019 14.28.29336 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.24-21.27.13:691][146]CompilerResultsLog: Building 3 actions with 12 processes...
+[2021.01.24-21.27.13:691][146]CompilerResultsLog:   [1/3] UE4Editor-SpaceShooterManue-9425.lib
+[2021.01.24-21.27.13:691][146]CompilerResultsLog:      Creating library C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-9425.lib and object C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-9425.exp
+[2021.01.24-21.27.13:691][146]CompilerResultsLog:   [2/3] UE4Editor-SpaceShooterManue-9425.dll
+[2021.01.24-21.27.13:691][146]CompilerResultsLog:      Creating library C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-9425.suppressed.lib and object C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-9425.suppressed.exp
+[2021.01.24-21.27.13:691][146]CompilerResultsLog:   [3/3] SpaceShooterManueEditor.target
+[2021.01.24-21.27.13:691][146]CompilerResultsLog: Total time in Parallel executor: 1.25 seconds
+[2021.01.24-21.27.13:691][146]CompilerResultsLog: Total execution time: 2.12 seconds
+[2021.01.24-21.27.13:694][146]LogMainFrame: MainFrame: Module compiling took 2.282 seconds
+[2021.01.24-21.27.13:993][146]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SpaceShooterManue' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2021.01.24-21.27.14:001][146]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2021.01.24-21.27.14:196][146]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0112 seconds. Added 3605 classes and 861 folders.
+[2021.01.24-21.27.14:202][146]Display: HotReload took  2.8s.
+[2021.01.24-21.27.17:911][198]Candidate modules for hot reload:
+[2021.01.24-21.27.17:911][198]  SpaceShooterManue
+[2021.01.24-21.27.17:911][198]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SpaceShooterManue,6604 SpaceShooterManueEditor Win64 Development -Project="C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/SpaceShooterManue.uproject" "C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/SpaceShooterManue.uproject"  -IgnoreJunk]
+[2021.01.24-21.27.17:920][198]Warning: Starting HotReload took  0.0s.
+[2021.01.24-21.27.20:197][226]CompilerResultsLog: New page: Compilation - Jan 24, 2021, 11:27:20 AM
+[2021.01.24-21.27.20:198][226]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter).
+[2021.01.24-21.27.20:198][226]CompilerResultsLog: Building SpaceShooterManueEditor...
+[2021.01.24-21.27.20:198][226]CompilerResultsLog: Using Visual Studio 2019 14.28.29336 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.24-21.27.20:198][226]CompilerResultsLog: Building 3 actions with 12 processes...
+[2021.01.24-21.27.20:198][226]CompilerResultsLog:   [1/3] UE4Editor-SpaceShooterManue-6604.lib
+[2021.01.24-21.27.20:198][226]CompilerResultsLog:      Creating library C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-6604.lib and object C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-6604.exp
+[2021.01.24-21.27.20:198][226]CompilerResultsLog:   [2/3] UE4Editor-SpaceShooterManue-6604.dll
+[2021.01.24-21.27.20:198][226]CompilerResultsLog:      Creating library C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-6604.suppressed.lib and object C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-6604.suppressed.exp
+[2021.01.24-21.27.20:198][226]CompilerResultsLog:   [3/3] SpaceShooterManueEditor.target
+[2021.01.24-21.27.20:198][226]CompilerResultsLog: Total time in Parallel executor: 1.27 seconds
+[2021.01.24-21.27.20:198][226]CompilerResultsLog: Total execution time: 2.13 seconds
+[2021.01.24-21.27.20:198][226]LogMainFrame: MainFrame: Module compiling took 2.301 seconds
+[2021.01.24-21.27.20:506][226]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SpaceShooterManue' in 0.0004 seconds. Added 4 classes and 2 folders.
+[2021.01.24-21.27.20:515][226]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2021.01.24-21.27.20:719][226]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0124 seconds. Added 3605 classes and 861 folders.
+[2021.01.24-21.27.20:726][226]Display: HotReload took  2.8s.
+[2021.01.24-21.27.23:103][253]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.24-21.27.23:118][253]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.24-21.27.23:118][253]PIE: New page: PIE session: MainMenu (Jan 24, 2021, 11:27:23 AM)
+[2021.01.24-21.27.23:118][253]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2021.01.24-21.27.23:123][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005027s)
+[2021.01.24-21.27.23:125][253]LogAIModule: Creating AISystem for world MainMenu
+[2021.01.24-21.27.23:125][253]LogPlayLevel: PIE: World Init took: (0.002135s)
+[2021.01.24-21.27.23:125][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.007401s)
+[2021.01.24-21.27.23:470][253]LogUObjectHash: Compacting FUObjectHashTables data took  11.27ms
+[2021.01.24-21.27.23:477][253]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2021.01.24-21.27.23:477][253]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.24-21.27.23:477][253]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.24-21.27.23:477][253]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.24-21.27.23:477][253]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.24-21.27.23:477][253]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.24-21.27.23:477][253]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.24-21.27.23:477][253]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.24-21.27.23:477][253]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.24-21.27.23:478][253]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.24-21.27.23:478][253]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.24-21.27.23:483][253]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.24-21.27.23:483][253]LogAudioMixer: Display: 1: FrontRight
+[2021.01.24-21.27.23:483][253]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.24-21.27.23:483][253]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.24-21.27.23:483][253]LogAudioMixer: Display: 4: BackLeft
+[2021.01.24-21.27.23:483][253]LogAudioMixer: Display: 5: BackRight
+[2021.01.24-21.27.23:483][253]LogAudioMixer: Display: 6: SideLeft
+[2021.01.24-21.27.23:483][253]LogAudioMixer: Display: 7: SideRight
+[2021.01.24-21.27.23:529][253]LogAudioMixer: Display: Using Audio Device Speakers (3- Realtek(R) Audio)
+[2021.01.24-21.27.23:530][253]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.24-21.27.23:530][253]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.24-21.27.23:530][253]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.24-21.27.23:532][253]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.24-21.27.23:532][253]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.24-21.27.23:532][253]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2021.01.24-21.27.23:559][253]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.24-21.27.23:559][253]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.24-21.27.23:559][253]LogInit: FAudioDevice initialized.
+[2021.01.24-21.27.23:559][253]LogAudio: Display: Audio Device (ID: 13) registered with world 'MainMenu'.
+[2021.01.24-21.27.23:575][253]LogLoad: Game class is 'GameModeBase'
+[2021.01.24-21.27.23:577][253]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2021.01.24-16.27.23
+[2021.01.24-21.27.23:578][253]LogWorld: Bringing up level for play took: 0.000882
+[2021.01.24-21.27.23:578][253]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2021.01.24-21.27.23:581][253]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-21.27.23:582][253]PIE: Server logged in
+[2021.01.24-21.27.23:582][253]PIE: Play in editor total start time 0.468 seconds.
+[2021.01.24-21.27.24:800][278]LogNet: Browse: /Game/Maps/SpaceMap
+[2021.01.24-21.27.24:800][278]LogLoad: LoadMap: /Game/Maps/SpaceMap
+[2021.01.24-21.27.24:800][278]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2021.01.24-21.27.24:800][278]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-21.27.24:800][278]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-21.27.24:845][278]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.24-21.27.24:896][278]LogUObjectHash: Compacting FUObjectHashTables data took   5.09ms
+[2021.01.24-21.27.24:902][278]LogAudio: Display: Audio Device (ID: 13) registered with world 'SpaceMap'.
+[2021.01.24-21.27.24:904][278]LogAIModule: Creating AISystem for world SpaceMap
+[2021.01.24-21.27.24:905][278]LogLoad: Game class is 'SpaceShooterManueGameModeBase_BP_C'
+[2021.01.24-21.27.24:908][278]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap up for play (max tick rate 60) at 2021.01.24-16.27.24
+[2021.01.24-21.27.24:909][278]LogWorld: Bringing up level for play took: 0.002466
+[2021.01.24-21.27.24:910][278]LogLoad: Took 0.110931 seconds to LoadMap(/Game/Maps/SpaceMap)
+[2021.01.24-21.27.37:370][628]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-21.27.37:370][628]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.24-21.27.37:371][628]LogWorld: UWorld::CleanupWorld for SpaceMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-21.27.37:371][628]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-21.27.37:385][628]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.24-21.27.37:417][628]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-21.27.37:454][628]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-21.27.37:455][628]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.24-21.27.37:456][628]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.24-21.27.37:515][628]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2021.01.24-21.27.37:544][629]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2021.01.24-21.31.13:807][584]LogHotReload: New module detected: UE4Editor-SpaceShooterManue-0034.dll
+[2021.01.24-21.34.47:111][221]LogHotReload: New module detected: UE4Editor-SpaceShooterManue-0035.dll
+[2021.01.24-21.34.48:162][225]LogHotReload: Starting Hot-Reload from IDE
+[2021.01.24-21.34.48:792][225]LogHotReload: Re-instancing MyActor after hot-reload.
+[2021.01.24-21.34.48:894][225]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SpaceShooterManue' in 0.0004 seconds. Added 4 classes and 2 folders.
+[2021.01.24-21.34.48:903][225]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2021.01.24-21.34.49:087][225]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0123 seconds. Added 3605 classes and 861 folders.
+[2021.01.24-21.34.49:108][225]Display: HotReload took  0.9s.
+[2021.01.24-21.35.05:823][316]Candidate modules for hot reload:
+[2021.01.24-21.35.05:823][316]  SpaceShooterManue
+[2021.01.24-21.35.05:823][316]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SpaceShooterManue,1230 SpaceShooterManueEditor Win64 Development -Project="C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/SpaceShooterManue.uproject" "C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/SpaceShooterManue.uproject"  -IgnoreJunk]
+[2021.01.24-21.35.05:831][316]Warning: Starting HotReload took  0.0s.
+[2021.01.24-21.35.08:006][360]CompilerResultsLog: New page: Compilation - Jan 24, 2021, 11:35:08 AM
+[2021.01.24-21.35.08:006][360]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter).
+[2021.01.24-21.35.08:006][360]CompilerResultsLog: Building SpaceShooterManueEditor...
+[2021.01.24-21.35.08:006][360]CompilerResultsLog: Using Visual Studio 2019 14.28.29336 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.24-21.35.08:006][360]CompilerResultsLog: Building 3 actions with 12 processes...
+[2021.01.24-21.35.08:006][360]CompilerResultsLog:   [1/3] UE4Editor-SpaceShooterManue-1230.lib
+[2021.01.24-21.35.08:006][360]CompilerResultsLog:      Creating library C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-1230.lib and object C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-1230.exp
+[2021.01.24-21.35.08:006][360]CompilerResultsLog:   [2/3] UE4Editor-SpaceShooterManue-1230.dll
+[2021.01.24-21.35.08:006][360]CompilerResultsLog:      Creating library C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-1230.suppressed.lib and object C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-1230.suppressed.exp
+[2021.01.24-21.35.08:006][360]CompilerResultsLog:   [3/3] SpaceShooterManueEditor.target
+[2021.01.24-21.35.08:007][360]CompilerResultsLog: Total time in Parallel executor: 1.21 seconds
+[2021.01.24-21.35.08:007][360]CompilerResultsLog: Total execution time: 2.05 seconds
+[2021.01.24-21.35.08:007][360]LogMainFrame: MainFrame: Module compiling took 2.197 seconds
+[2021.01.24-21.35.08:321][360]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SpaceShooterManue' in 0.0005 seconds. Added 4 classes and 2 folders.
+[2021.01.24-21.35.08:331][360]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2021.01.24-21.35.08:517][360]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0110 seconds. Added 3605 classes and 861 folders.
+[2021.01.24-21.35.08:523][360]Display: HotReload took  2.7s.
+[2021.01.24-21.35.11:025][392]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.24-21.35.11:039][392]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.24-21.35.11:039][392]PIE: New page: PIE session: MainMenu (Jan 24, 2021, 11:35:11 AM)
+[2021.01.24-21.35.11:039][392]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2021.01.24-21.35.11:043][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004049s)
+[2021.01.24-21.35.11:045][392]LogAIModule: Creating AISystem for world MainMenu
+[2021.01.24-21.35.11:045][392]LogPlayLevel: PIE: World Init took: (0.002005s)
+[2021.01.24-21.35.11:045][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.006278s)
+[2021.01.24-21.35.11:188][392]LogUObjectHash: Compacting FUObjectHashTables data took   6.78ms
+[2021.01.24-21.35.11:191][392]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2021.01.24-21.35.11:191][392]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.24-21.35.11:191][392]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.24-21.35.11:191][392]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.24-21.35.11:191][392]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.24-21.35.11:191][392]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.24-21.35.11:191][392]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.24-21.35.11:191][392]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.24-21.35.11:191][392]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.24-21.35.11:191][392]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.24-21.35.11:191][392]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.24-21.35.11:196][392]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.24-21.35.11:196][392]LogAudioMixer: Display: 1: FrontRight
+[2021.01.24-21.35.11:197][392]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.24-21.35.11:197][392]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.24-21.35.11:197][392]LogAudioMixer: Display: 4: BackLeft
+[2021.01.24-21.35.11:197][392]LogAudioMixer: Display: 5: BackRight
+[2021.01.24-21.35.11:197][392]LogAudioMixer: Display: 6: SideLeft
+[2021.01.24-21.35.11:197][392]LogAudioMixer: Display: 7: SideRight
+[2021.01.24-21.35.11:240][392]LogAudioMixer: Display: Using Audio Device Speakers (3- Realtek(R) Audio)
+[2021.01.24-21.35.11:240][392]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.24-21.35.11:240][392]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.24-21.35.11:240][392]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.24-21.35.11:242][392]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.24-21.35.11:242][392]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.24-21.35.11:242][392]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2021.01.24-21.35.11:265][392]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.24-21.35.11:265][392]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.24-21.35.11:265][392]LogInit: FAudioDevice initialized.
+[2021.01.24-21.35.11:265][392]LogAudio: Display: Audio Device (ID: 14) registered with world 'MainMenu'.
+[2021.01.24-21.35.11:275][392]LogLoad: Game class is 'GameModeBase'
+[2021.01.24-21.35.11:277][392]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2021.01.24-16.35.11
+[2021.01.24-21.35.11:277][392]LogWorld: Bringing up level for play took: 0.001143
+[2021.01.24-21.35.11:278][392]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2021.01.24-21.35.11:280][392]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-21.35.11:281][392]PIE: Server logged in
+[2021.01.24-21.35.11:281][392]PIE: Play in editor total start time 0.245 seconds.
+[2021.01.24-21.35.12:206][411]LogNet: Browse: /Game/Maps/SpaceMap
+[2021.01.24-21.35.12:206][411]LogLoad: LoadMap: /Game/Maps/SpaceMap
+[2021.01.24-21.35.12:206][411]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2021.01.24-21.35.12:207][411]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-21.35.12:207][411]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-21.35.12:246][411]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.24-21.35.12:282][411]LogUObjectHash: Compacting FUObjectHashTables data took   4.76ms
+[2021.01.24-21.35.12:286][411]LogAudio: Display: Audio Device (ID: 14) registered with world 'SpaceMap'.
+[2021.01.24-21.35.12:287][411]LogAIModule: Creating AISystem for world SpaceMap
+[2021.01.24-21.35.12:288][411]LogLoad: Game class is 'SpaceShooterManueGameModeBase_BP_C'
+[2021.01.24-21.35.12:290][411]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap up for play (max tick rate 0) at 2021.01.24-16.35.12
+[2021.01.24-21.35.12:291][411]LogWorld: Bringing up level for play took: 0.001287
+[2021.01.24-21.35.12:292][411]LogLoad: Took 0.086142 seconds to LoadMap(/Game/Maps/SpaceMap)
+[2021.01.24-21.35.22:019][675]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-21.35.22:019][675]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.24-21.35.22:019][675]LogWorld: UWorld::CleanupWorld for SpaceMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-21.35.22:020][675]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-21.35.22:042][675]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.24-21.35.22:063][675]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-21.35.22:095][675]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.24-21.35.22:096][675]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.24-21.35.22:097][675]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.24-21.35.22:135][675]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-21.35.22:140][675]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2021.01.24-21.35.22:173][676]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2021.01.24-21.35.25:048][739]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.24-21.35.25:061][739]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.24-21.35.25:061][739]PIE: New page: PIE session: MainMenu (Jan 24, 2021, 11:35:25 AM)
+[2021.01.24-21.35.25:061][739]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2021.01.24-21.35.25:065][739]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003645s)
+[2021.01.24-21.35.25:066][739]LogAIModule: Creating AISystem for world MainMenu
+[2021.01.24-21.35.25:067][739]LogPlayLevel: PIE: World Init took: (0.001728s)
+[2021.01.24-21.35.25:067][739]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.005574s)
+[2021.01.24-21.35.25:109][739]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2021.01.24-21.35.25:110][739]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2021.01.24-21.35.25:110][739]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.24-21.35.25:110][739]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.24-21.35.25:110][739]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.24-21.35.25:110][739]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.24-21.35.25:110][739]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.24-21.35.25:110][739]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.24-21.35.25:110][739]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.24-21.35.25:110][739]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.24-21.35.25:111][739]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.24-21.35.25:111][739]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.24-21.35.25:115][739]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.24-21.35.25:115][739]LogAudioMixer: Display: 1: FrontRight
+[2021.01.24-21.35.25:115][739]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.24-21.35.25:115][739]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.24-21.35.25:115][739]LogAudioMixer: Display: 4: BackLeft
+[2021.01.24-21.35.25:115][739]LogAudioMixer: Display: 5: BackRight
+[2021.01.24-21.35.25:115][739]LogAudioMixer: Display: 6: SideLeft
+[2021.01.24-21.35.25:115][739]LogAudioMixer: Display: 7: SideRight
+[2021.01.24-21.35.25:163][739]LogAudioMixer: Display: Using Audio Device Speakers (3- Realtek(R) Audio)
+[2021.01.24-21.35.25:164][739]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.24-21.35.25:164][739]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.24-21.35.25:164][739]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.24-21.35.25:164][739]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.24-21.35.25:164][739]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.24-21.35.25:164][739]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2021.01.24-21.35.25:186][739]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.24-21.35.25:186][739]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.24-21.35.25:186][739]LogInit: FAudioDevice initialized.
+[2021.01.24-21.35.25:186][739]LogAudio: Display: Audio Device (ID: 15) registered with world 'MainMenu'.
+[2021.01.24-21.35.25:199][739]LogLoad: Game class is 'GameModeBase'
+[2021.01.24-21.35.25:201][739]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2021.01.24-16.35.25
+[2021.01.24-21.35.25:202][739]LogWorld: Bringing up level for play took: 0.000695
+[2021.01.24-21.35.25:202][739]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2021.01.24-21.35.25:204][739]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-21.35.25:204][739]PIE: Server logged in
+[2021.01.24-21.35.25:205][739]PIE: Play in editor total start time 0.147 seconds.
+[2021.01.24-21.35.26:153][768]LogNet: Browse: /Game/Maps/SpaceMap
+[2021.01.24-21.35.26:153][768]LogLoad: LoadMap: /Game/Maps/SpaceMap
+[2021.01.24-21.35.26:153][768]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2021.01.24-21.35.26:153][768]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-21.35.26:154][768]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-21.35.26:198][768]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.24-21.35.26:204][768]LogUObjectHash: Compacting FUObjectHashTables data took   4.89ms
+[2021.01.24-21.35.26:210][768]LogAudio: Display: Audio Device (ID: 15) registered with world 'SpaceMap'.
+[2021.01.24-21.35.26:211][768]LogAIModule: Creating AISystem for world SpaceMap
+[2021.01.24-21.35.26:212][768]LogLoad: Game class is 'SpaceShooterManueGameModeBase_BP_C'
+[2021.01.24-21.35.26:214][768]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap up for play (max tick rate 0) at 2021.01.24-16.35.26
+[2021.01.24-21.35.26:214][768]LogWorld: Bringing up level for play took: 0.001265
+[2021.01.24-21.35.26:215][768]LogLoad: Took 0.062046 seconds to LoadMap(/Game/Maps/SpaceMap)
+[2021.01.24-21.35.40:200][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-21.35.40:200][ 80]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.24-21.35.40:202][ 80]LogWorld: UWorld::CleanupWorld for SpaceMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-21.35.40:203][ 80]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-21.35.40:213][ 80]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.24-21.35.40:237][ 80]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-21.35.40:269][ 80]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.24-21.35.40:269][ 80]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.24-21.35.40:271][ 80]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.24-21.35.40:321][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-21.35.40:326][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2021.01.24-21.35.40:363][ 81]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2021.01.24-21.35.51:505][288]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.24-21.35.51:520][288]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.24-21.35.51:520][288]PIE: New page: PIE session: MainMenu (Jan 24, 2021, 11:35:51 AM)
+[2021.01.24-21.35.51:520][288]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2021.01.24-21.35.51:524][288]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003627s)
+[2021.01.24-21.35.51:527][288]LogAIModule: Creating AISystem for world MainMenu
+[2021.01.24-21.35.51:528][288]LogPlayLevel: PIE: World Init took: (0.003455s)
+[2021.01.24-21.35.51:528][288]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.007367s)
+[2021.01.24-21.35.51:572][288]LogUObjectHash: Compacting FUObjectHashTables data took   6.22ms
+[2021.01.24-21.35.51:574][288]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2021.01.24-21.35.51:574][288]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.24-21.35.51:574][288]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.24-21.35.51:574][288]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.24-21.35.51:574][288]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.24-21.35.51:574][288]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.24-21.35.51:574][288]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.24-21.35.51:574][288]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.24-21.35.51:574][288]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.24-21.35.51:575][288]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.24-21.35.51:575][288]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.24-21.35.51:579][288]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.24-21.35.51:579][288]LogAudioMixer: Display: 1: FrontRight
+[2021.01.24-21.35.51:579][288]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.24-21.35.51:579][288]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.24-21.35.51:579][288]LogAudioMixer: Display: 4: BackLeft
+[2021.01.24-21.35.51:579][288]LogAudioMixer: Display: 5: BackRight
+[2021.01.24-21.35.51:579][288]LogAudioMixer: Display: 6: SideLeft
+[2021.01.24-21.35.51:579][288]LogAudioMixer: Display: 7: SideRight
+[2021.01.24-21.35.51:626][288]LogAudioMixer: Display: Using Audio Device Speakers (3- Realtek(R) Audio)
+[2021.01.24-21.35.51:627][288]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.24-21.35.51:627][288]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.24-21.35.51:627][288]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.24-21.35.51:628][288]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.24-21.35.51:628][288]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.24-21.35.51:628][288]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2021.01.24-21.35.51:653][288]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.24-21.35.51:653][288]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.24-21.35.51:653][288]LogInit: FAudioDevice initialized.
+[2021.01.24-21.35.51:653][288]LogAudio: Display: Audio Device (ID: 16) registered with world 'MainMenu'.
+[2021.01.24-21.35.51:665][288]LogLoad: Game class is 'GameModeBase'
+[2021.01.24-21.35.51:667][288]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2021.01.24-16.35.51
+[2021.01.24-21.35.51:667][288]LogWorld: Bringing up level for play took: 0.000879
+[2021.01.24-21.35.51:667][288]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2021.01.24-21.35.51:672][288]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-21.35.51:672][288]PIE: Server logged in
+[2021.01.24-21.35.51:673][288]PIE: Play in editor total start time 0.156 seconds.
+[2021.01.24-21.35.52:923][326]LogNet: Browse: /Game/Maps/SpaceMap
+[2021.01.24-21.35.52:923][326]LogLoad: LoadMap: /Game/Maps/SpaceMap
+[2021.01.24-21.35.52:923][326]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2021.01.24-21.35.52:923][326]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-21.35.52:923][326]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-21.35.52:960][326]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.24-21.35.52:964][326]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2021.01.24-21.35.52:969][326]LogAudio: Display: Audio Device (ID: 16) registered with world 'SpaceMap'.
+[2021.01.24-21.35.52:970][326]LogAIModule: Creating AISystem for world SpaceMap
+[2021.01.24-21.35.52:970][326]LogLoad: Game class is 'SpaceShooterManueGameModeBase_BP_C'
+[2021.01.24-21.35.52:972][326]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap up for play (max tick rate 0) at 2021.01.24-16.35.52
+[2021.01.24-21.35.52:972][326]LogWorld: Bringing up level for play took: 0.001424
+[2021.01.24-21.35.52:973][326]LogLoad: Took 0.050787 seconds to LoadMap(/Game/Maps/SpaceMap)
+[2021.01.24-21.35.59:779][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-21.35.59:779][487]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.24-21.35.59:780][487]LogWorld: UWorld::CleanupWorld for SpaceMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-21.35.59:780][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-21.35.59:789][487]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.24-21.35.59:812][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-21.35.59:847][487]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.24-21.35.59:847][487]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.24-21.35.59:849][487]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.24-21.35.59:895][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-21.35.59:901][487]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2021.01.24-21.35.59:930][488]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2021.01.24-21.39.44:140][293]LogHotReload: New module detected: UE4Editor-SpaceShooterManue-0037.dll
+[2021.01.24-21.39.45:175][297]LogHotReload: Starting Hot-Reload from IDE
+[2021.01.24-21.39.45:784][297]LogClass: Could not find existing class SSM_Spaceship_Pawn in package /Script/SpaceShooterManue for HotReload, assuming new class
+[2021.01.24-21.39.45:799][297]LogHotReload: Re-instancing SSM_Spaceship_Pawn after hot-reload.
+[2021.01.24-21.39.45:879][297]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SpaceShooterManue' in 0.0007 seconds. Added 4 classes and 2 folders.
+[2021.01.24-21.39.45:887][297]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2021.01.24-21.39.46:065][297]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0117 seconds. Added 3605 classes and 861 folders.
+[2021.01.24-21.39.46:089][297]Display: HotReload took  0.9s.
+[2021.01.24-21.39.51:804][353]Candidate modules for hot reload:
+[2021.01.24-21.39.51:804][353]  SpaceShooterManue
+[2021.01.24-21.39.51:804][353]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SpaceShooterManue,5419 SpaceShooterManueEditor Win64 Development -Project="C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/SpaceShooterManue.uproject" "C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/SpaceShooterManue.uproject"  -IgnoreJunk]
+[2021.01.24-21.39.51:812][353]Warning: Starting HotReload took  0.0s.
+[2021.01.24-21.39.53:851][393]CompilerResultsLog: New page: Compilation - Jan 24, 2021, 11:39:53 AM
+[2021.01.24-21.39.53:851][393]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter).
+[2021.01.24-21.39.53:851][393]CompilerResultsLog: Building SpaceShooterManueEditor...
+[2021.01.24-21.39.53:851][393]CompilerResultsLog: Using Visual Studio 2019 14.28.29336 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.24-21.39.53:851][393]CompilerResultsLog: Building 3 actions with 12 processes...
+[2021.01.24-21.39.53:851][393]CompilerResultsLog:   [1/3] UE4Editor-SpaceShooterManue-5419.lib
+[2021.01.24-21.39.53:851][393]CompilerResultsLog:      Creating library C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-5419.lib and object C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-5419.exp
+[2021.01.24-21.39.53:851][393]CompilerResultsLog:   [2/3] UE4Editor-SpaceShooterManue-5419.dll
+[2021.01.24-21.39.53:851][393]CompilerResultsLog:      Creating library C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-5419.suppressed.lib and object C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-5419.suppressed.exp
+[2021.01.24-21.39.53:851][393]CompilerResultsLog:   [3/3] SpaceShooterManueEditor.target
+[2021.01.24-21.39.53:851][393]CompilerResultsLog: Total time in Parallel executor: 1.01 seconds
+[2021.01.24-21.39.53:851][393]CompilerResultsLog: Total execution time: 1.86 seconds
+[2021.01.24-21.39.53:851][393]LogMainFrame: MainFrame: Module compiling took 2.062 seconds
+[2021.01.24-21.39.54:140][393]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SpaceShooterManue' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2021.01.24-21.39.54:147][393]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2021.01.24-21.39.54:328][393]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0097 seconds. Added 3605 classes and 861 folders.
+[2021.01.24-21.39.54:334][393]Display: HotReload took  2.6s.
+[2021.01.24-21.40.08:047][613]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.01.24-21.40.18:304][764]BlueprintLog: New page: Compile SSM_Spaceship_Pawn_BP
+[2021.01.24-21.40.18:499][764]LogUObjectHash: Compacting FUObjectHashTables data took   7.53ms
+[2021.01.24-21.40.19:159][771]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/SSM_Spaceship_Pawn_BP213E634D4272180B3783FFB03FE02238.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Blueprint/SSM_Spaceship_Pawn_BP.uasset'
+[2021.01.24-21.40.19:238][771]AssetCheck: New page: Asset Save: SSM_Spaceship_Pawn_BP
+[2021.01.24-21.40.19:238][771]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/SSM_Spaceship_Pawn_BP.SSM_Spaceship_Pawn_BP
+[2021.01.24-21.40.21:342][798]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.24-21.40.21:357][798]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.24-21.40.21:357][798]PIE: New page: PIE session: MainMenu (Jan 24, 2021, 11:40:21 AM)
+[2021.01.24-21.40.21:357][798]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2021.01.24-21.40.21:361][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003569s)
+[2021.01.24-21.40.21:363][798]LogAIModule: Creating AISystem for world MainMenu
+[2021.01.24-21.40.21:363][798]LogPlayLevel: PIE: World Init took: (0.002308s)
+[2021.01.24-21.40.21:363][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.006029s)
+[2021.01.24-21.40.21:436][798]LogUObjectHash: Compacting FUObjectHashTables data took   5.70ms
+[2021.01.24-21.40.21:438][798]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2021.01.24-21.40.21:438][798]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.24-21.40.21:438][798]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.24-21.40.21:439][798]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.24-21.40.21:439][798]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.24-21.40.21:439][798]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.24-21.40.21:439][798]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.24-21.40.21:439][798]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.24-21.40.21:439][798]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.24-21.40.21:439][798]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.24-21.40.21:439][798]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.24-21.40.21:443][798]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.24-21.40.21:443][798]LogAudioMixer: Display: 1: FrontRight
+[2021.01.24-21.40.21:443][798]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.24-21.40.21:443][798]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.24-21.40.21:443][798]LogAudioMixer: Display: 4: BackLeft
+[2021.01.24-21.40.21:443][798]LogAudioMixer: Display: 5: BackRight
+[2021.01.24-21.40.21:443][798]LogAudioMixer: Display: 6: SideLeft
+[2021.01.24-21.40.21:443][798]LogAudioMixer: Display: 7: SideRight
+[2021.01.24-21.40.21:486][798]LogAudioMixer: Display: Using Audio Device Speakers (3- Realtek(R) Audio)
+[2021.01.24-21.40.21:486][798]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.24-21.40.21:487][798]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.24-21.40.21:487][798]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.24-21.40.21:488][798]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.24-21.40.21:488][798]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.24-21.40.21:488][798]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2021.01.24-21.40.21:513][798]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.24-21.40.21:513][798]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.24-21.40.21:513][798]LogInit: FAudioDevice initialized.
+[2021.01.24-21.40.21:513][798]LogAudio: Display: Audio Device (ID: 17) registered with world 'MainMenu'.
+[2021.01.24-21.40.21:532][798]LogLoad: Game class is 'GameModeBase'
+[2021.01.24-21.40.21:533][798]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2021.01.24-16.40.21
+[2021.01.24-21.40.21:533][798]LogWorld: Bringing up level for play took: 0.000726
+[2021.01.24-21.40.21:534][798]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2021.01.24-21.40.21:538][798]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-21.40.21:539][798]PIE: Server logged in
+[2021.01.24-21.40.21:540][798]PIE: Play in editor total start time 0.187 seconds.
+[2021.01.24-21.40.25:549][859]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-21.40.25:549][859]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2021.01.24-21.40.25:549][859]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-21.40.25:549][859]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-21.40.25:563][859]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.24-21.40.25:585][859]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-21.40.25:623][859]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-21.40.25:623][859]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.24-21.40.25:624][859]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.24-21.40.25:680][859]LogUObjectHash: Compacting FUObjectHashTables data took   4.25ms
+[2021.01.24-21.40.25:726][860]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2021.01.24-21.40.28:345][908]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.24-21.40.28:361][908]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.24-21.40.28:361][908]PIE: New page: PIE session: MainMenu (Jan 24, 2021, 11:40:28 AM)
+[2021.01.24-21.40.28:361][908]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2021.01.24-21.40.28:365][908]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003713s)
+[2021.01.24-21.40.28:366][908]LogAIModule: Creating AISystem for world MainMenu
+[2021.01.24-21.40.28:367][908]LogPlayLevel: PIE: World Init took: (0.001598s)
+[2021.01.24-21.40.28:367][908]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.005464s)
+[2021.01.24-21.40.28:409][908]LogUObjectHash: Compacting FUObjectHashTables data took   4.69ms
+[2021.01.24-21.40.28:416][908]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2021.01.24-21.40.28:416][908]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.24-21.40.28:416][908]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.24-21.40.28:416][908]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.24-21.40.28:416][908]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.24-21.40.28:416][908]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.24-21.40.28:416][908]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.24-21.40.28:416][908]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.24-21.40.28:416][908]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.24-21.40.28:417][908]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.24-21.40.28:417][908]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.24-21.40.28:421][908]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.24-21.40.28:421][908]LogAudioMixer: Display: 1: FrontRight
+[2021.01.24-21.40.28:421][908]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.24-21.40.28:421][908]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.24-21.40.28:421][908]LogAudioMixer: Display: 4: BackLeft
+[2021.01.24-21.40.28:421][908]LogAudioMixer: Display: 5: BackRight
+[2021.01.24-21.40.28:421][908]LogAudioMixer: Display: 6: SideLeft
+[2021.01.24-21.40.28:422][908]LogAudioMixer: Display: 7: SideRight
+[2021.01.24-21.40.28:473][908]LogAudioMixer: Display: Using Audio Device Speakers (3- Realtek(R) Audio)
+[2021.01.24-21.40.28:474][908]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.24-21.40.28:474][908]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.24-21.40.28:474][908]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.24-21.40.28:475][908]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.24-21.40.28:475][908]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.24-21.40.28:475][908]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2021.01.24-21.40.28:498][908]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.24-21.40.28:498][908]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.24-21.40.28:498][908]LogInit: FAudioDevice initialized.
+[2021.01.24-21.40.28:498][908]LogAudio: Display: Audio Device (ID: 18) registered with world 'MainMenu'.
+[2021.01.24-21.40.28:512][908]LogLoad: Game class is 'GameModeBase'
+[2021.01.24-21.40.28:514][908]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2021.01.24-16.40.28
+[2021.01.24-21.40.28:515][908]LogWorld: Bringing up level for play took: 0.000723
+[2021.01.24-21.40.28:515][908]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2021.01.24-21.40.28:518][908]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-21.40.28:518][908]PIE: Server logged in
+[2021.01.24-21.40.28:519][908]PIE: Play in editor total start time 0.161 seconds.
+[2021.01.24-21.40.29:306][932]LogNet: Browse: /Game/Maps/SpaceMap
+[2021.01.24-21.40.29:306][932]LogLoad: LoadMap: /Game/Maps/SpaceMap
+[2021.01.24-21.40.29:306][932]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2021.01.24-21.40.29:307][932]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-21.40.29:307][932]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-21.40.29:342][932]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.24-21.40.29:347][932]LogUObjectHash: Compacting FUObjectHashTables data took   4.11ms
+[2021.01.24-21.40.29:353][932]LogAudio: Display: Audio Device (ID: 18) registered with world 'SpaceMap'.
+[2021.01.24-21.40.29:354][932]LogAIModule: Creating AISystem for world SpaceMap
+[2021.01.24-21.40.29:355][932]LogLoad: Game class is 'SpaceShooterManueGameModeBase_BP_C'
+[2021.01.24-21.40.29:357][932]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap up for play (max tick rate 0) at 2021.01.24-16.40.29
+[2021.01.24-21.40.29:357][932]LogWorld: Bringing up level for play took: 0.001386
+[2021.01.24-21.40.29:359][932]LogLoad: Took 0.052521 seconds to LoadMap(/Game/Maps/SpaceMap)
+[2021.01.24-21.41.24:081][570]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.24:111][571]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.24:145][572]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.24:179][573]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.24:212][574]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.24:245][575]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.24:279][576]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.24:312][577]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.24:345][578]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.24:378][579]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.24:411][580]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.24:448][581]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.24:482][582]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.24:516][583]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.24:548][584]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.24:582][585]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.24:615][586]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.24:649][587]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.24:682][588]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.24:716][589]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.24:749][590]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.24:782][591]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.24:815][592]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.24:848][593]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.24:882][594]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.24:916][595]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.24:949][596]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.24:982][597]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.25:015][598]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.25:049][599]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.25:084][600]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.25:117][601]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.25:155][602]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.25:191][603]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.25:222][604]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.25:255][605]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.25:289][606]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.25:321][607]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.25:355][608]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.25:389][609]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.25:423][610]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.25:455][611]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.25:489][612]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.25:528][613]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.25:563][614]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.25:598][615]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.25:629][616]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.25:662][617]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.25:698][618]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.25:729][619]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.25:763][620]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.25:795][621]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.25:829][622]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.25:863][623]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.25:896][624]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.25:928][625]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.25:962][626]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.25:996][627]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.26:029][628]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.26:062][629]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.26:096][630]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.26:130][631]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.26:161][632]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.26:196][633]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.26:228][634]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.26:265][635]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.26:296][636]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.26:330][637]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.26:363][638]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.26:398][639]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.26:431][640]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.26:465][641]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.26:496][642]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.26:529][643]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.26:564][644]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.26:598][645]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.26:629][646]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.26:663][647]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.26:696][648]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.26:729][649]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.26:762][650]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.26:795][651]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.26:829][652]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.26:862][653]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.26:897][654]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.26:930][655]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.26:963][656]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.26:998][657]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.27:029][658]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.27:062][659]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.27:095][660]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.27:128][661]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.27:162][662]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.27:195][663]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.27:230][664]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.27:262][665]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.27:296][666]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.27:328][667]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.27:362][668]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.27:395][669]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.27:429][670]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.27:463][671]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.27:495][672]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.27:529][673]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.27:563][674]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.27:596][675]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.27:628][676]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.27:662][677]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.27:696][678]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.27:728][679]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.27:762][680]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.27:796][681]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.27:829][682]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.27:862][683]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.27:896][684]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.27:929][685]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.27:963][686]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.27:998][687]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.28:028][688]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.28:063][689]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.28:098][690]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.28:132][691]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.28:165][692]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.28:198][693]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.28:231][694]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.28:264][695]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.28:298][696]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.48:974][310]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.49:008][311]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.41.49:041][312]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.42.25:989][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-21.42.25:989][417]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.24-21.42.25:992][417]LogWorld: UWorld::CleanupWorld for SpaceMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-21.42.26:008][417]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-21.42.26:024][417]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.24-21.42.26:061][417]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-21.42.26:101][417]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.24-21.42.26:101][417]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.24-21.42.26:103][417]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.24-21.42.26:146][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-21.42.26:171][417]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2021.01.24-21.42.26:206][418]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2021.01.24-21.43.32:498][ 67]BlueprintLog: New page: Compile SSM_Spaceship_Pawn_BP
+[2021.01.24-21.43.32:577][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   6.72ms
+[2021.01.24-21.43.33:226][ 74]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/SSM_Spaceship_Pawn_BPA09913094B360072F805C59A0056FB92.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Blueprint/SSM_Spaceship_Pawn_BP.uasset'
+[2021.01.24-21.43.33:301][ 74]AssetCheck: New page: Asset Save: SSM_Spaceship_Pawn_BP
+[2021.01.24-21.43.33:301][ 74]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/SSM_Spaceship_Pawn_BP.SSM_Spaceship_Pawn_BP
+[2021.01.24-21.43.53:849][223]LogHotReload: New module detected: UE4Editor-SpaceShooterManue-0039.dll
+[2021.01.24-21.43.54:878][227]LogHotReload: Starting Hot-Reload from IDE
+[2021.01.24-21.43.55:247][227]LogClass: Could not find existing class SSM_Spaceship_Pawn in package /Script/SpaceShooterManue for HotReload, assuming new class
+[2021.01.24-21.43.55:258][227]LogHotReload: Re-instancing SSM_Spaceship_Pawn after hot-reload.
+[2021.01.24-21.43.55:332][227]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SpaceShooterManue' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2021.01.24-21.43.55:342][227]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2021.01.24-21.43.55:518][227]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0124 seconds. Added 3605 classes and 861 folders.
+[2021.01.24-21.43.55:540][227]Display: HotReload took  0.7s.
+[2021.01.24-21.44.11:937][476]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-21.44.11:937][476]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-21.44.13:095][493]LogSlate: Window 'SSM_Spaceship_Pawn_BP' being destroyed
+[2021.01.24-21.44.13:181][493]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.01.24-21.44.13:181][493]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-21.44.13:181][493]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-21.44.16:617][547]Candidate modules for hot reload:
+[2021.01.24-21.44.16:617][547]  SpaceShooterManue
+[2021.01.24-21.44.16:617][547]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SpaceShooterManue,4171 SpaceShooterManueEditor Win64 Development -Project="C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/SpaceShooterManue.uproject" "C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/SpaceShooterManue.uproject"  -IgnoreJunk]
+[2021.01.24-21.44.16:625][547]Warning: Starting HotReload took  0.0s.
+[2021.01.24-21.44.18:845][591]CompilerResultsLog: New page: Compilation - Jan 24, 2021, 11:44:18 AM
+[2021.01.24-21.44.18:845][591]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter).
+[2021.01.24-21.44.18:845][591]CompilerResultsLog: Building SpaceShooterManueEditor...
+[2021.01.24-21.44.18:845][591]CompilerResultsLog: Using Visual Studio 2019 14.28.29336 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.24-21.44.18:845][591]CompilerResultsLog: Building 3 actions with 12 processes...
+[2021.01.24-21.44.18:845][591]CompilerResultsLog:   [1/3] UE4Editor-SpaceShooterManue-4171.lib
+[2021.01.24-21.44.18:845][591]CompilerResultsLog:      Creating library C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-4171.lib and object C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-4171.exp
+[2021.01.24-21.44.18:846][591]CompilerResultsLog:   [2/3] UE4Editor-SpaceShooterManue-4171.dll
+[2021.01.24-21.44.18:846][591]CompilerResultsLog:      Creating library C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-4171.suppressed.lib and object C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-4171.suppressed.exp
+[2021.01.24-21.44.18:846][591]CompilerResultsLog:   [3/3] SpaceShooterManueEditor.target
+[2021.01.24-21.44.18:846][591]CompilerResultsLog: Total time in Parallel executor: 1.28 seconds
+[2021.01.24-21.44.18:846][591]CompilerResultsLog: Total execution time: 2.10 seconds
+[2021.01.24-21.44.18:846][591]LogMainFrame: MainFrame: Module compiling took 2.241 seconds
+[2021.01.24-21.44.19:139][591]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SpaceShooterManue' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2021.01.24-21.44.19:149][591]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2021.01.24-21.44.19:337][591]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0113 seconds. Added 3605 classes and 861 folders.
+[2021.01.24-21.44.19:343][591]Display: HotReload took  2.7s.
+[2021.01.24-21.44.22:335][632]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.24-21.44.22:349][632]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.24-21.44.22:349][632]PIE: New page: PIE session: MainMenu (Jan 24, 2021, 11:44:22 AM)
+[2021.01.24-21.44.22:349][632]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2021.01.24-21.44.22:352][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003386s)
+[2021.01.24-21.44.22:357][632]LogAIModule: Creating AISystem for world MainMenu
+[2021.01.24-21.44.22:357][632]LogPlayLevel: PIE: World Init took: (0.004788s)
+[2021.01.24-21.44.22:357][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.008340s)
+[2021.01.24-21.44.22:614][632]LogUObjectHash: Compacting FUObjectHashTables data took   8.57ms
+[2021.01.24-21.44.22:623][632]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2021.01.24-21.44.22:623][632]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.24-21.44.22:623][632]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.24-21.44.22:623][632]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.24-21.44.22:623][632]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.24-21.44.22:623][632]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.24-21.44.22:623][632]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.24-21.44.22:623][632]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.24-21.44.22:623][632]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.24-21.44.22:624][632]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.24-21.44.22:624][632]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.24-21.44.22:629][632]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.24-21.44.22:629][632]LogAudioMixer: Display: 1: FrontRight
+[2021.01.24-21.44.22:629][632]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.24-21.44.22:629][632]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.24-21.44.22:629][632]LogAudioMixer: Display: 4: BackLeft
+[2021.01.24-21.44.22:629][632]LogAudioMixer: Display: 5: BackRight
+[2021.01.24-21.44.22:629][632]LogAudioMixer: Display: 6: SideLeft
+[2021.01.24-21.44.22:629][632]LogAudioMixer: Display: 7: SideRight
+[2021.01.24-21.44.22:674][632]LogAudioMixer: Display: Using Audio Device Speakers (3- Realtek(R) Audio)
+[2021.01.24-21.44.22:675][632]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.24-21.44.22:675][632]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.24-21.44.22:675][632]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.24-21.44.22:675][632]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.24-21.44.22:675][632]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.24-21.44.22:675][632]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2021.01.24-21.44.22:698][632]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.24-21.44.22:698][632]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.24-21.44.22:698][632]LogInit: FAudioDevice initialized.
+[2021.01.24-21.44.22:698][632]LogAudio: Display: Audio Device (ID: 19) registered with world 'MainMenu'.
+[2021.01.24-21.44.22:706][632]LogLoad: Game class is 'GameModeBase'
+[2021.01.24-21.44.22:707][632]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2021.01.24-16.44.22
+[2021.01.24-21.44.22:708][632]LogWorld: Bringing up level for play took: 0.000739
+[2021.01.24-21.44.22:708][632]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2021.01.24-21.44.22:711][632]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-21.44.22:711][632]PIE: Server logged in
+[2021.01.24-21.44.22:712][632]PIE: Play in editor total start time 0.367 seconds.
+[2021.01.24-21.44.23:728][653]LogNet: Browse: /Game/Maps/SpaceMap
+[2021.01.24-21.44.23:728][653]LogLoad: LoadMap: /Game/Maps/SpaceMap
+[2021.01.24-21.44.23:728][653]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2021.01.24-21.44.23:729][653]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-21.44.23:729][653]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-21.44.23:747][653]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.24-21.44.23:930][653]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2021.01.24-21.44.23:936][653]LogAudio: Display: Audio Device (ID: 19) registered with world 'SpaceMap'.
+[2021.01.24-21.44.23:938][653]LogAIModule: Creating AISystem for world SpaceMap
+[2021.01.24-21.44.23:938][653]LogLoad: Game class is 'SpaceShooterManueGameModeBase_BP_C'
+[2021.01.24-21.44.23:941][653]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap up for play (max tick rate 0) at 2021.01.24-16.44.23
+[2021.01.24-21.44.23:941][653]LogWorld: Bringing up level for play took: 0.001449
+[2021.01.24-21.44.23:943][653]LogLoad: Took 0.214344 seconds to LoadMap(/Game/Maps/SpaceMap)
+[2021.01.24-21.44.53:451][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-21.44.53:451][517]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.24-21.44.53:453][517]LogWorld: UWorld::CleanupWorld for SpaceMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-21.44.53:460][517]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-21.44.53:468][517]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.24-21.44.53:491][517]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-21.44.53:508][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-21.44.53:510][517]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.24-21.44.53:512][517]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.24-21.44.53:573][517]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2021.01.24-21.44.53:596][518]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2021.01.24-21.45.26:674][800]Candidate modules for hot reload:
+[2021.01.24-21.45.26:674][800]  SpaceShooterManue
+[2021.01.24-21.45.26:674][800]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SpaceShooterManue,692 SpaceShooterManueEditor Win64 Development -Project="C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/SpaceShooterManue.uproject" "C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/SpaceShooterManue.uproject"  -IgnoreJunk]
+[2021.01.24-21.45.26:682][800]Warning: Starting HotReload took  0.0s.
+[2021.01.24-21.45.28:935][843]CompilerResultsLog: New page: Compilation - Jan 24, 2021, 11:45:28 AM
+[2021.01.24-21.45.28:935][843]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter).
+[2021.01.24-21.45.28:935][843]CompilerResultsLog: Building SpaceShooterManueEditor...
+[2021.01.24-21.45.28:935][843]CompilerResultsLog: Using Visual Studio 2019 14.28.29336 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.24-21.45.28:935][843]CompilerResultsLog: Building 3 actions with 12 processes...
+[2021.01.24-21.45.28:935][843]CompilerResultsLog:   [1/3] UE4Editor-SpaceShooterManue-0692.lib
+[2021.01.24-21.45.28:935][843]CompilerResultsLog:      Creating library C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-0692.lib and object C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-0692.exp
+[2021.01.24-21.45.28:935][843]CompilerResultsLog:   [2/3] UE4Editor-SpaceShooterManue-0692.dll
+[2021.01.24-21.45.28:935][843]CompilerResultsLog:      Creating library C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-0692.suppressed.lib and object C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-0692.suppressed.exp
+[2021.01.24-21.45.28:935][843]CompilerResultsLog:   [3/3] SpaceShooterManueEditor.target
+[2021.01.24-21.45.28:935][843]CompilerResultsLog: Total time in Parallel executor: 1.28 seconds
+[2021.01.24-21.45.28:935][843]CompilerResultsLog: Total execution time: 2.10 seconds
+[2021.01.24-21.45.28:935][843]LogMainFrame: MainFrame: Module compiling took 2.273 seconds
+[2021.01.24-21.45.28:953][843]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0145 seconds. Added 3605 classes and 861 folders.
+[2021.01.24-21.45.28:961][843]Display: HotReload took  2.3s.
+[2021.01.24-21.45.33:177][900]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.24-21.45.33:191][900]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.24-21.45.33:191][900]PIE: New page: PIE session: MainMenu (Jan 24, 2021, 11:45:33 AM)
+[2021.01.24-21.45.33:191][900]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2021.01.24-21.45.33:196][900]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004340s)
+[2021.01.24-21.45.33:198][900]LogAIModule: Creating AISystem for world MainMenu
+[2021.01.24-21.45.33:199][900]LogPlayLevel: PIE: World Init took: (0.002791s)
+[2021.01.24-21.45.33:199][900]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.007320s)
+[2021.01.24-21.45.33:289][900]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2021.01.24-21.45.33:291][900]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2021.01.24-21.45.33:291][900]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.24-21.45.33:291][900]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.24-21.45.33:291][900]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.24-21.45.33:291][900]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.24-21.45.33:291][900]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.24-21.45.33:291][900]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.24-21.45.33:291][900]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.24-21.45.33:291][900]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.24-21.45.33:292][900]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.24-21.45.33:292][900]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.24-21.45.33:297][900]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.24-21.45.33:297][900]LogAudioMixer: Display: 1: FrontRight
+[2021.01.24-21.45.33:297][900]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.24-21.45.33:297][900]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.24-21.45.33:297][900]LogAudioMixer: Display: 4: BackLeft
+[2021.01.24-21.45.33:297][900]LogAudioMixer: Display: 5: BackRight
+[2021.01.24-21.45.33:297][900]LogAudioMixer: Display: 6: SideLeft
+[2021.01.24-21.45.33:297][900]LogAudioMixer: Display: 7: SideRight
+[2021.01.24-21.45.33:343][900]LogAudioMixer: Display: Using Audio Device Speakers (3- Realtek(R) Audio)
+[2021.01.24-21.45.33:344][900]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.24-21.45.33:344][900]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.24-21.45.33:344][900]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.24-21.45.33:344][900]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.24-21.45.33:344][900]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.24-21.45.33:344][900]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2021.01.24-21.45.33:367][900]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.24-21.45.33:367][900]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.24-21.45.33:367][900]LogInit: FAudioDevice initialized.
+[2021.01.24-21.45.33:367][900]LogAudio: Display: Audio Device (ID: 20) registered with world 'MainMenu'.
+[2021.01.24-21.45.33:381][900]LogLoad: Game class is 'GameModeBase'
+[2021.01.24-21.45.33:383][900]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2021.01.24-16.45.33
+[2021.01.24-21.45.33:384][900]LogWorld: Bringing up level for play took: 0.001295
+[2021.01.24-21.45.33:384][900]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.01.24-21.45.33:386][900]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-21.45.33:386][900]PIE: Server logged in
+[2021.01.24-21.45.33:387][900]PIE: Play in editor total start time 0.201 seconds.
+[2021.01.24-21.45.34:301][919]LogNet: Browse: /Game/Maps/SpaceMap
+[2021.01.24-21.45.34:301][919]LogLoad: LoadMap: /Game/Maps/SpaceMap
+[2021.01.24-21.45.34:301][919]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2021.01.24-21.45.34:301][919]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-21.45.34:301][919]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-21.45.34:318][919]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.24-21.45.34:373][919]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2021.01.24-21.45.34:381][919]LogAudio: Display: Audio Device (ID: 20) registered with world 'SpaceMap'.
+[2021.01.24-21.45.34:382][919]LogAIModule: Creating AISystem for world SpaceMap
+[2021.01.24-21.45.34:382][919]LogLoad: Game class is 'SpaceShooterManueGameModeBase_BP_C'
+[2021.01.24-21.45.34:384][919]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap up for play (max tick rate 0) at 2021.01.24-16.45.34
+[2021.01.24-21.45.34:384][919]LogWorld: Bringing up level for play took: 0.001610
+[2021.01.24-21.45.34:386][919]LogLoad: Took 0.084743 seconds to LoadMap(/Game/Maps/SpaceMap)
+[2021.01.24-21.45.39:777][ 65]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.45.39:810][ 66]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.45.39:844][ 67]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.45.39:877][ 68]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.45.39:909][ 69]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.45.39:943][ 70]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.45.39:976][ 71]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.45.40:009][ 72]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.45.40:043][ 73]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.45.40:077][ 74]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.45.40:109][ 75]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.45.40:142][ 76]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.45.40:176][ 77]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.45.40:210][ 78]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.45.40:243][ 79]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.45.40:278][ 80]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.45.40:311][ 81]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.45.40:343][ 82]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.45.40:377][ 83]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.45.40:409][ 84]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.45.40:443][ 85]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.45.40:477][ 86]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.45.40:509][ 87]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.45.40:542][ 88]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.45.40:575][ 89]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.45.40:609][ 90]LogBlueprintUserMessages: [SSM_Spaceship_Pawn_BP_C_0] Hello
+[2021.01.24-21.45.49:316][350]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-21.45.49:316][350]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.24-21.45.49:317][350]LogWorld: UWorld::CleanupWorld for SpaceMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.24-21.45.49:321][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-21.45.49:334][350]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.24-21.45.49:357][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.24-21.45.49:371][350]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.24-21.45.49:373][350]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.24-21.45.49:374][350]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.24-21.45.49:427][350]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2021.01.24-21.45.49:452][351]LogPlayLevel: Display: Destroying online subsystem :Context_27

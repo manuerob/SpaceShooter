@@ -10,10 +10,6 @@ ASSM_Spaceship_Pawn::ASSM_Spaceship_Pawn()
  	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	//bUseControllerRotationPitch = false;
-	//bUseControllerRotationYaw = false;
-	//bUseControllerRotationRoll = false;
-
 }
 
 // Called when the game starts or when spawned
@@ -24,6 +20,24 @@ void ASSM_Spaceship_Pawn::BeginPlay()
 	FTimerHandle UnusedHandle;
 	GetWorldTimerManager().SetTimer(UnusedHandle, this, &ASSM_Spaceship_Pawn::SpawnObstacle, 0.05f, true);
 	
+}
+
+void ASSM_Spaceship_Pawn::SpawnObstacle()
+{
+
+	FVector actorLocation = GetActorLocation();
+	FVector forwardVector = GetActorForwardVector();
+
+	FVector randomLocationSphereCenter = actorLocation + forwardVector * 4000;
+
+	FVector RandomSpawnLocation;
+	RandomSpawnLocation.X = FMath::FRandRange(randomLocationSphereCenter.X - 3000, randomLocationSphereCenter.X + 3000);
+	RandomSpawnLocation.Y = FMath::FRandRange(randomLocationSphereCenter.Y - 3000, randomLocationSphereCenter.Y + 3000);
+	RandomSpawnLocation.Z = FMath::FRandRange(randomLocationSphereCenter.Z - 3000, randomLocationSphereCenter.Z + 3000);
+
+	FActorSpawnParameters SpawnInfo;
+
+	GetWorld()->SpawnActor<AActor>(ActorToSpawn, RandomSpawnLocation, FRotator(0.0f, 0.0f, 0.0f), SpawnInfo);
 }
 
 // Called every frame

@@ -29,7 +29,6 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	UFUNCTION(BlueprintImplementableEvent, Category = "SPawner")
 	void SpawnObstacle();
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
@@ -53,6 +52,9 @@ protected:
 		float PitchRateMultiplier;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Flight)
 		float CurrentForwardSpeed;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Spawner)
+	TSubclassOf<AActor> ActorToSpawn;
 
 public:	
 	// Called every frame
