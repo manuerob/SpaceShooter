@@ -29,7 +29,13 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	void SpawnObstacle();
+	AActor* SpawnObstacle();
+
+	void MoveObstacle();
+
+	bool IsInRange(FVector pawnLocation, FVector forwardVector, int offset, FVector actorLocation);
+
+	FVector GenerateRandomLocation(FVector pawnLocation, FVector forwardVector, int offset);
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		UFloatingPawnMovement* FloatingMovement;
@@ -55,6 +61,8 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Spawner)
 	TSubclassOf<AActor> ActorToSpawn;
+
+	TArray<AActor*> Obstacles;
 
 public:	
 	// Called every frame

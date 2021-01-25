@@ -16,28 +16,70 @@ ASSM_Spaceship_Pawn::ASSM_Spaceship_Pawn()
 void ASSM_Spaceship_Pawn::BeginPlay()
 {
 	Super::BeginPlay();
-
+	
 	FTimerHandle UnusedHandle;
-	GetWorldTimerManager().SetTimer(UnusedHandle, this, &ASSM_Spaceship_Pawn::SpawnObstacle, 0.05f, true);
+	GetWorldTimerManager().SetTimer(UnusedHandle, this, &ASSM_Spaceship_Pawn::MoveObstacle, 0.2f, true);
+
+	for (int i = 0; i < 200; i++) {
+
+		AActor* newObstacle = SpawnObstacle();
+
+		Obstacles.Add(newObstacle);
+	}
 	
 }
 
-void ASSM_Spaceship_Pawn::SpawnObstacle()
+AActor* ASSM_Spaceship_Pawn::SpawnObstacle()
 {
 
-	FVector actorLocation = GetActorLocation();
+	FVector pawnLocation = GetActorLocation();
 	FVector forwardVector = GetActorForwardVector();
 
-	FVector randomLocationSphereCenter = actorLocation + forwardVector * 4000;
-
-	FVector RandomSpawnLocation;
-	RandomSpawnLocation.X = FMath::FRandRange(randomLocationSphereCenter.X - 3000, randomLocationSphereCenter.X + 3000);
-	RandomSpawnLocation.Y = FMath::FRandRange(randomLocationSphereCenter.Y - 3000, randomLocationSphereCenter.Y + 3000);
-	RandomSpawnLocation.Z = FMath::FRandRange(randomLocationSphereCenter.Z - 3000, randomLocationSphereCenter.Z + 3000);
+	FVector RandomSpawnLocation = GenerateRandomLocation(pawnLocation, forwardVector, 3000);
 
 	FActorSpawnParameters SpawnInfo;
 
-	GetWorld()->SpawnActor<AActor>(ActorToSpawn, RandomSpawnLocation, FRotator(0.0f, 0.0f, 0.0f), SpawnInfo);
+	return GetWorld()->SpawnActor<AActor>(ActorToSpawn, RandomSpawnLocation, FRotator(0.0f, 0.0f, 0.0f), SpawnInfo);
+}
+
+void ASSM_Spaceship_Pawn::MoveObstacle()
+{
+	FVector pawnLocation = GetActorLocation();
+	FVector forwardVector = GetActorForwardVector();
+
+	for (int i = 0; i < 200; i++) {
+
+		FVector actorLocation = Obstacles[i]->GetActorLocation();
+
+		if (IsInRange(pawnLocation, forwardVector, 5000, actorLocation)) {
+
+			FVector RandomSpawnLocation = GenerateRandomLocation(pawnLocation, forwardVector, 3000);
+
+			Obstacles[i]->SetActorLocation(RandomSpawnLocation);
+		}
+	}
+}
+
+bool ASSM_Spaceship_Pawn::IsInRange(FVector pawnLocation, FVector forwardVector, int offset, FVector actorLocation)
+{
+	FVector randomLocationSphereCenter = pawnLocation + forwardVector * 3000;
+
+	if (randomLocationSphereCenter.X - offset > actorLocation.X || randomLocationSphereCenter.X + offset < actorLocation.X || randomLocationSphereCenter.Y - offset > actorLocation.Y || randomLocationSphereCenter.Y + offset < actorLocation.Y || randomLocationSphereCenter.Z - offset > actorLocation.Z || randomLocationSphereCenter.Z + offset < actorLocation.Z)
+		return true;
+	return false;
+}
+
+FVector ASSM_Spaceship_Pawn::GenerateRandomLocation(FVector pawnLocation, FVector forwardVector, int offset)
+{
+
+	FVector randomLocationSphereCenter = pawnLocation + forwardVector * 4000;
+
+	FVector RandomSpawnLocation;
+	RandomSpawnLocation.X = FMath::FRandRange(randomLocationSphereCenter.X - offset, randomLocationSphereCenter.X + offset);
+	RandomSpawnLocation.Y = FMath::FRandRange(randomLocationSphereCenter.Y - offset, randomLocationSphereCenter.Y + offset);
+	RandomSpawnLocation.Z = FMath::FRandRange(randomLocationSphereCenter.Z - offset, randomLocationSphereCenter.Z + offset);
+
+	return RandomSpawnLocation;
 }
 
 // Called every frame
