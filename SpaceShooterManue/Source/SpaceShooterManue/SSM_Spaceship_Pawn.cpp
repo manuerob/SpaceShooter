@@ -16,6 +16,8 @@ ASSM_Spaceship_Pawn::ASSM_Spaceship_Pawn()
 void ASSM_Spaceship_Pawn::BeginPlay()
 {
 	Super::BeginPlay();
+
+	ASSM_Spaceship_Pawn::printAllo();
 	
 	FTimerHandle UnusedHandle;
 	GetWorldTimerManager().SetTimer(UnusedHandle, this, &ASSM_Spaceship_Pawn::MoveObstacle, 0.2f, true);

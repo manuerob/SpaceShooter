@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeSpaceShooterManue_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xE008AEE7,
+				0xCAAB89A2,
 				0x9A7E69B4,
 				METADATA_PARAMS(nullptr, 0)
 			};
