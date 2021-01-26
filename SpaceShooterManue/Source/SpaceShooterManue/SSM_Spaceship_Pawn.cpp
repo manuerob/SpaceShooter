@@ -16,8 +16,6 @@ ASSM_Spaceship_Pawn::ASSM_Spaceship_Pawn()
 void ASSM_Spaceship_Pawn::BeginPlay()
 {
 	Super::BeginPlay();
-
-	ASSM_Spaceship_Pawn::printAllo();
 	
 	FTimerHandle UnusedHandle;
 	GetWorldTimerManager().SetTimer(UnusedHandle, this, &ASSM_Spaceship_Pawn::MoveObstacle, 0.2f, true);
@@ -87,7 +85,7 @@ FVector ASSM_Spaceship_Pawn::GenerateRandomLocation(FVector pawnLocation, FVecto
 // Called every frame
 void ASSM_Spaceship_Pawn::Tick(float DeltaTime)
 {
-	const float CurrentAcc = -GetActorRotation().Pitch * DeltaTime * Acceleration;
+	const float CurrentAcc = DeltaTime * Acceleration;
 	const float newForwardSpeed = CurrentForwardSpeed * CurrentAcc;
 	CurrentForwardSpeed = FMath::Clamp(newForwardSpeed, MinSpeed, MaxSpeed);
 

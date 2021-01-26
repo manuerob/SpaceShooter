@@ -33,9 +33,6 @@ protected:
 
 	void MoveObstacle();
 
-	UFUNCTION(BlueprintImplementableEvent, Category = "Test")
-		void printAllo();
-
 	bool IsInRange(FVector pawnLocation, FVector forwardVector, int offset, FVector actorLocation);
 
 	FVector GenerateRandomLocation(FVector pawnLocation, FVector forwardVector, int offset);
