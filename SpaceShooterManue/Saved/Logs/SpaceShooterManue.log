@@ -1130,3 +1130,78 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.27-22.08.02:828][381]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/BP_SpaceshipProjectile575161244959666E967ED0A7466C70F9.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Blueprint/BP_SpaceshipProjectile.uasset'
 [2021.01.27-22.08.02:838][381]AssetCheck: New page: Asset Save: BP_SpaceshipProjectile
 [2021.01.27-22.08.02:838][381]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/BP_SpaceshipProjectile.BP_SpaceshipProjectile
+[2021.01.27-22.08.41:653][189]BlueprintLog: New page: Compile BP_MainMenuGameMode
+[2021.01.27-22.08.41:693][189]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2021.01.27-22.08.42:290][223]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/BP_MainMenuGameMode946F69834B2F190917766D9348922F79.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Blueprint/BP_MainMenuGameMode.uasset'
+[2021.01.27-22.08.42:302][223]AssetCheck: New page: Asset Save: BP_MainMenuGameMode
+[2021.01.27-22.08.42:302][223]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/BP_MainMenuGameMode.BP_MainMenuGameMode
+[2021.01.27-22.08.48:225][578]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-22.08.48:225][578]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-22.08.49:662][662]LogSlate: Window 'BP_SpaceshipProjectile' being destroyed
+[2021.01.27-22.08.49:669][662]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.01.27-22.08.49:669][662]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-22.08.49:669][662]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-22.09.02:119][884]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.27-22.09.02:126][884]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.27-22.09.02:126][884]PIE: New page: PIE session: MainMenu (Jan 27, 2021, 12:09:02 PM)
+[2021.01.27-22.09.02:126][884]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2021.01.27-22.09.02:129][884]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002651s)
+[2021.01.27-22.09.02:130][884]LogAIModule: Creating AISystem for world MainMenu
+[2021.01.27-22.09.02:130][884]LogPlayLevel: PIE: World Init took: (0.000929s)
+[2021.01.27-22.09.02:130][884]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.003688s)
+[2021.01.27-22.09.02:176][884]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2021.01.27-22.09.02:178][884]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.01.27-22.09.02:178][884]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.27-22.09.02:178][884]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.27-22.09.02:178][884]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.27-22.09.02:178][884]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.27-22.09.02:178][884]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.27-22.09.02:178][884]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.27-22.09.02:178][884]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.27-22.09.02:178][884]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.27-22.09.02:178][884]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.27-22.09.02:179][884]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.27-22.09.02:183][884]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.27-22.09.02:183][884]LogAudioMixer: Display: 1: FrontRight
+[2021.01.27-22.09.02:193][884]LogAudioMixer: Display: Using Audio Device Headset Earphone (2- CORSAIR VOID ELITE Wireless Gaming Dongle)
+[2021.01.27-22.09.02:194][884]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.27-22.09.02:194][884]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.27-22.09.02:194][884]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.27-22.09.02:194][884]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.27-22.09.02:194][884]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.27-22.09.02:194][884]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.27-22.09.02:207][884]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.27-22.09.02:207][884]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.27-22.09.02:207][884]LogInit: FAudioDevice initialized.
+[2021.01.27-22.09.02:207][884]LogAudio: Display: Audio Device (ID: 5) registered with world 'MainMenu'.
+[2021.01.27-22.09.02:213][884]LogLoad: Game class is 'BP_MainMenuGameMode_C'
+[2021.01.27-22.09.02:214][884]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2021.01.27-17.09.02
+[2021.01.27-22.09.02:215][884]LogWorld: Bringing up level for play took: 0.000503
+[2021.01.27-22.09.02:215][884]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.01.27-22.09.02:217][884]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-22.09.02:217][884]PIE: Server logged in
+[2021.01.27-22.09.02:217][884]PIE: Play in editor total start time 0.093 seconds.
+[2021.01.27-22.09.02:874][923]LogNet: Browse: /Game/Maps/SpaceMap
+[2021.01.27-22.09.02:874][923]LogLoad: LoadMap: /Game/Maps/SpaceMap
+[2021.01.27-22.09.02:874][923]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2021.01.27-22.09.02:874][923]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-22.09.02:874][923]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-22.09.02:915][923]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.27-22.09.02:935][923]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2021.01.27-22.09.02:938][923]LogAudio: Display: Audio Device (ID: 5) registered with world 'SpaceMap'.
+[2021.01.27-22.09.02:939][923]LogAIModule: Creating AISystem for world SpaceMap
+[2021.01.27-22.09.02:940][923]LogLoad: Game class is 'SpaceShooterManueGameModeBase_BP_C'
+[2021.01.27-22.09.02:941][923]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap up for play (max tick rate 60) at 2021.01.27-17.09.02
+[2021.01.27-22.09.02:941][923]LogWorld: Bringing up level for play took: 0.000900
+[2021.01.27-22.09.02:964][923]LogLoad: Took 0.090711 seconds to LoadMap(/Game/Maps/SpaceMap)
+[2021.01.27-22.09.35:806][891]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-22.09.35:806][891]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.27-22.09.35:807][891]LogWorld: UWorld::CleanupWorld for SpaceMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-22.09.35:807][891]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-22.09.35:814][891]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.27-22.09.35:818][891]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-22.09.35:831][891]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-22.09.35:832][891]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.27-22.09.35:833][891]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.27-22.09.35:850][891]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2021.01.27-22.09.35:868][892]LogPlayLevel: Display: Destroying online subsystem :Context_11
