@@ -2484,3 +2484,688 @@ Script Stack (0 frames):
 [2021.01.27-02.52.50:444][909]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2021.01.27-02.52.50:447][909]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
 [2021.01.27-02.52.50:464][910]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2021.01.27-02.54.32:564][434]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.27-02.54.32:570][434]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.27-02.54.32:570][434]PIE: New page: PIE session: MainMenu (Jan 26, 2021, 4:54:32 PM)
+[2021.01.27-02.54.32:570][434]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2021.01.27-02.54.32:573][434]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002475s)
+[2021.01.27-02.54.32:574][434]LogAIModule: Creating AISystem for world MainMenu
+[2021.01.27-02.54.32:574][434]LogPlayLevel: PIE: World Init took: (0.001096s)
+[2021.01.27-02.54.32:574][434]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.003672s)
+[2021.01.27-02.54.32:598][434]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2021.01.27-02.54.32:599][434]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2021.01.27-02.54.32:599][434]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.27-02.54.32:599][434]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.27-02.54.32:599][434]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.27-02.54.32:599][434]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.27-02.54.32:599][434]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.27-02.54.32:599][434]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.27-02.54.32:599][434]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.27-02.54.32:599][434]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.27-02.54.32:599][434]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.27-02.54.32:599][434]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.27-02.54.32:602][434]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.27-02.54.32:602][434]LogAudioMixer: Display: 1: FrontRight
+[2021.01.27-02.54.32:611][434]LogAudioMixer: Display: Using Audio Device Headset Earphone (2- CORSAIR VOID ELITE Wireless Gaming Dongle)
+[2021.01.27-02.54.32:612][434]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.27-02.54.32:612][434]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.27-02.54.32:612][434]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.27-02.54.32:612][434]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.27-02.54.32:612][434]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.27-02.54.32:612][434]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.27-02.54.32:627][434]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.27-02.54.32:627][434]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.27-02.54.32:627][434]LogInit: FAudioDevice initialized.
+[2021.01.27-02.54.32:627][434]LogAudio: Display: Audio Device (ID: 18) registered with world 'MainMenu'.
+[2021.01.27-02.54.32:637][434]LogLoad: Game class is 'GameModeBase'
+[2021.01.27-02.54.32:638][434]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2021.01.26-21.54.32
+[2021.01.27-02.54.32:638][434]LogWorld: Bringing up level for play took: 0.000589
+[2021.01.27-02.54.32:639][434]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2021.01.27-02.54.32:640][434]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-02.54.32:640][434]PIE: Server logged in
+[2021.01.27-02.54.32:641][434]PIE: Play in editor total start time 0.072 seconds.
+[2021.01.27-02.54.33:716][498]LogNet: Browse: /Game/Maps/SpaceMap
+[2021.01.27-02.54.33:716][498]LogLoad: LoadMap: /Game/Maps/SpaceMap
+[2021.01.27-02.54.33:716][498]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2021.01.27-02.54.33:716][498]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-02.54.33:717][498]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-02.54.33:737][498]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.27-02.54.33:740][498]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2021.01.27-02.54.33:743][498]LogAudio: Display: Audio Device (ID: 18) registered with world 'SpaceMap'.
+[2021.01.27-02.54.33:744][498]LogAIModule: Creating AISystem for world SpaceMap
+[2021.01.27-02.54.33:744][498]LogLoad: Game class is 'SpaceShooterManueGameModeBase_BP_C'
+[2021.01.27-02.54.33:746][498]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap up for play (max tick rate 60) at 2021.01.26-21.54.33
+[2021.01.27-02.54.33:746][498]LogWorld: Bringing up level for play took: 0.000887
+[2021.01.27-02.54.33:767][498]LogLoad: Took 0.050708 seconds to LoadMap(/Game/Maps/SpaceMap)
+[2021.01.27-02.54.34:500][542]LogTemp: Warning: ALOOO
+[2021.01.27-02.54.35:216][585]LogTemp: Warning: ALOOO
+[2021.01.27-02.54.35:900][626]LogTemp: Warning: ALOOO
+[2021.01.27-02.54.36:500][662]LogTemp: Warning: ALOOO
+[2021.01.27-02.54.36:966][690]LogTemp: Warning: ALOOO
+[2021.01.27-02.54.37:517][723]LogTemp: Warning: ALOOO
+[2021.01.27-02.54.38:366][774]LogTemp: Warning: ALOOO
+[2021.01.27-02.54.38:966][810]LogTemp: Warning: ALOOO
+[2021.01.27-02.54.39:366][834]LogTemp: Warning: ALOOO
+[2021.01.27-02.54.40:166][882]LogTemp: Warning: ALOOO
+[2021.01.27-02.54.41:200][944]LogTemp: Warning: ALOOO
+[2021.01.27-02.54.41:833][982]LogTemp: Warning: ALOOO
+[2021.01.27-02.54.42:300][ 10]LogTemp: Warning: ALOOO
+[2021.01.27-02.54.43:367][ 74]LogTemp: Warning: ALOOO
+[2021.01.27-02.54.44:466][140]LogTemp: Warning: ALOOO
+[2021.01.27-02.54.44:800][160]LogTemp: Warning: ALOOO
+[2021.01.27-02.54.45:033][174]LogTemp: Warning: ALOOO
+[2021.01.27-02.54.45:300][190]LogTemp: Warning: ALOOO
+[2021.01.27-02.54.46:783][279]LogTemp: Warning: ALOOO
+[2021.01.27-02.54.51:710][574]LogTemp: Warning: ALOOO
+[2021.01.27-02.54.52:294][609]LogTemp: Warning: ALOOO
+[2021.01.27-02.54.53:677][692]LogTemp: Warning: ALOOO
+[2021.01.27-02.54.54:577][746]LogTemp: Warning: ALOOO
+[2021.01.27-02.54.54:994][771]LogTemp: Warning: ALOOO
+[2021.01.27-02.54.55:511][802]LogTemp: Warning: ALOOO
+[2021.01.27-02.54.58:721][992]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-02.54.58:721][992]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.27-02.54.58:721][992]LogWorld: UWorld::CleanupWorld for SpaceMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-02.54.58:722][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-02.54.58:728][992]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.27-02.54.58:733][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-02.54.58:754][992]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.27-02.54.58:754][992]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.27-02.54.58:755][992]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.27-02.54.58:769][992]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-02.54.58:773][992]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2021.01.27-02.54.58:790][993]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2021.01.27-02.55.08:919][593]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/Skybox_BP.Skybox_BP
+[2021.01.27-02.55.15:606][969]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2021.01.27-02.55.15:635][969]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MainMenu.MainMenu
+[2021.01.27-02.55.15:636][969]Cmd: MAP LOAD FILE="../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.27-02.55.15:636][969]LightingResults: New page: Lighting Build
+[2021.01.27-02.55.15:636][969]LoadErrors: New page: Loading map: MainMenu.umap
+[2021.01.27-02.55.15:637][969]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-02.55.15:637][969]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-02.55.15:637][969]MapCheck: New page: Map Check
+[2021.01.27-02.55.15:637][969]LightingResults: New page: Lighting Build
+[2021.01.27-02.55.15:663][969]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.27-02.55.15:667][969]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2021.01.27-02.55.15:678][969]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2021.01.27-02.55.15:679][969]LogAIModule: Creating AISystem for world MainMenu
+[2021.01.27-02.55.15:740][969]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.27-02.55.15:768][969]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2021.01.27-02.55.15:773][969]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.27-02.55.15:773][969]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.096ms to complete.
+[2021.01.27-02.55.15:773][969]LogFileHelpers: Loading map 'MainMenu' took 0.138
+[2021.01.27-02.55.17:500][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.01.27-02.55.17:529][ 71]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/SpaceMap.SpaceMap
+[2021.01.27-02.55.17:530][ 71]Cmd: MAP LOAD FILE="../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Maps/SpaceMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.27-02.55.17:530][ 71]LightingResults: New page: Lighting Build
+[2021.01.27-02.55.17:530][ 71]LoadErrors: New page: Loading map: SpaceMap.umap
+[2021.01.27-02.55.17:570][ 71]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-02.55.17:570][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-02.55.17:570][ 71]MapCheck: New page: Map Check
+[2021.01.27-02.55.17:570][ 71]LightingResults: New page: Lighting Build
+[2021.01.27-02.55.17:594][ 71]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.27-02.55.17:598][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2021.01.27-02.55.17:598][ 71]LogAudio: Display: Audio Device (ID: 1) registered with world 'SpaceMap'.
+[2021.01.27-02.55.17:665][ 71]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.27-02.55.17:665][ 71]LogAIModule: Creating AISystem for world SpaceMap
+[2021.01.27-02.55.17:693][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2021.01.27-02.55.17:697][ 71]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.27-02.55.17:697][ 71]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.106ms to complete.
+[2021.01.27-02.55.17:697][ 71]LogFileHelpers: Loading map 'SpaceMap' took 0.168
+[2021.01.27-02.55.45:083][704]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2021.01.27-02.55.45:092][704]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/SpaceMap88110D1E4784B122DA350FAB9307E71F.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Maps/SpaceMap.umap'
+[2021.01.27-02.55.45:117][704]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/SpaceMap_BuiltData827049BA4008ED97FA8E16AA61DAAD08.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Maps/SpaceMap_BuiltData.uasset'
+[2021.01.27-02.55.45:133][704]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.27-02.55.45:133][704]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/SpaceMap_BuiltData.SpaceMap_BuiltData
+[2021.01.27-02.55.45:133][704]LogContentValidation: Display: Validating World /Game/Maps/SpaceMap.SpaceMap
+[2021.01.27-02.55.47:533][847]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.27-02.55.47:544][847]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.27-02.55.47:544][847]PIE: New page: PIE session: SpaceMap (Jan 26, 2021, 4:55:47 PM)
+[2021.01.27-02.55.47:544][847]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.27-02.55.47:546][847]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001434s)
+[2021.01.27-02.55.47:546][847]LogAIModule: Creating AISystem for world SpaceMap
+[2021.01.27-02.55.47:547][847]LogPlayLevel: PIE: World Init took: (0.001012s)
+[2021.01.27-02.55.47:547][847]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SpaceMap.SpaceMap to /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap (0.002556s)
+[2021.01.27-02.55.47:574][847]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2021.01.27-02.55.47:575][847]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2021.01.27-02.55.47:575][847]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.27-02.55.47:575][847]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.27-02.55.47:575][847]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.27-02.55.47:575][847]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.27-02.55.47:575][847]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.27-02.55.47:575][847]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.27-02.55.47:575][847]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.27-02.55.47:575][847]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.27-02.55.47:575][847]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.27-02.55.47:575][847]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.27-02.55.47:578][847]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.27-02.55.47:578][847]LogAudioMixer: Display: 1: FrontRight
+[2021.01.27-02.55.47:589][847]LogAudioMixer: Display: Using Audio Device Headset Earphone (2- CORSAIR VOID ELITE Wireless Gaming Dongle)
+[2021.01.27-02.55.47:589][847]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.27-02.55.47:589][847]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.27-02.55.47:589][847]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.27-02.55.47:589][847]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.27-02.55.47:589][847]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.27-02.55.47:589][847]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.27-02.55.47:603][847]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.27-02.55.47:603][847]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.27-02.55.47:603][847]LogInit: FAudioDevice initialized.
+[2021.01.27-02.55.47:603][847]LogAudio: Display: Audio Device (ID: 19) registered with world 'SpaceMap'.
+[2021.01.27-02.55.47:610][847]LogLoad: Game class is 'SpaceShooterManueGameModeBase_BP_C'
+[2021.01.27-02.55.47:611][847]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap up for play (max tick rate 60) at 2021.01.26-21.55.47
+[2021.01.27-02.55.47:611][847]LogWorld: Bringing up level for play took: 0.000355
+[2021.01.27-02.55.47:611][847]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.01.27-02.55.47:634][847]PIE: Server logged in
+[2021.01.27-02.55.47:635][847]PIE: Play in editor total start time 0.098 seconds.
+[2021.01.27-02.55.50:439][ 15]LogTemp: Warning: ALOOO
+[2021.01.27-02.55.52:303][127]LogTemp: Warning: ALOOO
+[2021.01.27-02.55.53:270][185]LogTemp: Warning: ALOOO
+[2021.01.27-02.55.53:804][217]LogTemp: Warning: ALOOO
+[2021.01.27-02.55.54:337][249]LogTemp: Warning: ALOOO
+[2021.01.27-02.56.07:903][ 63]LogTemp: Warning: ALOOO
+[2021.01.27-02.56.09:787][176]LogTemp: Warning: ALOOO
+[2021.01.27-02.56.36:216][754]LogNet: Browse: /Game/Maps/MainMenu
+[2021.01.27-02.56.36:216][754]LogLoad: LoadMap: /Game/Maps/MainMenu
+[2021.01.27-02.56.36:216][754]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.27-02.56.36:216][754]LogWorld: UWorld::CleanupWorld for SpaceMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-02.56.36:217][754]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-02.56.36:264][754]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.27-02.56.36:269][754]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2021.01.27-02.56.36:279][754]LogAudio: Display: Audio Device (ID: 19) registered with world 'MainMenu'.
+[2021.01.27-02.56.36:279][754]LogAIModule: Creating AISystem for world MainMenu
+[2021.01.27-02.56.36:280][754]LogLoad: Game class is 'GameModeBase'
+[2021.01.27-02.56.36:281][754]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2021.01.26-21.56.36
+[2021.01.27-02.56.36:281][754]LogWorld: Bringing up level for play took: 0.000776
+[2021.01.27-02.56.36:282][754]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-02.56.36:282][754]LogLoad: Took 0.066573 seconds to LoadMap(/Game/Maps/MainMenu)
+[2021.01.27-02.56.36:898][790]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-02.56.36:931][790]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2021.01.27-02.56.36:931][790]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-02.56.36:931][790]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-02.56.36:939][790]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.27-02.56.36:947][790]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-02.56.36:972][790]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.27-02.56.36:972][790]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.27-02.56.36:973][790]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.27-02.56.36:989][790]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-02.56.36:992][790]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2021.01.27-02.56.37:015][791]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2021.01.27-02.57.31:559][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2021.01.27-02.57.31:567][ 53]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/SpaceMapD2C531D84EE7863AEB62F48D156BB4FC.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Maps/SpaceMap.umap'
+[2021.01.27-02.57.31:586][ 53]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/SpaceMap_BuiltData1AF0E55F49214A1CE1765AA6C15870EE.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Maps/SpaceMap_BuiltData.uasset'
+[2021.01.27-02.57.31:598][ 53]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.27-02.57.31:598][ 53]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/SpaceMap_BuiltData.SpaceMap_BuiltData
+[2021.01.27-02.57.31:598][ 53]LogContentValidation: Display: Validating World /Game/Maps/SpaceMap.SpaceMap
+[2021.01.27-02.57.33:628][175]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.27-02.57.33:635][175]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.27-02.57.33:635][175]PIE: New page: PIE session: SpaceMap (Jan 26, 2021, 4:57:33 PM)
+[2021.01.27-02.57.33:660][175]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.27-02.57.33:661][175]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001410s)
+[2021.01.27-02.57.33:662][175]LogAIModule: Creating AISystem for world SpaceMap
+[2021.01.27-02.57.33:662][175]LogPlayLevel: PIE: World Init took: (0.000935s)
+[2021.01.27-02.57.33:662][175]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SpaceMap.SpaceMap to /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap (0.002487s)
+[2021.01.27-02.57.33:689][175]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2021.01.27-02.57.33:689][175]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2021.01.27-02.57.33:689][175]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.27-02.57.33:689][175]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.27-02.57.33:689][175]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.27-02.57.33:689][175]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.27-02.57.33:689][175]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.27-02.57.33:689][175]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.27-02.57.33:689][175]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.27-02.57.33:689][175]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.27-02.57.33:690][175]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.27-02.57.33:690][175]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.27-02.57.33:693][175]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.27-02.57.33:693][175]LogAudioMixer: Display: 1: FrontRight
+[2021.01.27-02.57.33:702][175]LogAudioMixer: Display: Using Audio Device Headset Earphone (2- CORSAIR VOID ELITE Wireless Gaming Dongle)
+[2021.01.27-02.57.33:702][175]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.27-02.57.33:702][175]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.27-02.57.33:702][175]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.27-02.57.33:702][175]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.27-02.57.33:702][175]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.27-02.57.33:702][175]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.27-02.57.33:716][175]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.27-02.57.33:716][175]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.27-02.57.33:716][175]LogInit: FAudioDevice initialized.
+[2021.01.27-02.57.33:716][175]LogAudio: Display: Audio Device (ID: 20) registered with world 'SpaceMap'.
+[2021.01.27-02.57.33:723][175]LogLoad: Game class is 'SpaceShooterManueGameModeBase_BP_C'
+[2021.01.27-02.57.33:724][175]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap up for play (max tick rate 60) at 2021.01.26-21.57.33
+[2021.01.27-02.57.33:725][175]LogWorld: Bringing up level for play took: 0.000361
+[2021.01.27-02.57.33:725][175]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2021.01.27-02.57.33:748][175]PIE: Server logged in
+[2021.01.27-02.57.33:749][175]PIE: Play in editor total start time 0.116 seconds.
+[2021.01.27-02.57.34:870][242]LogTemp: Warning: ALOOO
+[2021.01.27-02.57.37:651][409]LogTemp: Warning: ALOOO
+[2021.01.27-02.57.40:168][559]LogTemp: Warning: ALOOO
+[2021.01.27-02.57.40:835][599]LogTemp: Warning: ALOOO
+[2021.01.27-02.57.41:452][636]LogTemp: Warning: ALOOO
+[2021.01.27-02.57.41:885][662]LogTemp: Warning: ALOOO
+[2021.01.27-02.57.42:269][685]LogTemp: Warning: ALOOO
+[2021.01.27-02.57.42:452][696]LogTemp: Warning: ALOOO
+[2021.01.27-02.57.42:635][707]LogTemp: Warning: ALOOO
+[2021.01.27-02.57.42:785][716]LogTemp: Warning: ALOOO
+[2021.01.27-02.57.42:935][725]LogTemp: Warning: ALOOO
+[2021.01.27-02.57.43:085][734]LogTemp: Warning: ALOOO
+[2021.01.27-02.57.43:902][783]LogTemp: Warning: ALOOO
+[2021.01.27-02.57.45:719][892]LogTemp: Warning: ALOOO
+[2021.01.27-02.57.46:152][918]LogTemp: Warning: ALOOO
+[2021.01.27-02.57.46:419][934]LogTemp: Warning: ALOOO
+[2021.01.27-02.57.47:251][984]LogTemp: Warning: ALOOO
+[2021.01.27-02.57.48:968][ 87]LogTemp: Warning: ALOOO
+[2021.01.27-02.57.49:201][101]LogTemp: Warning: ALOOO
+[2021.01.27-02.57.49:419][114]LogTemp: Warning: ALOOO
+[2021.01.27-02.57.49:618][126]LogTemp: Warning: ALOOO
+[2021.01.27-02.57.49:785][136]LogTemp: Warning: ALOOO
+[2021.01.27-02.57.49:952][146]LogTemp: Warning: ALOOO
+[2021.01.27-02.57.50:135][157]LogTemp: Warning: ALOOO
+[2021.01.27-02.57.50:302][167]LogTemp: Warning: ALOOO
+[2021.01.27-02.57.50:451][176]LogTemp: Warning: ALOOO
+[2021.01.27-02.57.50:635][187]LogTemp: Warning: ALOOO
+[2021.01.27-02.57.50:819][198]LogTemp: Warning: ALOOO
+[2021.01.27-02.57.51:518][240]LogTemp: Warning: ALOOO
+[2021.01.27-02.57.52:981][326]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-02.57.52:981][326]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.27-02.57.52:982][326]LogWorld: UWorld::CleanupWorld for SpaceMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-02.57.52:983][326]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-02.57.52:987][326]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.27-02.57.52:996][326]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-02.57.53:021][326]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-02.57.53:021][326]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.27-02.57.53:022][326]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.27-02.57.53:040][326]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2021.01.27-02.57.53:062][327]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2021.01.27-03.03.20:452][ 18]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.01.27-03.05.40:015][638]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Source/SpaceShooterManue/SSM_PlayerController.h'
+[2021.01.27-03.06.02:039][948]BlueprintLog: New page: Compile SSM_PlayerController_BP
+[2021.01.27-03.06.02:117][948]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
+[2021.01.27-03.06.07:155][248]BlueprintLog: New page: Compile SSM_PlayerController_BP
+[2021.01.27-03.06.07:209][248]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2021.01.27-03.06.07:737][278]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/SSM_PlayerController_BP59D6483E42EEDD495CF73D897F6FB689.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Blueprint/SSM_PlayerController_BP.uasset'
+[2021.01.27-03.06.07:748][278]AssetCheck: New page: Asset Save: SSM_PlayerController_BP
+[2021.01.27-03.06.07:748][278]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/SSM_PlayerController_BP.SSM_PlayerController_BP
+[2021.01.27-03.06.13:942][649]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.27-03.06.13:948][649]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.27-03.06.13:948][649]PIE: New page: PIE session: SpaceMap (Jan 26, 2021, 5:06:13 PM)
+[2021.01.27-03.06.13:948][649]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.27-03.06.13:951][649]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002166s)
+[2021.01.27-03.06.13:952][649]LogAIModule: Creating AISystem for world SpaceMap
+[2021.01.27-03.06.13:952][649]LogPlayLevel: PIE: World Init took: (0.001217s)
+[2021.01.27-03.06.13:952][649]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SpaceMap.SpaceMap to /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap (0.003512s)
+[2021.01.27-03.06.13:984][649]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2021.01.27-03.06.13:986][649]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2021.01.27-03.06.13:986][649]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.27-03.06.13:986][649]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.27-03.06.13:986][649]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.27-03.06.13:986][649]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.27-03.06.13:986][649]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.27-03.06.13:986][649]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.27-03.06.13:986][649]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.27-03.06.13:986][649]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.27-03.06.13:987][649]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.27-03.06.13:987][649]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.27-03.06.13:991][649]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.27-03.06.13:991][649]LogAudioMixer: Display: 1: FrontRight
+[2021.01.27-03.06.14:002][649]LogAudioMixer: Display: Using Audio Device Headset Earphone (2- CORSAIR VOID ELITE Wireless Gaming Dongle)
+[2021.01.27-03.06.14:003][649]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.27-03.06.14:003][649]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.27-03.06.14:003][649]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.27-03.06.14:003][649]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.27-03.06.14:003][649]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.27-03.06.14:003][649]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.27-03.06.14:017][649]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.27-03.06.14:017][649]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.27-03.06.14:017][649]LogInit: FAudioDevice initialized.
+[2021.01.27-03.06.14:017][649]LogAudio: Display: Audio Device (ID: 21) registered with world 'SpaceMap'.
+[2021.01.27-03.06.14:023][649]LogLoad: Game class is 'SpaceShooterManueGameModeBase_BP_C'
+[2021.01.27-03.06.14:025][649]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap up for play (max tick rate 60) at 2021.01.26-22.06.14
+[2021.01.27-03.06.14:025][649]LogWorld: Bringing up level for play took: 0.000481
+[2021.01.27-03.06.14:025][649]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2021.01.27-03.06.14:048][649]PIE: Server logged in
+[2021.01.27-03.06.14:049][649]PIE: Play in editor total start time 0.104 seconds.
+[2021.01.27-03.06.16:120][773]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.18:652][925]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.19:135][954]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.19:551][979]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.19:919][  1]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.27:357][447]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.30:193][617]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.30:610][642]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.31:560][699]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.32:443][752]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.32:893][779]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.33:393][809]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.34:043][848]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.34:376][868]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.35:043][908]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.35:409][930]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.35:760][951]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.36:226][979]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.36:677][  6]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.38:376][108]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.39:960][203]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.44:126][453]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.44:526][477]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.45:493][535]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.46:460][593]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.47:359][647]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.48:809][734]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.49:560][779]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.49:860][797]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.50:243][820]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.50:443][832]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.50:626][843]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.52:144][934]LogTemp: Warning: ALOOO
+[2021.01.27-03.06.53:420][  8]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-03.06.53:420][  8]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.27-03.06.53:421][  8]LogWorld: UWorld::CleanupWorld for SpaceMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-03.06.53:422][  8]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-03.06.53:445][  8]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.27-03.06.53:455][  8]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-03.06.53:484][  8]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.27-03.06.53:484][  8]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.27-03.06.53:485][  8]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.27-03.06.53:501][  8]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-03.06.53:506][  8]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2021.01.27-03.06.53:528][  9]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2021.01.27-03.07.07:708][858]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.27-03.07.07:715][858]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.27-03.07.07:715][858]PIE: New page: PIE session: SpaceMap (Jan 26, 2021, 5:07:07 PM)
+[2021.01.27-03.07.07:739][858]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.27-03.07.07:741][858]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001754s)
+[2021.01.27-03.07.07:742][858]LogAIModule: Creating AISystem for world SpaceMap
+[2021.01.27-03.07.07:742][858]LogPlayLevel: PIE: World Init took: (0.001020s)
+[2021.01.27-03.07.07:742][858]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SpaceMap.SpaceMap to /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap (0.002914s)
+[2021.01.27-03.07.07:776][858]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2021.01.27-03.07.07:779][858]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2021.01.27-03.07.07:779][858]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.27-03.07.07:779][858]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.27-03.07.07:779][858]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.27-03.07.07:779][858]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.27-03.07.07:779][858]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.27-03.07.07:779][858]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.27-03.07.07:779][858]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.27-03.07.07:779][858]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.27-03.07.07:779][858]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.27-03.07.07:779][858]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.27-03.07.07:782][858]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.27-03.07.07:782][858]LogAudioMixer: Display: 1: FrontRight
+[2021.01.27-03.07.07:792][858]LogAudioMixer: Display: Using Audio Device Headset Earphone (2- CORSAIR VOID ELITE Wireless Gaming Dongle)
+[2021.01.27-03.07.07:792][858]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.27-03.07.07:792][858]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.27-03.07.07:792][858]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.27-03.07.07:792][858]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.27-03.07.07:792][858]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.27-03.07.07:792][858]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.27-03.07.07:806][858]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.27-03.07.07:806][858]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.27-03.07.07:806][858]LogInit: FAudioDevice initialized.
+[2021.01.27-03.07.07:806][858]LogAudio: Display: Audio Device (ID: 22) registered with world 'SpaceMap'.
+[2021.01.27-03.07.07:816][858]LogLoad: Game class is 'SpaceShooterManueGameModeBase_BP_C'
+[2021.01.27-03.07.07:817][858]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap up for play (max tick rate 60) at 2021.01.26-22.07.07
+[2021.01.27-03.07.07:818][858]LogWorld: Bringing up level for play took: 0.000344
+[2021.01.27-03.07.07:818][858]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2021.01.27-03.07.07:841][858]PIE: Server logged in
+[2021.01.27-03.07.07:842][858]PIE: Play in editor total start time 0.13 seconds.
+[2021.01.27-03.07.09:691][969]LogTemp: Warning: ALOOO
+[2021.01.27-03.07.19:063][530]LogTemp: Warning: ALOOO
+[2021.01.27-03.07.22:580][741]LogTemp: Warning: ALOOO
+[2021.01.27-03.07.26:901][998]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-03.07.26:901][998]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.27-03.07.26:901][998]LogWorld: UWorld::CleanupWorld for SpaceMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-03.07.26:902][998]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-03.07.26:923][998]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.27-03.07.26:933][998]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-03.07.26:962][998]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-03.07.26:962][998]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.27-03.07.26:963][998]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.27-03.07.26:982][998]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2021.01.27-03.07.27:002][999]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2021.01.27-03.07.28:455][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2021.01.27-03.07.28:463][ 83]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/SpaceMap8A89F8894A622DDF30DEC5B947277E16.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Maps/SpaceMap.umap'
+[2021.01.27-03.07.28:481][ 83]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/SpaceMap_BuiltDataD3975D61486F47DD319237AEC0D214EB.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Maps/SpaceMap_BuiltData.uasset'
+[2021.01.27-03.07.28:491][ 83]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.27-03.07.28:492][ 83]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/SpaceMap_BuiltData.SpaceMap_BuiltData
+[2021.01.27-03.07.28:492][ 83]LogContentValidation: Display: Validating World /Game/Maps/SpaceMap.SpaceMap
+[2021.01.27-03.08.35:131][344]LogHotReload: New module detected: UE4Editor-SpaceShooterManue-0009.dll
+[2021.01.27-03.09.19:753][217]Candidate modules for hot reload:
+[2021.01.27-03.09.19:753][217]  SpaceShooterManue
+[2021.01.27-03.09.19:753][217]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SpaceShooterManue,3801 SpaceShooterManueEditor Win64 Development -Project="C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/SpaceShooterManue.uproject" "C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/SpaceShooterManue.uproject"  -IgnoreJunk]
+[2021.01.27-03.09.19:757][217]Warning: Starting HotReload took  0.0s.
+[2021.01.27-03.09.21:205][302]CompilerResultsLog: New page: Compilation - Jan 26, 2021, 5:09:21 PM
+[2021.01.27-03.09.21:205][302]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter).
+[2021.01.27-03.09.21:205][302]CompilerResultsLog: Building SpaceShooterManueEditor...
+[2021.01.27-03.09.21:205][302]CompilerResultsLog: Using Visual Studio 2019 14.28.29336 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.27-03.09.21:205][302]CompilerResultsLog: Building 3 actions with 12 processes...
+[2021.01.27-03.09.21:205][302]CompilerResultsLog:   [1/3] UE4Editor-SpaceShooterManue-3801.lib
+[2021.01.27-03.09.21:205][302]CompilerResultsLog:      Creating library C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-3801.lib and object C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-3801.exp
+[2021.01.27-03.09.21:205][302]CompilerResultsLog:   [2/3] UE4Editor-SpaceShooterManue-3801.dll
+[2021.01.27-03.09.21:205][302]CompilerResultsLog:      Creating library C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-3801.suppressed.lib and object C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-3801.suppressed.exp
+[2021.01.27-03.09.21:205][302]CompilerResultsLog:   [3/3] SpaceShooterManueEditor.target
+[2021.01.27-03.09.21:205][302]CompilerResultsLog: Total time in Parallel executor: 0.78 seconds
+[2021.01.27-03.09.21:205][302]CompilerResultsLog: Total execution time: 1.38 seconds
+[2021.01.27-03.09.21:205][302]LogMainFrame: MainFrame: Module compiling took 1.457 seconds
+[2021.01.27-03.09.21:484][302]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SpaceShooterManue' in 0.0003 seconds. Added 5 classes and 2 folders.
+[2021.01.27-03.09.21:488][302]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2021.01.27-03.09.21:617][302]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0079 seconds. Added 3606 classes and 861 folders.
+[2021.01.27-03.09.21:617][302]Display: HotReload took  1.9s.
+[2021.01.27-03.09.23:236][385]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.27-03.09.23:242][385]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.27-03.09.23:242][385]PIE: New page: PIE session: SpaceMap (Jan 26, 2021, 5:09:23 PM)
+[2021.01.27-03.09.23:269][385]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.27-03.09.23:271][385]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001503s)
+[2021.01.27-03.09.23:272][385]LogAIModule: Creating AISystem for world SpaceMap
+[2021.01.27-03.09.23:272][385]LogPlayLevel: PIE: World Init took: (0.000892s)
+[2021.01.27-03.09.23:272][385]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SpaceMap.SpaceMap to /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap (0.002518s)
+[2021.01.27-03.09.23:338][385]LogUObjectHash: Compacting FUObjectHashTables data took   4.49ms
+[2021.01.27-03.09.23:339][385]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2021.01.27-03.09.23:339][385]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.27-03.09.23:339][385]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.27-03.09.23:339][385]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.27-03.09.23:339][385]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.27-03.09.23:339][385]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.27-03.09.23:339][385]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.27-03.09.23:339][385]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.27-03.09.23:339][385]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.27-03.09.23:339][385]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.27-03.09.23:339][385]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.27-03.09.23:343][385]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.27-03.09.23:343][385]LogAudioMixer: Display: 1: FrontRight
+[2021.01.27-03.09.23:352][385]LogAudioMixer: Display: Using Audio Device Headset Earphone (2- CORSAIR VOID ELITE Wireless Gaming Dongle)
+[2021.01.27-03.09.23:352][385]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.27-03.09.23:352][385]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.27-03.09.23:352][385]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.27-03.09.23:352][385]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.27-03.09.23:352][385]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.27-03.09.23:352][385]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.27-03.09.23:365][385]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.27-03.09.23:365][385]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.27-03.09.23:365][385]LogInit: FAudioDevice initialized.
+[2021.01.27-03.09.23:365][385]LogAudio: Display: Audio Device (ID: 23) registered with world 'SpaceMap'.
+[2021.01.27-03.09.23:375][385]LogLoad: Game class is 'SpaceShooterManueGameModeBase_BP_C'
+[2021.01.27-03.09.23:376][385]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap up for play (max tick rate 60) at 2021.01.26-22.09.23
+[2021.01.27-03.09.23:377][385]LogWorld: Bringing up level for play took: 0.000547
+[2021.01.27-03.09.23:377][385]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2021.01.27-03.09.23:400][385]PIE: Server logged in
+[2021.01.27-03.09.23:401][385]PIE: Play in editor total start time 0.161 seconds.
+[2021.01.27-03.09.45:160][690]LogNet: Browse: /Game/Maps/SpaceMap
+[2021.01.27-03.09.45:160][690]LogLoad: LoadMap: /Game/Maps/SpaceMap
+[2021.01.27-03.09.45:160][690]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.27-03.09.45:161][690]LogWorld: UWorld::CleanupWorld for SpaceMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-03.09.45:162][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-03.09.45:223][690]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.27-03.09.45:242][690]LogUObjectHash: Compacting FUObjectHashTables data took   4.31ms
+[2021.01.27-03.09.45:243][690]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.27-03.09.45:244][690]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001432s)
+[2021.01.27-03.09.45:245][690]LogAIModule: Creating AISystem for world SpaceMap
+[2021.01.27-03.09.45:246][690]LogPlayLevel: PIE: World Init took: (0.001177s)
+[2021.01.27-03.09.45:246][690]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SpaceMap.SpaceMap to /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap (0.002735s)
+[2021.01.27-03.09.45:246][690]LogAudio: Display: Audio Device (ID: 23) registered with world 'SpaceMap'.
+[2021.01.27-03.09.45:246][690]LogLoad: Game class is 'SpaceShooterManueGameModeBase_BP_C'
+[2021.01.27-03.09.45:246][690]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap up for play (max tick rate 60) at 2021.01.26-22.09.45
+[2021.01.27-03.09.45:247][690]LogWorld: Bringing up level for play took: 0.000269
+[2021.01.27-03.09.45:270][690]LogLoad: Took 0.109278 seconds to LoadMap(/Game/Maps/UEDPIE_0_SpaceMap)
+[2021.01.27-03.10.18:130][659]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-03.10.18:130][659]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.27-03.10.18:130][659]LogWorld: UWorld::CleanupWorld for SpaceMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-03.10.18:131][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-03.10.18:157][659]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.27-03.10.18:166][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-03.10.18:194][659]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-03.10.18:194][659]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.27-03.10.18:195][659]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.27-03.10.18:215][659]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2021.01.27-03.10.18:236][660]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2021.01.27-03.10.45:017][857]LogHotReload: New module detected: UE4Editor-SpaceShooterManue-0012.dll
+[2021.01.27-03.10.45:704][860]LogHotReload: Starting Hot-Reload from IDE
+[2021.01.27-03.10.45:995][860]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SpaceShooterManue' in 0.0002 seconds. Added 5 classes and 2 folders.
+[2021.01.27-03.10.46:001][860]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2021.01.27-03.10.46:133][860]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0084 seconds. Added 3606 classes and 861 folders.
+[2021.01.27-03.10.46:137][860]Display: HotReload took  0.4s.
+[2021.01.27-03.10.50:206][985]Candidate modules for hot reload:
+[2021.01.27-03.10.50:206][985]  SpaceShooterManue
+[2021.01.27-03.10.50:206][985]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SpaceShooterManue,2228 SpaceShooterManueEditor Win64 Development -Project="C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/SpaceShooterManue.uproject" "C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/SpaceShooterManue.uproject"  -IgnoreJunk]
+[2021.01.27-03.10.50:211][985]Warning: Starting HotReload took  0.0s.
+[2021.01.27-03.10.51:642][ 69]CompilerResultsLog: New page: Compilation - Jan 26, 2021, 5:10:51 PM
+[2021.01.27-03.10.51:642][ 69]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter).
+[2021.01.27-03.10.51:642][ 69]CompilerResultsLog: Building SpaceShooterManueEditor...
+[2021.01.27-03.10.51:642][ 69]CompilerResultsLog: Using Visual Studio 2019 14.28.29336 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.27-03.10.51:642][ 69]CompilerResultsLog: Building 3 actions with 12 processes...
+[2021.01.27-03.10.51:642][ 69]CompilerResultsLog:   [1/3] UE4Editor-SpaceShooterManue-2228.lib
+[2021.01.27-03.10.51:642][ 69]CompilerResultsLog:      Creating library C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-2228.lib and object C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-2228.exp
+[2021.01.27-03.10.51:642][ 69]CompilerResultsLog:   [2/3] UE4Editor-SpaceShooterManue-2228.dll
+[2021.01.27-03.10.51:642][ 69]CompilerResultsLog:      Creating library C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-2228.suppressed.lib and object C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-2228.suppressed.exp
+[2021.01.27-03.10.51:642][ 69]CompilerResultsLog:   [3/3] SpaceShooterManueEditor.target
+[2021.01.27-03.10.51:642][ 69]CompilerResultsLog: Total time in Parallel executor: 0.82 seconds
+[2021.01.27-03.10.51:643][ 69]CompilerResultsLog: Total execution time: 1.36 seconds
+[2021.01.27-03.10.51:643][ 69]LogMainFrame: MainFrame: Module compiling took 1.439 seconds
+[2021.01.27-03.10.51:920][ 69]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SpaceShooterManue' in 0.0002 seconds. Added 5 classes and 2 folders.
+[2021.01.27-03.10.51:926][ 69]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2021.01.27-03.10.52:068][ 69]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0079 seconds. Added 3606 classes and 861 folders.
+[2021.01.27-03.10.52:068][ 69]Display: HotReload took  1.9s.
+[2021.01.27-03.10.55:145][239]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.27-03.10.55:151][239]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.27-03.10.55:151][239]PIE: New page: PIE session: SpaceMap (Jan 26, 2021, 5:10:55 PM)
+[2021.01.27-03.10.55:189][239]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.27-03.10.55:191][239]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001682s)
+[2021.01.27-03.10.55:196][239]LogAIModule: Creating AISystem for world SpaceMap
+[2021.01.27-03.10.55:196][239]LogPlayLevel: PIE: World Init took: (0.005729s)
+[2021.01.27-03.10.55:196][239]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SpaceMap.SpaceMap to /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap (0.007607s)
+[2021.01.27-03.10.55:299][239]LogUObjectHash: Compacting FUObjectHashTables data took   4.71ms
+[2021.01.27-03.10.55:299][239]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2021.01.27-03.10.55:299][239]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.27-03.10.55:299][239]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.27-03.10.55:299][239]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.27-03.10.55:299][239]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.27-03.10.55:299][239]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.27-03.10.55:299][239]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.27-03.10.55:299][239]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.27-03.10.55:299][239]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.27-03.10.55:300][239]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.27-03.10.55:300][239]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.27-03.10.55:303][239]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.27-03.10.55:303][239]LogAudioMixer: Display: 1: FrontRight
+[2021.01.27-03.10.55:312][239]LogAudioMixer: Display: Using Audio Device Headset Earphone (2- CORSAIR VOID ELITE Wireless Gaming Dongle)
+[2021.01.27-03.10.55:312][239]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.27-03.10.55:312][239]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.27-03.10.55:312][239]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.27-03.10.55:313][239]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.27-03.10.55:313][239]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.27-03.10.55:313][239]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.27-03.10.55:326][239]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.27-03.10.55:326][239]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.27-03.10.55:326][239]LogInit: FAudioDevice initialized.
+[2021.01.27-03.10.55:326][239]LogAudio: Display: Audio Device (ID: 24) registered with world 'SpaceMap'.
+[2021.01.27-03.10.55:333][239]LogLoad: Game class is 'SpaceShooterManueGameModeBase_BP_C'
+[2021.01.27-03.10.55:334][239]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap up for play (max tick rate 60) at 2021.01.26-22.10.55
+[2021.01.27-03.10.55:335][239]LogWorld: Bringing up level for play took: 0.000470
+[2021.01.27-03.10.55:335][239]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2021.01.27-03.10.55:357][239]PIE: Server logged in
+[2021.01.27-03.10.55:358][239]PIE: Play in editor total start time 0.208 seconds.
+[2021.01.27-03.11.33:131][503]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-03.11.33:131][503]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.27-03.11.33:131][503]LogWorld: UWorld::CleanupWorld for SpaceMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-03.11.33:132][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-03.11.33:157][503]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.27-03.11.33:167][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-03.11.33:195][503]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.27-03.11.33:203][503]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.27-03.11.33:204][503]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.27-03.11.33:222][503]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-03.11.33:243][503]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2021.01.27-03.11.33:265][504]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2021.01.27-03.12.00:750][147]BlueprintLog: New page: Compile SSM_PlayerController_BP
+[2021.01.27-03.12.00:799][147]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2021.01.27-03.12.01:208][170]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/SSM_PlayerController_BPC563359A4DDC4322633CF58645EC5A45.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Blueprint/SSM_PlayerController_BP.uasset'
+[2021.01.27-03.12.01:221][170]AssetCheck: New page: Asset Save: SSM_PlayerController_BP
+[2021.01.27-03.12.01:221][170]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/SSM_PlayerController_BP.SSM_PlayerController_BP
+[2021.01.27-03.12.10:631][734]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.27-03.12.10:637][734]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.27-03.12.10:637][734]PIE: New page: PIE session: SpaceMap (Jan 26, 2021, 5:12:10 PM)
+[2021.01.27-03.12.10:638][734]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.27-03.12.10:639][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001474s)
+[2021.01.27-03.12.10:640][734]LogAIModule: Creating AISystem for world SpaceMap
+[2021.01.27-03.12.10:641][734]LogPlayLevel: PIE: World Init took: (0.001505s)
+[2021.01.27-03.12.10:641][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SpaceMap.SpaceMap to /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap (0.003107s)
+[2021.01.27-03.12.10:674][734]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2021.01.27-03.12.10:676][734]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2021.01.27-03.12.10:676][734]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.27-03.12.10:676][734]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.27-03.12.10:676][734]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.27-03.12.10:676][734]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.27-03.12.10:676][734]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.27-03.12.10:676][734]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.27-03.12.10:676][734]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.27-03.12.10:676][734]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.27-03.12.10:677][734]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.27-03.12.10:677][734]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.27-03.12.10:680][734]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.27-03.12.10:680][734]LogAudioMixer: Display: 1: FrontRight
+[2021.01.27-03.12.10:690][734]LogAudioMixer: Display: Using Audio Device Headset Earphone (2- CORSAIR VOID ELITE Wireless Gaming Dongle)
+[2021.01.27-03.12.10:691][734]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.27-03.12.10:691][734]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.27-03.12.10:691][734]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.27-03.12.10:691][734]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.27-03.12.10:691][734]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.27-03.12.10:691][734]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.27-03.12.10:704][734]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.27-03.12.10:705][734]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.27-03.12.10:705][734]LogInit: FAudioDevice initialized.
+[2021.01.27-03.12.10:705][734]LogAudio: Display: Audio Device (ID: 25) registered with world 'SpaceMap'.
+[2021.01.27-03.12.10:713][734]LogLoad: Game class is 'SpaceShooterManueGameModeBase_BP_C'
+[2021.01.27-03.12.10:714][734]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap up for play (max tick rate 60) at 2021.01.26-22.12.10
+[2021.01.27-03.12.10:714][734]LogWorld: Bringing up level for play took: 0.000382
+[2021.01.27-03.12.10:714][734]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2021.01.27-03.12.10:737][734]PIE: Server logged in
+[2021.01.27-03.12.10:738][734]PIE: Play in editor total start time 0.103 seconds.
+[2021.01.27-03.12.59:839][678]LogNet: Browse: /Game/Maps/MainMenu
+[2021.01.27-03.12.59:839][678]LogLoad: LoadMap: /Game/Maps/MainMenu
+[2021.01.27-03.12.59:839][678]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.27-03.12.59:840][678]LogWorld: UWorld::CleanupWorld for SpaceMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-03.12.59:840][678]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-03.12.59:870][678]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.27-03.12.59:874][678]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2021.01.27-03.12.59:881][678]LogAudio: Display: Audio Device (ID: 25) registered with world 'MainMenu'.
+[2021.01.27-03.12.59:882][678]LogAIModule: Creating AISystem for world MainMenu
+[2021.01.27-03.12.59:882][678]LogLoad: Game class is 'GameModeBase'
+[2021.01.27-03.12.59:883][678]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2021.01.26-22.12.59
+[2021.01.27-03.12.59:884][678]LogWorld: Bringing up level for play took: 0.000965
+[2021.01.27-03.12.59:884][678]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-03.12.59:885][678]LogLoad: Took 0.045857 seconds to LoadMap(/Game/Maps/MainMenu)
+[2021.01.27-03.13.03:517][896]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-03.13.03:519][896]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2021.01.27-03.13.03:549][896]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-03.13.03:549][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-03.13.03:555][896]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.27-03.13.03:564][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-03.13.03:593][896]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.27-03.13.03:593][896]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.27-03.13.03:594][896]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.27-03.13.03:611][896]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-03.13.03:615][896]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2021.01.27-03.13.03:656][897]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2021.01.27-03.13.14:504][544]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2021.01.27-03.13.14:513][544]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/SpaceMapA3DAE4074EECC30163430BBE2453EFD5.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Maps/SpaceMap.umap'
+[2021.01.27-03.13.14:531][544]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/SpaceMap_BuiltDataAD9BD0824CAC5E48F6346A80FD701ED7.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Maps/SpaceMap_BuiltData.uasset'
+[2021.01.27-03.13.14:545][544]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.27-03.13.14:545][544]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/SpaceMap_BuiltData.SpaceMap_BuiltData
+[2021.01.27-03.13.14:545][544]LogContentValidation: Display: Validating World /Game/Maps/SpaceMap.SpaceMap
