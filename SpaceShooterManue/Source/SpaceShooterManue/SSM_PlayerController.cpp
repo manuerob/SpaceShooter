@@ -63,6 +63,11 @@ void ASSM_PlayerController::Shoot()
 	FVector pawnLocation = GetPawn()->GetActorLocation();
 	FVector forwardVector = GetPawn()->GetActorForwardVector();
 
+	FVector mouseLocation;
+	FVector mouseDirection;
+
+	DeprojectMousePositionToWorld(mouseLocation, mouseDirection);
+
 	FVector projectileLocation = pawnLocation + forwardVector * 500;
 
 	FActorSpawnParameters SpawnInfo;
@@ -72,28 +77,6 @@ void ASSM_PlayerController::Shoot()
 	ASpaceshipProjectile* SpaceshipProjectile = Cast<ASpaceshipProjectile>(spawnedProjectile);
 	if (SpaceshipProjectile)
 	{
-		SpaceshipProjectile->setProjectileVelocity(forwardVector * 10000);
+		SpaceshipProjectile->setProjectileVelocity((mouseDirection * 15 + forwardVector) * 15000);
 	}
 }
-
-
-
-//void ASSM_PlayerController::MoveHorizontal(float AxisValue)
-//{
-//	auto MyPawn = Cast<ASSM_Spaceship_Pawn>(GetPawn());
-//
-//	if (MyPawn) {
-//		//MyPawn->MoveHorizontal(AxisValue);
-//	}
-//
-//}
-//
-//void ASSM_PlayerController::MoveVertical(float AxisValue)
-//{
-//	auto MyPawn = Cast<ASSM_Spaceship_Pawn>(GetPawn());
-//
-//	if (MyPawn) {
-//		//MyPawn->MoveVertical(AxisValue);
-//	}
-//
-//}

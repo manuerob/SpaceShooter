@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Components/BoxComponent.h"
 #include "GameFramework/ProjectileMovementComponent.h"
 
 #include "SpaceshipProjectile.generated.h"
@@ -28,6 +29,5 @@ public:
 	virtual void setProjectileVelocity(FVector velocity);
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = ProjectileMovement)
-	UProjectileMovementComponent* ProjectileMovement = nullptr;
-
+		UProjectileMovementComponent* ProjectileMovement = nullptr;
 };

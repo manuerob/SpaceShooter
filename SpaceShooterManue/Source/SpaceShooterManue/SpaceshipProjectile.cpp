@@ -34,4 +34,3 @@ void ASpaceshipProjectile::setProjectileVelocity(FVector velocity)
 	ProjectileMovement->SetVelocityInLocalSpace(velocity);
 	ProjectileMovement->Activate();
 }
-
