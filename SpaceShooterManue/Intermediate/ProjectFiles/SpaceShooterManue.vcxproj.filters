@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SpaceShooterManue.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{B21ED1CD-A407-48B7-B55D-45AB47B82D2E}</UniqueIdentifier>
+      <UniqueIdentifier>{E79AFC14-B624-4850-AB6E-D3463F3514E9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SpaceShooterManue.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{9946261F-8ED2-45CB-8FC8-98DF79A7E063}</UniqueIdentifier>
+      <UniqueIdentifier>{84CF2A83-7C89-4810-815E-EC92D79D2707}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -28,7 +28,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\SpaceShooterManue">
-      <UniqueIdentifier>{247F1F97-38AF-4803-A342-4F11D9432951}</UniqueIdentifier>
+      <UniqueIdentifier>{561F3876-03F7-4A58-8266-ACA5536081EB}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\SpaceShooterManue\MyActor.cpp">
       <Filter>Source\SpaceShooterManue</Filter>
@@ -61,6 +61,16 @@
       <Filter>Source\SpaceShooterManue</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\SpaceShooterManue\SSM_Spaceship_Pawn.h">
+      <Filter>Source\SpaceShooterManue</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\SpaceShooterManue\SpaceshipProjectile.cpp">
+      <Filter>Source\SpaceShooterManue</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\SpaceShooterManue\SpaceshipProjectile.h">
       <Filter>Source\SpaceShooterManue</Filter>
     </ClInclude>
   </ItemGroup>

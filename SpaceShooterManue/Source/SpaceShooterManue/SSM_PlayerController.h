@@ -4,8 +4,10 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
+#include "SpaceShooterManue/SpaceshipProjectile.h"
 
 #include "SSM_PlayerController.generated.h"
+
 
 /**
  * 
@@ -16,7 +18,6 @@ class SPACESHOOTERMANUE_API ASSM_PlayerController : public APlayerController
 	GENERATED_BODY()
 
 		ASSM_PlayerController();
-
 
 	UFUNCTION()
 		virtual void SetupInputComponent() override;
@@ -33,4 +34,9 @@ protected:
 
 	virtual void ProcessRoll(float Value);
 	virtual void ProcessPitch(float Value);
+
+	virtual void Shoot();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Projectiles)
+		TSubclassOf<ASpaceshipProjectile> ProjectileToSpawn;
 };
