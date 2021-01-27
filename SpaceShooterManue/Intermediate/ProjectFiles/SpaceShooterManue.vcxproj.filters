@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SpaceShooterManue.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E79AFC14-B624-4850-AB6E-D3463F3514E9}</UniqueIdentifier>
+      <UniqueIdentifier>{8017D7A5-F736-41EF-B409-C00C5F0D207F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SpaceShooterManue.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{84CF2A83-7C89-4810-815E-EC92D79D2707}</UniqueIdentifier>
+      <UniqueIdentifier>{1596D5CF-8A68-4900-B25A-B94ACE6A6E5E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -28,12 +28,24 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\SpaceShooterManue">
-      <UniqueIdentifier>{561F3876-03F7-4A58-8266-ACA5536081EB}</UniqueIdentifier>
+      <UniqueIdentifier>{0F3F17AA-7BCF-40BB-822F-4E63A977861B}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\SpaceShooterManue\MainMenuGameMode.cpp">
+      <Filter>Source\SpaceShooterManue</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceShooterManue\MainMenuGameMode.h">
+      <Filter>Source\SpaceShooterManue</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\SpaceShooterManue\MyActor.cpp">
       <Filter>Source\SpaceShooterManue</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\SpaceShooterManue\MyActor.h">
+      <Filter>Source\SpaceShooterManue</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceShooterManue\SpaceshipProjectile.cpp">
+      <Filter>Source\SpaceShooterManue</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceShooterManue\SpaceshipProjectile.h">
       <Filter>Source\SpaceShooterManue</Filter>
     </ClInclude>
     <None Include="..\..\Source\SpaceShooterManue\SpaceShooterManue.Build.cs">
@@ -61,16 +73,6 @@
       <Filter>Source\SpaceShooterManue</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\SpaceShooterManue\SSM_Spaceship_Pawn.h">
-      <Filter>Source\SpaceShooterManue</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\SpaceShooterManue\SpaceshipProjectile.cpp">
-      <Filter>Source\SpaceShooterManue</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\SpaceShooterManue\SpaceshipProjectile.h">
       <Filter>Source\SpaceShooterManue</Filter>
     </ClInclude>
   </ItemGroup>
