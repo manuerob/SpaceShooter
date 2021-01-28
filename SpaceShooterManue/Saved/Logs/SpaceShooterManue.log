@@ -889,3 +889,918 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.28-18.36.14:687][179]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2021.01.28-18.36.14:741][179]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
 [2021.01.28-18.36.14:760][180]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2021.01.28-18.55.33:275][827]LogAudioMixer: Resetting audio stream to device id 
+[2021.01.28-18.55.33:361][827]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.28-18.55.33:361][827]LogAudioMixer: Display: 1: FrontRight
+[2021.01.28-18.55.33:361][827]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.28-18.55.33:361][827]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.28-18.55.33:361][827]LogAudioMixer: Display: 4: BackLeft
+[2021.01.28-18.55.33:361][827]LogAudioMixer: Display: 5: BackRight
+[2021.01.28-18.55.33:361][827]LogAudioMixer: Display: 6: SideLeft
+[2021.01.28-18.55.33:361][827]LogAudioMixer: Display: 7: SideRight
+[2021.01.28-18.55.34:605][828]LogAudioMixer: Resetting audio stream to device id 
+[2021.01.28-19.10.36:954][828]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.28-19.10.36:954][828]LogAudioMixer: Display: 1: FrontRight
+[2021.01.28-19.10.36:954][828]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.28-19.10.36:954][828]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.28-19.10.36:954][828]LogAudioMixer: Display: 4: BackLeft
+[2021.01.28-19.10.36:954][828]LogAudioMixer: Display: 5: BackRight
+[2021.01.28-19.10.36:954][828]LogAudioMixer: Display: 6: SideLeft
+[2021.01.28-19.10.36:954][828]LogAudioMixer: Display: 7: SideRight
+[2021.01.28-19.10.37:428][829]LogAudioMixer: Resetting audio stream to device id 
+[2021.01.28-19.10.37:726][829]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.28-19.10.37:726][829]LogAudioMixer: Display: 1: FrontRight
+[2021.01.28-19.10.37:726][829]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.28-19.10.37:726][829]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.28-19.10.37:726][829]LogAudioMixer: Display: 4: BackLeft
+[2021.01.28-19.10.37:726][829]LogAudioMixer: Display: 5: BackRight
+[2021.01.28-19.10.37:726][829]LogAudioMixer: Display: 6: SideLeft
+[2021.01.28-19.10.37:726][829]LogAudioMixer: Display: 7: SideRight
+[2021.01.28-19.26.26:315][836]LogHttp: Warning: 000002BD92C40100: HTTP request timed out after 952.04 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF7323669-47FF-2C3B-D6D4-B0907780A36C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.0-14830424%2B%2B%2BUE4%2BRelease-4.26&UserID=3a073eb047e2c886bad706a894471607%7C7e678e2c091546379eaf134d5e39a60e%7C65fa91b6-b939-42a3-a348-5e2ef80114fc&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.01.28-19.26.27:609][836]LogHttp: Warning: 000002BD92C40100: request failed, libcurl error: 0 (No error)
+[2021.01.28-19.26.27:609][836]LogHttp: Warning: 000002BD92C40100: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2bdbdb17eb0 [can pipeline])
+[2021.01.28-19.26.27:609][836]LogHttp: Warning: 000002BD92C40100: libcurl info message cache 1 (Re-using existing connection! (#0) with host datarouter.ol.epicgames.com)
+[2021.01.28-19.26.27:609][836]LogHttp: Warning: 000002BD92C40100: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.81.187.197) port 443 (#0))
+[2021.01.28-19.26.27:609][836]LogHttp: Warning: 000002BD92C40100: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.01.28-19.26.27:610][836]LogHttp: Warning: 000002BD92C40100: libcurl info message cache 4 (Closing connection 0)
+[2021.01.28-19.26.27:610][836]LogHttp: Warning: 000002BD92C40100: libcurl info message cache 5 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2021.01.28-19.26.27:611][836]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF7323669-47FF-2C3B-D6D4-B0907780A36C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.0-14830424%2B%2B%2BUE4%2BRelease-4.26&UserID=3a073eb047e2c886bad706a894471607%7C7e678e2c091546379eaf134d5e39a60e%7C65fa91b6-b939-42a3-a348-5e2ef80114fc&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.01.28-19.26.27:757][836]LogAudioMixer: Resetting audio stream to device id 
+[2021.01.28-19.26.27:854][836]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.28-19.26.27:854][836]LogAudioMixer: Display: 1: FrontRight
+[2021.01.28-19.26.27:854][836]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.28-19.26.27:854][836]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.28-19.26.27:854][836]LogAudioMixer: Display: 4: BackLeft
+[2021.01.28-19.26.27:854][836]LogAudioMixer: Display: 5: BackRight
+[2021.01.28-19.26.27:854][836]LogAudioMixer: Display: 6: SideLeft
+[2021.01.28-19.26.27:854][836]LogAudioMixer: Display: 7: SideRight
+[2021.01.28-19.26.28:092][837]LogHttp: Warning: 000002BD92C40100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF7323669-47FF-2C3B-D6D4-B0907780A36C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.0-14830424%2B%2B%2BUE4%2BRelease-4.26&UserID=3a073eb047e2c886bad706a894471607%7C7e678e2c091546379eaf134d5e39a60e%7C65fa91b6-b939-42a3-a348-5e2ef80114fc&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.01.28-19.26.28:092][837]LogHttp: Warning: 000002BD92C40100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.01.28-19.26.28:092][837]LogHttp: Warning: 000002BD92C40100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.01.28-19.26.28:092][837]LogHttp: Warning: 000002BD92C40100: libcurl info message cache 1 (Closing connection 1)
+[2021.01.28-19.26.28:126][838]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF7323669-47FF-2C3B-D6D4-B0907780A36C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.0-14830424%2B%2B%2BUE4%2BRelease-4.26&UserID=3a073eb047e2c886bad706a894471607%7C7e678e2c091546379eaf134d5e39a60e%7C65fa91b6-b939-42a3-a348-5e2ef80114fc&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.01.28-19.27.10:580][329]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.28-19.27.10:610][329]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.28-19.27.10:611][329]PIE: New page: PIE session: MainMenu (Jan 28, 2021, 9:27:10 AM)
+[2021.01.28-19.27.10:612][329]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2021.01.28-19.27.10:629][329]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015616s)
+[2021.01.28-19.27.10:639][329]LogAIModule: Creating AISystem for world MainMenu
+[2021.01.28-19.27.10:644][329]LogPlayLevel: PIE: World Init took: (0.014856s)
+[2021.01.28-19.27.10:644][329]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.031610s)
+[2021.01.28-19.27.10:657][329]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2021.01.28-19.27.10:659][329]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.01.28-19.27.10:660][329]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.28-19.27.10:660][329]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.28-19.27.10:660][329]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.28-19.27.10:660][329]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.28-19.27.10:660][329]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.28-19.27.10:660][329]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.28-19.27.10:660][329]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.28-19.27.10:660][329]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.28-19.27.10:661][329]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.28-19.27.10:661][329]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.28-19.27.10:670][329]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.28-19.27.10:670][329]LogAudioMixer: Display: 1: FrontRight
+[2021.01.28-19.27.10:670][329]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.28-19.27.10:670][329]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.28-19.27.10:670][329]LogAudioMixer: Display: 4: BackLeft
+[2021.01.28-19.27.10:670][329]LogAudioMixer: Display: 5: BackRight
+[2021.01.28-19.27.10:670][329]LogAudioMixer: Display: 6: SideLeft
+[2021.01.28-19.27.10:670][329]LogAudioMixer: Display: 7: SideRight
+[2021.01.28-19.27.10:729][329]LogAudioMixer: Display: Using Audio Device Speakers (3- Realtek(R) Audio)
+[2021.01.28-19.27.10:731][329]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.28-19.27.10:731][329]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.28-19.27.10:731][329]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.28-19.27.10:732][329]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.28-19.27.10:732][329]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.28-19.27.10:732][329]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2021.01.28-19.27.10:756][329]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.28-19.27.10:756][329]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.28-19.27.10:756][329]LogInit: FAudioDevice initialized.
+[2021.01.28-19.27.10:756][329]LogAudio: Display: Audio Device (ID: 3) registered with world 'MainMenu'.
+[2021.01.28-19.27.10:770][329]LogLoad: Game class is 'BP_MainMenuGameMode_C'
+[2021.01.28-19.27.10:774][329]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2021.01.28-14.27.10
+[2021.01.28-19.27.10:775][329]LogWorld: Bringing up level for play took: 0.002266
+[2021.01.28-19.27.10:778][329]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2021.01.28-19.27.10:790][329]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.28-19.27.10:795][329]PIE: Server logged in
+[2021.01.28-19.27.10:796][329]PIE: Play in editor total start time 0.193 seconds.
+[2021.01.28-19.27.15:191][417]LogNet: Browse: /Game/Maps/SpaceMap
+[2021.01.28-19.27.15:191][417]LogLoad: LoadMap: /Game/Maps/SpaceMap
+[2021.01.28-19.27.15:191][417]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2021.01.28-19.27.15:193][417]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.01.28-19.27.15:193][417]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.28-19.27.15:203][417]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.28-19.27.15:233][417]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2021.01.28-19.27.15:244][417]LogAudio: Display: Audio Device (ID: 3) registered with world 'SpaceMap'.
+[2021.01.28-19.27.15:244][417]LogAIModule: Creating AISystem for world SpaceMap
+[2021.01.28-19.27.15:246][417]LogLoad: Game class is 'SpaceShooterManueGameModeBase_BP_C'
+[2021.01.28-19.27.15:253][417]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap up for play (max tick rate 0) at 2021.01.28-14.27.15
+[2021.01.28-19.27.15:254][417]LogWorld: Bringing up level for play took: 0.005651
+[2021.01.28-19.27.15:320][417]LogLoad: Took 0.128163 seconds to LoadMap(/Game/Maps/SpaceMap)
+[2021.01.28-19.27.20:253][516]LogNet: Browse: /Game/Maps/SpaceMap
+[2021.01.28-19.27.20:253][516]LogLoad: LoadMap: /Game/Maps/SpaceMap
+[2021.01.28-19.27.20:253][516]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.28-19.27.20:254][516]LogWorld: UWorld::CleanupWorld for SpaceMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.28-19.27.20:256][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.28-19.27.20:265][516]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.28-19.27.20:296][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2021.01.28-19.27.20:300][516]LogAudio: Display: Audio Device (ID: 3) registered with world 'SpaceMap'.
+[2021.01.28-19.27.20:302][516]LogAIModule: Creating AISystem for world SpaceMap
+[2021.01.28-19.27.20:302][516]LogLoad: Game class is 'SpaceShooterManueGameModeBase_BP_C'
+[2021.01.28-19.27.20:306][516]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap up for play (max tick rate 0) at 2021.01.28-14.27.20
+[2021.01.28-19.27.20:307][516]LogWorld: Bringing up level for play took: 0.002310
+[2021.01.28-19.27.20:390][516]LogLoad: Took 0.137225 seconds to LoadMap(/Game/Maps/SpaceMap)
+[2021.01.28-19.28.08:349][475]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.28-19.28.08:354][475]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.28-19.28.08:354][475]LogWorld: UWorld::CleanupWorld for SpaceMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.28-19.28.08:356][475]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.28-19.28.08:402][475]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.28-19.28.08:405][475]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.28-19.28.08:412][475]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.28-19.28.08:413][475]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.28-19.28.08:414][475]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.28-19.28.08:456][475]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.28-19.28.08:460][475]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2021.01.28-19.28.08:517][476]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2021.01.28-19.28.53:220][927]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/SkyboxMat.SkyboxMat
+[2021.01.28-19.28.53:227][927]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MaterialEditor' in 0.0006 seconds. Added 3 classes and 0 folders.
+[2021.01.28-19.28.53:233][927]LogMaterial: Display: Missing cached shader map for material SkyboxMat, compiling. 
+[2021.01.28-19.28.53:697][927]LogMaterial: Display: Missing cached shader map for material SkyboxMat, compiling. 
+[2021.01.28-19.28.53:708][927]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.01.28-19.28.53:708][927]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.01.28-19.28.53:708][927]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.01.28-19.28.53:708][927]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.01.28-19.28.53:708][927]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2021.01.28-19.28.53:708][927]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2021.01.28-19.28.53:708][927]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2021.01.28-19.28.53:708][927]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.01.28-19.28.53:709][927]LogMaterial: Display: Missing cached shader map for material SkyboxMat, compiling. 
+[2021.01.28-19.28.53:730][927]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2021.01.28-19.28.53:739][927]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameterCube_0, compiling. 
+[2021.01.28-19.28.53:882][927]LogSlate: Took 0.001055 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.01.28-19.28.54:064][928]LogSlate: Took 0.000955 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.01.28-19.28.54:636][936]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 17
+[2021.01.28-19.28.54:752][937]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 16
+[2021.01.28-19.28.54:913][940]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 15
+[2021.01.28-19.28.54:946][940]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 14
+[2021.01.28-19.28.55:002][941]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 13
+[2021.01.28-19.28.55:048][942]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 12
+[2021.01.28-19.28.55:111][943]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 11
+[2021.01.28-19.28.55:118][943]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 10
+[2021.01.28-19.28.55:446][948]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 9
+[2021.01.28-19.28.55:448][948]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 8
+[2021.01.28-19.28.55:454][948]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2021.01.28-19.28.55:578][950]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2021.01.28-19.28.55:816][953]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2021.01.28-19.28.55:886][954]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2021.01.28-19.28.55:928][955]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3
+[2021.01.28-19.28.55:950][955]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2021.01.28-19.28.55:958][955]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2021.01.28-19.28.56:079][956]MaterialEditorStats: Base pass shader: 124 instructions
+[2021.01.28-19.28.56:079][956]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 198 instructions
+[2021.01.28-19.28.56:079][956]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2021.01.28-19.28.56:079][956]MaterialEditorStats: Texture samplers: 3/16
+[2021.01.28-19.28.56:079][956]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.01.28-19.28.56:096][956]LogSlate: Took 0.000580 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.01.28-19.28.57:736][976]LogSlate: Window 'SkyboxMat' being destroyed
+[2021.01.28-19.28.57:862][976]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.01.28-19.28.57:862][976]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.28-19.29.01:467][ 33]LogAssetEditorSubsystem: Opening Asset editor for ParticleSystem /Game/Materials/OrbitingParticle.OrbitingParticle
+[2021.01.28-19.29.01:536][ 33]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Cascade' in 0.0002 seconds. Added 2 classes and 2 folders.
+[2021.01.28-19.29.29:623][422]LogSlate: Window 'OrbitingParticle' being destroyed
+[2021.01.28-19.29.29:725][422]LogCascade: Quitting Cascade. FXSystem=0x000002BDB00BD330
+[2021.01.28-19.29.29:740][422]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.01.28-19.29.29:741][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.28-19.54.43:243][999]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Materials/GlowingMat_Inst.GlowingMat_Inst
+[2021.01.28-19.54.43:751][999]LogRenderer: Reallocating scene render targets to support 1068x704 Format 10 NumSamples 1 (Frame:1).
+[2021.01.28-19.54.46:975][ 43]LogSlate: Window 'GlowingMat_Inst' being destroyed
+[2021.01.28-19.54.47:093][ 43]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.01.28-19.54.47:093][ 43]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.28-19.58.13:942][968]LogAudioMixer: Resetting audio stream to device id 
+[2021.01.28-19.58.14:015][968]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.28-19.58.14:015][968]LogAudioMixer: Display: 1: FrontRight
+[2021.01.28-19.58.14:015][968]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.28-19.58.14:015][968]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.28-19.58.14:015][968]LogAudioMixer: Display: 4: BackLeft
+[2021.01.28-19.58.14:015][968]LogAudioMixer: Display: 5: BackRight
+[2021.01.28-19.58.14:015][968]LogAudioMixer: Display: 6: SideLeft
+[2021.01.28-19.58.14:015][968]LogAudioMixer: Display: 7: SideRight
+[2021.01.28-19.58.27:300][977]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2021.01.28-19.58.27:963][977]LogAudioMixer: Resetting audio stream to device id 
+[2021.01.28-19.58.28:108][977]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.28-19.58.28:109][977]LogAudioMixer: Display: 1: FrontRight
+[2021.01.28-19.58.28:109][977]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.28-19.58.28:109][977]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.28-19.58.28:109][977]LogAudioMixer: Display: 4: BackLeft
+[2021.01.28-19.58.28:109][977]LogAudioMixer: Display: 5: BackRight
+[2021.01.28-19.58.28:109][977]LogAudioMixer: Display: 6: SideLeft
+[2021.01.28-19.58.28:109][977]LogAudioMixer: Display: 7: SideRight
+[2021.01.28-20.00.55:877][427]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{2a8b77f8-1420-4c6b-81e4-d7d24af24125}.
+[2021.01.28-20.00.55:877][427]LogAudioMixer: Resetting audio stream to device id 
+[2021.01.28-20.00.56:405][427]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.28-20.00.56:405][427]LogAudioMixer: Display: 1: FrontRight
+[2021.01.28-20.08.24:372][765]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{3fcf37a0-2dda-41a2-b40d-829e194cbae9}.
+[2021.01.28-20.08.24:372][765]LogAudioMixer: Resetting audio stream to device id 
+[2021.01.28-20.08.25:208][765]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.28-20.08.25:208][765]LogAudioMixer: Display: 1: FrontRight
+[2021.01.28-20.08.25:208][765]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.28-20.08.25:208][765]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.28-20.08.25:208][765]LogAudioMixer: Display: 4: BackLeft
+[2021.01.28-20.08.25:208][765]LogAudioMixer: Display: 5: BackRight
+[2021.01.28-20.08.25:208][765]LogAudioMixer: Display: 6: SideLeft
+[2021.01.28-20.08.25:208][765]LogAudioMixer: Display: 7: SideRight
+[2021.01.28-20.08.25:342][766]LogAudioMixer: Resetting audio stream to device id 
+[2021.01.28-20.08.25:399][766]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.28-20.08.25:399][766]LogAudioMixer: Display: 1: FrontRight
+[2021.01.28-20.08.25:399][766]LogAudioMixer: Display: 2: FrontCenter
+[2021.01.28-20.08.25:399][766]LogAudioMixer: Display: 3: LowFrequency
+[2021.01.28-20.08.25:399][766]LogAudioMixer: Display: 4: BackLeft
+[2021.01.28-20.08.25:399][766]LogAudioMixer: Display: 5: BackRight
+[2021.01.28-20.08.25:399][766]LogAudioMixer: Display: 6: SideLeft
+[2021.01.28-20.08.25:399][766]LogAudioMixer: Display: 7: SideRight
+[2021.01.28-20.13.52:359][738]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{2a8b77f8-1420-4c6b-81e4-d7d24af24125}.
+[2021.01.28-20.13.52:359][738]LogAudioMixer: Resetting audio stream to device id 
+[2021.01.28-20.13.52:652][738]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.28-20.13.52:652][738]LogAudioMixer: Display: 1: FrontRight
+[2021.01.28-20.22.55:992][453]LogSlate: Window 'Add C++ Class' being destroyed
+[2021.01.28-20.24.01:080][635]Running C:/Program Files (x86)/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/SpaceShooterManue.uproject" -game -rocket -progress
+[2021.01.28-20.24.01:599][635]Discovering modules, targets and source code for project...
+[2021.01.28-20.24.04:720][635]Binding IntelliSense data...
+[2021.01.28-20.24.08:157][635]Binding IntelliSense data... 100%
+[2021.01.28-20.24.08:157][635]Writing project files...
+[2021.01.28-20.24.14:300][635]Writing project files... 100%
+[2021.01.28-20.24.14:499][635]Candidate modules for hot reload:
+[2021.01.28-20.24.14:499][635]  SpaceShooterManue
+[2021.01.28-20.24.14:499][635]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SpaceShooterManue,7050 SpaceShooterManueEditor Win64 Development -Project="C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/SpaceShooterManue.uproject" "C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/SpaceShooterManue.uproject"  -IgnoreJunk]
+[2021.01.28-20.24.22:971][635]CompilerResultsLog: New page: Compilation - Jan 28, 2021, 10:24:22 AM
+[2021.01.28-20.24.22:971][635]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter).
+[2021.01.28-20.24.22:971][635]CompilerResultsLog: Creating makefile for SpaceShooterManueEditor (no existing makefile)
+[2021.01.28-20.24.22:971][635]CompilerResultsLog: Building SpaceShooterManueEditor...
+[2021.01.28-20.24.22:971][635]CompilerResultsLog: Using Visual Studio 2019 14.28.29336 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.28-20.24.22:971][635]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.01.28-20.24.22:971][635]CompilerResultsLog:   [1/4] ObstacleManager.cpp
+[2021.01.28-20.24.22:971][635]CompilerResultsLog:   [2/4] UE4Editor-SpaceShooterManue-7050.lib
+[2021.01.28-20.24.22:971][635]CompilerResultsLog:      Creating library C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-7050.lib and object C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-7050.exp
+[2021.01.28-20.24.22:971][635]CompilerResultsLog:   [3/4] UE4Editor-SpaceShooterManue-7050.dll
+[2021.01.28-20.24.22:971][635]CompilerResultsLog:      Creating library C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-7050.suppressed.lib and object C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-7050.suppressed.exp
+[2021.01.28-20.24.22:971][635]CompilerResultsLog:   [4/4] SpaceShooterManueEditor.target
+[2021.01.28-20.24.22:971][635]CompilerResultsLog: Total time in Parallel executor: 5.71 seconds
+[2021.01.28-20.24.22:971][635]CompilerResultsLog: Total execution time: 8.34 seconds
+[2021.01.28-20.24.22:971][635]LogMainFrame: MainFrame: Module compiling took 8.521 seconds
+[2021.01.28-20.24.23:531][635]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SpaceShooterManue' in 0.0005 seconds. Added 6 classes and 2 folders.
+[2021.01.28-20.24.23:534][635]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2021.01.28-20.24.23:622][635]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0126 seconds. Added 3609 classes and 863 folders.
+[2021.01.28-20.24.23:629][635]Display: HotReload took  9.2s.
+[2021.01.28-20.24.23:634][635]Warning: HotReload operation took  9.2s.
+[2021.01.28-20.24.25:167][635]LogVSAccessor: Warning: Couldn't goto column number '1' of line '1' in 'C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Source/SpaceShooterManue/ObstacleManager.cpp'
+[2021.01.28-20.24.25:170][635]LogSlate: Window 'Add C++ Class' being destroyed
+[2021.01.28-20.24.25:275][636]LogHotReload: New module detected: UE4Editor-SpaceShooterManue-7050.dll
+[2021.01.28-20.24.25:318][637]LogHotReload: Starting Hot-Reload from IDE
+[2021.01.28-20.24.25:491][637]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SpaceShooterManue' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2021.01.28-20.24.25:493][637]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.28-20.24.25:507][637]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0133 seconds. Added 3609 classes and 863 folders.
+[2021.01.28-20.24.25:565][637]Display: HotReload took  0.2s.
+[2021.01.28-20.25.55:789][500]Running C:/Program Files (x86)/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/SpaceShooterManue.uproject" -game -rocket -progress
+[2021.01.28-20.25.56:202][500]Discovering modules, targets and source code for project...
+[2021.01.28-20.25.58:014][500]Binding IntelliSense data...
+[2021.01.28-20.26.00:338][500]Binding IntelliSense data... 100%
+[2021.01.28-20.26.00:338][500]Writing project files...
+[2021.01.28-20.26.04:977][500]Writing project files... 100%
+[2021.01.28-20.26.05:208][500]Candidate modules for hot reload:
+[2021.01.28-20.26.05:208][500]  SpaceShooterManue
+[2021.01.28-20.26.05:208][500]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SpaceShooterManue,8261 SpaceShooterManueEditor Win64 Development -Project="C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/SpaceShooterManue.uproject" "C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/SpaceShooterManue.uproject"  -IgnoreJunk]
+[2021.01.28-20.26.17:606][500]CompilerResultsLog: New page: Compilation - Jan 28, 2021, 10:26:17 AM
+[2021.01.28-20.26.17:606][500]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter).
+[2021.01.28-20.26.17:606][500]CompilerResultsLog: Creating makefile for SpaceShooterManueEditor (no existing makefile)
+[2021.01.28-20.26.17:606][500]CompilerResultsLog: Parsing headers for SpaceShooterManueEditor
+[2021.01.28-20.26.17:606][500]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\SpaceShooterManue.uproject" "C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\SpaceShooterManueEditor\Development\SpaceShooterManueEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\emman\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.01.28-20.26.17:606][500]CompilerResultsLog: Reflection code generated for SpaceShooterManueEditor in 5.7975497 seconds
+[2021.01.28-20.26.17:606][500]CompilerResultsLog: Building SpaceShooterManueEditor...
+[2021.01.28-20.26.17:606][500]CompilerResultsLog: Using Visual Studio 2019 14.28.29336 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.28-20.26.17:606][500]CompilerResultsLog: Building 6 actions with 12 processes...
+[2021.01.28-20.26.17:606][500]CompilerResultsLog:   [1/6] ObstacleManager.cpp
+[2021.01.28-20.26.17:606][500]CompilerResultsLog:   [2/6] SpaceShooterManue.init.gen.cpp
+[2021.01.28-20.26.17:606][500]CompilerResultsLog:   [3/6] ObstacleManager.gen.cpp
+[2021.01.28-20.26.17:606][500]CompilerResultsLog:   [4/6] UE4Editor-SpaceShooterManue-8261.lib
+[2021.01.28-20.26.17:606][500]CompilerResultsLog:      Creating library C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-8261.lib and object C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-8261.exp
+[2021.01.28-20.26.17:607][500]CompilerResultsLog:   [5/6] UE4Editor-SpaceShooterManue-8261.dll
+[2021.01.28-20.26.17:607][500]CompilerResultsLog:      Creating library C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-8261.suppressed.lib and object C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-8261.suppressed.exp
+[2021.01.28-20.26.17:607][500]CompilerResultsLog:   [6/6] SpaceShooterManueEditor.target
+[2021.01.28-20.26.17:607][500]CompilerResultsLog: Total time in Parallel executor: 4.17 seconds
+[2021.01.28-20.26.17:607][500]CompilerResultsLog: Total execution time: 12.28 seconds
+[2021.01.28-20.26.17:607][500]LogMainFrame: MainFrame: Module compiling took 12.412 seconds
+[2021.01.28-20.26.18:122][500]LogClass: Could not find existing class ObstacleManager in package /Script/SpaceShooterManue for HotReload, assuming new class
+[2021.01.28-20.26.18:127][500]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SpaceShooterManue' in 0.0004 seconds. Added 7 classes and 2 folders.
+[2021.01.28-20.26.18:130][500]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2021.01.28-20.26.18:179][500]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0129 seconds. Added 3610 classes and 863 folders.
+[2021.01.28-20.26.18:185][500]Display: HotReload took 13.1s.
+[2021.01.28-20.26.18:190][500]Warning: HotReload operation took 13.1s.
+[2021.01.28-20.26.18:705][500]LogVSAccessor: Warning: Couldn't goto column number '1' of line '1' in 'C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Source/SpaceShooterManue/ObstacleManager.h'
+[2021.01.28-20.26.18:707][500]LogVSAccessor: Warning: Couldn't open file 'C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Source/SpaceShooterManue/ObstacleManager.cpp'.
+[2021.01.28-20.26.18:717][500]LogSlate: Window 'Add C++ Class' being destroyed
+[2021.01.28-20.26.18:748][500]LogHotReload: New module detected: UE4Editor-SpaceShooterManue-8261.dll
+[2021.01.28-20.26.18:843][501]LogHotReload: Starting Hot-Reload from IDE
+[2021.01.28-20.26.19:008][501]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SpaceShooterManue' in 0.0004 seconds. Added 7 classes and 2 folders.
+[2021.01.28-20.26.19:010][501]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.01.28-20.26.19:023][501]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0123 seconds. Added 3610 classes and 863 folders.
+[2021.01.28-20.26.19:083][501]Display: HotReload took  0.2s.
+[2021.01.28-20.26.48:184][767]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/MyObstacleManager.MyObstacleManager
+[2021.01.28-20.26.48:622][767]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 126 classes and 0 folders.
+[2021.01.28-20.26.49:881][767]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2021.01.28-20.26.53:671][823]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/MyObstacleManagerAFDA76A942EC7E0DD68E1C9E81B24477.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Blueprint/MyObstacleManager.uasset'
+[2021.01.28-20.26.53:776][823]AssetCheck: New page: Asset Save: MyObstacleManager
+[2021.01.28-20.26.53:776][823]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/MyObstacleManager.MyObstacleManager
+[2021.01.28-20.26.54:313][832]BlueprintLog: New page: Compile MyObstacleManager
+[2021.01.28-20.26.54:397][832]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2021.01.28-20.26.55:504][849]LogSlate: Window 'MyObstacleManager' being destroyed
+[2021.01.28-20.26.55:594][849]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.01.28-20.26.55:594][849]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.28-20.27.06:606][128]LogMetaData: Removing '/Game/Blueprint/BP_ObstacleManager.BP_ObstacleManager:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprint/MyObstacleManager.PackageMetaData'
+[2021.01.28-20.27.06:606][128]LogMetaData: Removing '/Game/Blueprint/BP_ObstacleManager.SKEL_BP_ObstacleManager_C' ref from Metadata '/Game/Blueprint/MyObstacleManager.PackageMetaData'
+[2021.01.28-20.27.06:606][128]LogMetaData: Removing '/Game/Blueprint/BP_ObstacleManager.BP_ObstacleManager_C' ref from Metadata '/Game/Blueprint/MyObstacleManager.PackageMetaData'
+[2021.01.28-20.27.06:606][128]LogMetaData: Removing '/Game/Blueprint/BP_ObstacleManager.BP_ObstacleManager:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprint/MyObstacleManager.PackageMetaData'
+[2021.01.28-20.27.06:606][128]LogMetaData: Removing '/Game/Blueprint/BP_ObstacleManager.BP_ObstacleManager:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprint/MyObstacleManager.PackageMetaData'
+[2021.01.28-20.27.06:606][128]LogMetaData: Removing '/Game/Blueprint/BP_ObstacleManager.BP_ObstacleManager:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprint/MyObstacleManager.PackageMetaData'
+[2021.01.28-20.27.06:606][128]LogMetaData: Removing '/Game/Blueprint/BP_ObstacleManager.SKEL_BP_ObstacleManager_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprint/MyObstacleManager.PackageMetaData'
+[2021.01.28-20.27.06:606][128]LogMetaData: Removing '/Game/Blueprint/BP_ObstacleManager.SKEL_BP_ObstacleManager_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprint/MyObstacleManager.PackageMetaData'
+[2021.01.28-20.27.06:606][128]LogMetaData: Removing '/Game/Blueprint/BP_ObstacleManager.SKEL_BP_ObstacleManager_C:ReceiveTick' ref from Metadata '/Game/Blueprint/MyObstacleManager.PackageMetaData'
+[2021.01.28-20.27.06:606][128]LogMetaData: Removing '/Game/Blueprint/BP_ObstacleManager.SKEL_BP_ObstacleManager_C:UserConstructionScript' ref from Metadata '/Game/Blueprint/MyObstacleManager.PackageMetaData'
+[2021.01.28-20.27.06:784][128]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/BP_ObstacleManagerB322C2C94F295DBD6E4E18B766372B27.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Blueprint/BP_ObstacleManager.uasset'
+[2021.01.28-20.27.07:071][128]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2021.01.28-20.27.07:159][128]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2021.01.28-20.27.07:178][128]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2021.01.28-20.27.07:204][128]AssetCheck: New page: Asset Save: BP_ObstacleManager
+[2021.01.28-20.27.07:204][128]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/BP_ObstacleManager.BP_ObstacleManager
+[2021.01.28-20.27.14:641][303]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Source/SpaceShooterManue/ObstacleManager.cpp'
+[2021.01.28-20.30.52:239][971]LogHotReload: New module detected: UE4Editor-SpaceShooterManue-0004.dll
+[2021.01.28-20.30.53:249][975]LogHotReload: Starting Hot-Reload from IDE
+[2021.01.28-20.30.53:844][975]LogClass: Could not find existing class ObstacleManager in package /Script/SpaceShooterManue for HotReload, assuming new class
+[2021.01.28-20.30.53:867][975]LogHotReload: Re-instancing ObstacleManager after hot-reload.
+[2021.01.28-20.30.53:898][975]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SpaceShooterManue' in 0.0003 seconds. Added 7 classes and 2 folders.
+[2021.01.28-20.30.53:904][975]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2021.01.28-20.30.54:005][975]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0131 seconds. Added 3610 classes and 863 folders.
+[2021.01.28-20.30.54:027][975]Display: HotReload took  0.8s.
+[2021.01.28-20.35.21:965][771]LogHotReload: New module detected: UE4Editor-SpaceShooterManue-0006.dll
+[2021.01.28-20.35.22:990][775]LogHotReload: Starting Hot-Reload from IDE
+[2021.01.28-20.35.23:378][775]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SpaceShooterManue' in 0.0007 seconds. Added 7 classes and 2 folders.
+[2021.01.28-20.35.23:387][775]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2021.01.28-20.35.23:518][775]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0095 seconds. Added 3610 classes and 863 folders.
+[2021.01.28-20.35.23:540][775]Display: HotReload took  0.5s.
+[2021.01.28-20.39.08:639][474]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Source/SpaceShooterManue/ObstacleManager.h'
+[2021.01.28-20.39.22:225][614]Running C:/Program Files (x86)/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/SpaceShooterManue.uproject" -game -rocket -progress
+[2021.01.28-20.39.22:635][614]Discovering modules, targets and source code for project...
+[2021.01.28-20.39.24:548][614]Binding IntelliSense data...
+[2021.01.28-20.39.26:973][614]Binding IntelliSense data... 100%
+[2021.01.28-20.39.26:974][614]Writing project files...
+[2021.01.28-20.39.32:313][614]Writing project files... 100%
+[2021.01.28-20.53.55:367][299]LogHotReload: New module detected: UE4Editor-SpaceShooterManue-0008.dll
+[2021.01.28-20.53.56:072][302]LogHotReload: Starting Hot-Reload from IDE
+[2021.01.28-20.53.56:735][302]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SpaceShooterManue' in 0.0010 seconds. Added 7 classes and 2 folders.
+[2021.01.28-20.53.56:749][302]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2021.01.28-20.53.56:932][302]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0102 seconds. Added 3610 classes and 863 folders.
+[2021.01.28-20.53.56:952][302]Display: HotReload took  0.9s.
+[2021.01.28-20.54.13:752][508]LogAssetEditorSubsystem: Opening Asset editor for MapBuildDataRegistry /Game/Maps/SpaceMap_BuiltData.SpaceMap_BuiltData
+[2021.01.28-20.54.15:824][544]LogSlate: Window 'SpaceMap_BuiltData' being destroyed
+[2021.01.28-20.54.15:890][544]LogSlate: Window 'SpaceMap_BuiltData' being destroyed
+[2021.01.28-20.54.17:744][586]LogUObjectHash: Compacting FUObjectHashTables data took   6.63ms
+[2021.01.28-20.54.17:862][586]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/SpaceMap.SpaceMap
+[2021.01.28-20.54.17:862][586]Cmd: MAP LOAD FILE="../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Maps/SpaceMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.28-20.54.17:862][586]LightingResults: New page: Lighting Build
+[2021.01.28-20.54.17:863][586]LoadErrors: New page: Loading map: SpaceMap.umap
+[2021.01.28-20.54.17:869][586]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.01.28-20.54.17:871][586]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.28-20.54.17:871][586]MapCheck: New page: Map Check
+[2021.01.28-20.54.17:871][586]LightingResults: New page: Lighting Build
+[2021.01.28-20.54.17:889][586]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.28-20.54.17:981][586]LogUObjectHash: Compacting FUObjectHashTables data took   9.61ms
+[2021.01.28-20.54.17:984][586]LogAudio: Display: Audio Device (ID: 1) registered with world 'SpaceMap'.
+[2021.01.28-20.54.18:086][586]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.28-20.54.18:087][586]LogAIModule: Creating AISystem for world SpaceMap
+[2021.01.28-20.54.18:113][586]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2021.01.28-20.54.18:130][586]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.28-20.54.18:131][586]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.23ms to complete.
+[2021.01.28-20.54.18:131][586]LogFileHelpers: Loading map 'SpaceMap' took 0.268
+[2021.01.28-20.54.32:791][871]Candidate modules for hot reload:
+[2021.01.28-20.54.32:791][871]  SpaceShooterManue
+[2021.01.28-20.54.32:792][871]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SpaceShooterManue,716 SpaceShooterManueEditor Win64 Development -Project="C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/SpaceShooterManue.uproject" "C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/SpaceShooterManue.uproject"  -IgnoreJunk]
+[2021.01.28-20.54.32:800][871]Warning: Starting HotReload took  0.1s.
+[2021.01.28-20.54.35:078][917]CompilerResultsLog: New page: Compilation - Jan 28, 2021, 10:54:35 AM
+[2021.01.28-20.54.35:078][917]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter).
+[2021.01.28-20.54.35:078][917]CompilerResultsLog: Building SpaceShooterManueEditor...
+[2021.01.28-20.54.35:078][917]CompilerResultsLog: Using Visual Studio 2019 14.28.29336 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.28-20.54.35:078][917]CompilerResultsLog: Building 3 actions with 12 processes...
+[2021.01.28-20.54.35:078][917]CompilerResultsLog:   [1/3] UE4Editor-SpaceShooterManue-0716.lib
+[2021.01.28-20.54.35:078][917]CompilerResultsLog:      Creating library C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-0716.lib and object C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-0716.exp
+[2021.01.28-20.54.35:078][917]CompilerResultsLog:   [2/3] UE4Editor-SpaceShooterManue-0716.dll
+[2021.01.28-20.54.35:078][917]CompilerResultsLog:      Creating library C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-0716.suppressed.lib and object C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-0716.suppressed.exp
+[2021.01.28-20.54.35:078][917]CompilerResultsLog:   [3/3] SpaceShooterManueEditor.target
+[2021.01.28-20.54.35:078][917]CompilerResultsLog: Total time in Parallel executor: 1.24 seconds
+[2021.01.28-20.54.35:078][917]CompilerResultsLog: Total execution time: 2.16 seconds
+[2021.01.28-20.54.35:078][917]LogMainFrame: MainFrame: Module compiling took 2.305 seconds
+[2021.01.28-20.54.35:095][917]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0161 seconds. Added 3610 classes and 863 folders.
+[2021.01.28-20.54.35:103][917]Display: HotReload took  2.4s.
+[2021.01.28-20.54.39:283][980]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.28-20.54.39:310][980]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.28-20.54.39:311][980]PIE: New page: PIE session: SpaceMap (Jan 28, 2021, 10:54:39 AM)
+[2021.01.28-20.54.39:312][980]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.28-20.54.39:316][980]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003723s)
+[2021.01.28-20.54.39:318][980]LogAIModule: Creating AISystem for world SpaceMap
+[2021.01.28-20.54.39:319][980]LogPlayLevel: PIE: World Init took: (0.002845s)
+[2021.01.28-20.54.39:319][980]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SpaceMap.SpaceMap to /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap (0.006785s)
+[2021.01.28-20.54.39:386][980]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2021.01.28-20.54.39:387][980]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.01.28-20.54.39:387][980]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.28-20.54.39:387][980]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.28-20.54.39:387][980]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.28-20.54.39:387][980]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.28-20.54.39:387][980]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.28-20.54.39:387][980]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.28-20.54.39:387][980]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.28-20.54.39:387][980]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.28-20.54.39:388][980]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.28-20.54.39:388][980]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.28-20.54.39:395][980]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.28-20.54.39:395][980]LogAudioMixer: Display: 1: FrontRight
+[2021.01.28-20.54.39:414][980]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR VOID ELITE Wireless Gaming Dongle)
+[2021.01.28-20.54.39:414][980]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.28-20.54.39:414][980]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.28-20.54.39:415][980]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.28-20.54.39:416][980]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.28-20.54.39:416][980]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.28-20.54.39:416][980]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.28-20.54.39:435][980]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.28-20.54.39:435][980]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.28-20.54.39:435][980]LogInit: FAudioDevice initialized.
+[2021.01.28-20.54.39:435][980]LogAudio: Display: Audio Device (ID: 4) registered with world 'SpaceMap'.
+[2021.01.28-20.54.39:452][980]LogLoad: Game class is 'SpaceShooterManueGameModeBase_BP_C'
+[2021.01.28-20.54.39:455][980]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap up for play (max tick rate 60) at 2021.01.28-15.54.39
+[2021.01.28-20.54.39:455][980]LogWorld: Bringing up level for play took: 0.000725
+[2021.01.28-20.54.39:456][980]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.01.28-20.54.39:530][980]PIE: Server logged in
+[2021.01.28-20.54.39:531][980]PIE: Play in editor total start time 0.228 seconds.
+[2021.01.28-20.54.45:696][138]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.28-20.54.45:696][138]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.28-20.54.45:698][138]LogWorld: UWorld::CleanupWorld for SpaceMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.28-20.54.45:701][138]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.28-20.54.45:721][138]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.28-20.54.45:731][138]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.28-20.54.45:746][138]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.28-20.54.45:749][138]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.28-20.54.45:751][138]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.28-20.54.45:779][138]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.28-20.54.45:792][138]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2021.01.28-20.54.45:817][139]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.01.28-20.59.50:913][ 68]LogHotReload: New module detected: UE4Editor-SpaceShooterManue-0010.dll
+[2021.01.28-20.59.51:951][ 72]LogHotReload: Starting Hot-Reload from IDE
+[2021.01.28-20.59.52:556][ 72]LogClass: Could not find existing class ObstacleManager in package /Script/SpaceShooterManue for HotReload, assuming new class
+[2021.01.28-20.59.52:600][ 72]LogHotReload: Re-instancing ObstacleManager after hot-reload.
+[2021.01.28-20.59.52:722][ 72]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SpaceShooterManue' in 0.0004 seconds. Added 7 classes and 2 folders.
+[2021.01.28-20.59.52:729][ 72]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2021.01.28-20.59.52:838][ 72]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0157 seconds. Added 3610 classes and 863 folders.
+[2021.01.28-20.59.52:864][ 72]Display: HotReload took  0.9s.
+[2021.01.28-21.02.48:782][596]LogHotReload: New module detected: UE4Editor-SpaceShooterManue-0012.dll
+[2021.01.28-21.02.49:807][600]LogHotReload: Starting Hot-Reload from IDE
+[2021.01.28-21.02.50:443][600]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SpaceShooterManue' in 0.0006 seconds. Added 7 classes and 2 folders.
+[2021.01.28-21.02.50:451][600]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2021.01.28-21.02.50:583][600]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0098 seconds. Added 3610 classes and 863 folders.
+[2021.01.28-21.02.50:604][600]Display: HotReload took  0.8s.
+[2021.01.28-21.02.55:711][674]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.28-21.02.55:737][674]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.28-21.02.55:737][674]PIE: New page: PIE session: SpaceMap (Jan 28, 2021, 11:02:55 AM)
+[2021.01.28-21.02.55:737][674]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.28-21.02.55:740][674]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002826s)
+[2021.01.28-21.02.55:743][674]LogAIModule: Creating AISystem for world SpaceMap
+[2021.01.28-21.02.55:743][674]LogPlayLevel: PIE: World Init took: (0.002753s)
+[2021.01.28-21.02.55:743][674]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SpaceMap.SpaceMap to /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap (0.005916s)
+[2021.01.28-21.02.55:865][674]LogUObjectHash: Compacting FUObjectHashTables data took   5.60ms
+[2021.01.28-21.02.55:866][674]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.01.28-21.02.55:866][674]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.28-21.02.55:866][674]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.28-21.02.55:866][674]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.28-21.02.55:866][674]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.28-21.02.55:866][674]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.28-21.02.55:866][674]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.28-21.02.55:866][674]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.28-21.02.55:866][674]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.28-21.02.55:867][674]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.28-21.02.55:867][674]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.28-21.02.55:872][674]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.28-21.02.55:872][674]LogAudioMixer: Display: 1: FrontRight
+[2021.01.28-21.02.55:887][674]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR VOID ELITE Wireless Gaming Dongle)
+[2021.01.28-21.02.55:889][674]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.28-21.02.55:889][674]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.28-21.02.55:889][674]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.28-21.02.55:889][674]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.28-21.02.55:889][674]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.28-21.02.55:889][674]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.28-21.02.55:908][674]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.28-21.02.55:908][674]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.28-21.02.55:908][674]LogInit: FAudioDevice initialized.
+[2021.01.28-21.02.55:908][674]LogAudio: Display: Audio Device (ID: 5) registered with world 'SpaceMap'.
+[2021.01.28-21.02.55:920][674]LogLoad: Game class is 'SpaceShooterManueGameModeBase_BP_C'
+[2021.01.28-21.02.55:922][674]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap up for play (max tick rate 60) at 2021.01.28-16.02.55
+[2021.01.28-21.02.55:922][674]LogWorld: Bringing up level for play took: 0.000543
+[2021.01.28-21.02.55:922][674]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.01.28-21.02.55:926][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:926][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:926][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:926][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:926][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:926][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:926][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:926][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:926][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:926][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:926][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:926][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:926][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:926][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:926][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:926][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:926][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:927][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:927][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:927][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:927][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:927][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:927][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:927][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:927][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:927][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:927][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:927][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:927][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:927][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:927][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:927][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:927][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:927][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:927][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:927][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:927][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:927][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:927][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:927][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:927][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:927][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:927][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:927][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:928][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:929][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:930][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.01.28-21.02.55:931][674]PIE: Server logged in
+[2021.01.28-21.02.55:932][674]PIE: Play in editor total start time 0.199 seconds.
+[2021.01.28-21.03.06:853][992]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.28-21.03.06:853][992]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.28-21.03.06:853][992]LogWorld: UWorld::CleanupWorld for SpaceMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.28-21.03.06:853][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.28-21.03.06:871][992]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.28-21.03.06:893][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.28-21.03.06:938][992]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.28-21.03.06:945][992]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.28-21.03.06:948][992]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.28-21.03.07:018][992]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.28-21.03.07:092][992]LogUObjectHash: Compacting FUObjectHashTables data took   7.45ms
+[2021.01.28-21.03.07:134][993]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.01.28-21.03.37:968][255]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/BP_ObstacleManager.BP_ObstacleManager
+[2021.01.28-21.03.40:976][295]LogSlate: Window 'BP_ObstacleManager' being destroyed
+[2021.01.28-21.03.41:063][295]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.01.28-21.03.41:064][295]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.28-21.03.41:158][295]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/BP_ObstacleManager.BP_ObstacleManager
+[2021.01.28-21.03.48:896][409]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.01.28-21.03.57:358][522]BlueprintLog: New page: Compile BP_ObstacleManager
+[2021.01.28-21.03.57:445][522]LogUObjectHash: Compacting FUObjectHashTables data took   5.25ms
+[2021.01.28-21.03.58:425][535]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/BP_ObstacleManager81C68909474C53E5E6E41FB37A314449.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Blueprint/BP_ObstacleManager.uasset'
+[2021.01.28-21.03.58:530][535]AssetCheck: New page: Asset Save: BP_ObstacleManager
+[2021.01.28-21.03.58:530][535]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/BP_ObstacleManager.BP_ObstacleManager
+[2021.01.28-21.04.02:143][607]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.28-21.04.02:171][607]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.28-21.04.02:171][607]PIE: New page: PIE session: SpaceMap (Jan 28, 2021, 11:04:02 AM)
+[2021.01.28-21.04.02:171][607]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.28-21.04.02:173][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002214s)
+[2021.01.28-21.04.02:174][607]LogAIModule: Creating AISystem for world SpaceMap
+[2021.01.28-21.04.02:174][607]LogPlayLevel: PIE: World Init took: (0.001330s)
+[2021.01.28-21.04.02:174][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SpaceMap.SpaceMap to /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap (0.003683s)
+[2021.01.28-21.04.02:203][607]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2021.01.28-21.04.02:204][607]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.01.28-21.04.02:204][607]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.28-21.04.02:204][607]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.28-21.04.02:204][607]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.28-21.04.02:204][607]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.28-21.04.02:204][607]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.28-21.04.02:204][607]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.28-21.04.02:204][607]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.28-21.04.02:204][607]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.28-21.04.02:204][607]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.28-21.04.02:204][607]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.28-21.04.02:210][607]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.28-21.04.02:210][607]LogAudioMixer: Display: 1: FrontRight
+[2021.01.28-21.04.02:224][607]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR VOID ELITE Wireless Gaming Dongle)
+[2021.01.28-21.04.02:225][607]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.28-21.04.02:225][607]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.28-21.04.02:225][607]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.28-21.04.02:225][607]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.28-21.04.02:226][607]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.28-21.04.02:226][607]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.28-21.04.02:244][607]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.28-21.04.02:244][607]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.28-21.04.02:244][607]LogInit: FAudioDevice initialized.
+[2021.01.28-21.04.02:244][607]LogAudio: Display: Audio Device (ID: 6) registered with world 'SpaceMap'.
+[2021.01.28-21.04.02:252][607]LogLoad: Game class is 'SpaceShooterManueGameModeBase_BP_C'
+[2021.01.28-21.04.02:253][607]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap up for play (max tick rate 60) at 2021.01.28-16.04.02
+[2021.01.28-21.04.02:253][607]LogWorld: Bringing up level for play took: 0.000433
+[2021.01.28-21.04.02:253][607]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2021.01.28-21.04.02:309][607]PIE: Server logged in
+[2021.01.28-21.04.02:310][607]PIE: Play in editor total start time 0.145 seconds.
+[2021.01.28-21.04.24:227][257]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.28-21.04.24:227][257]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.28-21.04.24:228][257]LogWorld: UWorld::CleanupWorld for SpaceMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.28-21.04.24:231][257]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.28-21.04.24:245][257]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.28-21.04.24:255][257]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.28-21.04.24:278][257]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.28-21.04.24:278][257]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.28-21.04.24:279][257]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.28-21.04.24:303][257]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.28-21.04.24:307][257]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2021.01.28-21.04.24:333][258]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2021.01.28-21.05.00:265][401]LogUObjectHash: Compacting FUObjectHashTables data took   5.13ms
+[2021.01.28-21.05.00:309][401]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/SpaceMap_Auto133D4059B46C333EF3F4476A65DDA6022.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Autosaves/Game/Maps/SpaceMap_Auto1.umap'
+[2021.01.28-21.05.00:321][401]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/SpaceMap' took 0.095
+[2021.01.28-21.05.00:321][401]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.095
+[2021.01.28-21.06.46:040][799]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.28-21.06.46:063][799]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.28-21.06.46:063][799]PIE: New page: PIE session: SpaceMap (Jan 28, 2021, 11:06:46 AM)
+[2021.01.28-21.06.46:063][799]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.28-21.06.46:066][799]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002939s)
+[2021.01.28-21.06.46:068][799]LogAIModule: Creating AISystem for world SpaceMap
+[2021.01.28-21.06.46:068][799]LogPlayLevel: PIE: World Init took: (0.002156s)
+[2021.01.28-21.06.46:068][799]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SpaceMap.SpaceMap to /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap (0.005239s)
+[2021.01.28-21.06.46:099][799]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2021.01.28-21.06.46:101][799]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2021.01.28-21.06.46:101][799]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.28-21.06.46:101][799]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.28-21.06.46:101][799]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.28-21.06.46:101][799]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.28-21.06.46:101][799]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.28-21.06.46:101][799]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.28-21.06.46:101][799]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.28-21.06.46:101][799]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.28-21.06.46:102][799]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.28-21.06.46:102][799]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.28-21.06.46:107][799]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.28-21.06.46:107][799]LogAudioMixer: Display: 1: FrontRight
+[2021.01.28-21.06.46:124][799]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR VOID ELITE Wireless Gaming Dongle)
+[2021.01.28-21.06.46:125][799]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.28-21.06.46:125][799]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.28-21.06.46:125][799]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.28-21.06.46:126][799]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.28-21.06.46:126][799]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.28-21.06.46:126][799]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.28-21.06.46:145][799]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.28-21.06.46:145][799]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.28-21.06.46:145][799]LogInit: FAudioDevice initialized.
+[2021.01.28-21.06.46:145][799]LogAudio: Display: Audio Device (ID: 7) registered with world 'SpaceMap'.
+[2021.01.28-21.06.46:153][799]LogLoad: Game class is 'SpaceShooterManueGameModeBase_BP_C'
+[2021.01.28-21.06.46:155][799]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap up for play (max tick rate 60) at 2021.01.28-16.06.46
+[2021.01.28-21.06.46:155][799]LogWorld: Bringing up level for play took: 0.000507
+[2021.01.28-21.06.46:155][799]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.01.28-21.06.46:213][799]PIE: Server logged in
+[2021.01.28-21.06.46:214][799]PIE: Play in editor total start time 0.155 seconds.
+[2021.01.28-21.06.54:763][ 53]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.28-21.06.54:763][ 53]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.28-21.06.54:764][ 53]LogWorld: UWorld::CleanupWorld for SpaceMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.28-21.06.54:766][ 53]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.28-21.06.54:781][ 53]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.28-21.06.54:792][ 53]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.28-21.06.54:815][ 53]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.28-21.06.54:817][ 53]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.28-21.06.54:819][ 53]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.28-21.06.54:846][ 53]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.28-21.06.54:851][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2021.01.28-21.06.54:877][ 54]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.01.28-21.07.28:814][194]LogHotReload: New module detected: UE4Editor-SpaceShooterManue-0014.dll
+[2021.01.28-21.07.29:863][198]LogHotReload: Starting Hot-Reload from IDE
+[2021.01.28-21.07.30:258][198]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SpaceShooterManue' in 0.0008 seconds. Added 7 classes and 2 folders.
+[2021.01.28-21.07.30:267][198]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2021.01.28-21.07.30:383][198]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0132 seconds. Added 3610 classes and 863 folders.
+[2021.01.28-21.07.30:409][198]Display: HotReload took  0.5s.
+[2021.01.28-21.07.37:177][264]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.28-21.07.37:203][264]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.28-21.07.37:203][264]PIE: New page: PIE session: SpaceMap (Jan 28, 2021, 11:07:37 AM)
+[2021.01.28-21.07.37:203][264]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.28-21.07.37:206][264]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003148s)
+[2021.01.28-21.07.37:209][264]LogAIModule: Creating AISystem for world SpaceMap
+[2021.01.28-21.07.37:209][264]LogPlayLevel: PIE: World Init took: (0.002466s)
+[2021.01.28-21.07.37:209][264]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SpaceMap.SpaceMap to /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap (0.005842s)
+[2021.01.28-21.07.37:288][264]LogUObjectHash: Compacting FUObjectHashTables data took   6.19ms
+[2021.01.28-21.07.37:290][264]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2021.01.28-21.07.37:290][264]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.28-21.07.37:290][264]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.28-21.07.37:290][264]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.28-21.07.37:290][264]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.28-21.07.37:290][264]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.28-21.07.37:290][264]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.28-21.07.37:290][264]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.28-21.07.37:290][264]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.28-21.07.37:291][264]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.28-21.07.37:291][264]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.28-21.07.37:298][264]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.28-21.07.37:298][264]LogAudioMixer: Display: 1: FrontRight
+[2021.01.28-21.07.37:315][264]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR VOID ELITE Wireless Gaming Dongle)
+[2021.01.28-21.07.37:316][264]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.28-21.07.37:316][264]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.28-21.07.37:316][264]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.28-21.07.37:317][264]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.28-21.07.37:317][264]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.28-21.07.37:317][264]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.28-21.07.37:337][264]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.28-21.07.37:337][264]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.28-21.07.37:337][264]LogInit: FAudioDevice initialized.
+[2021.01.28-21.07.37:337][264]LogAudio: Display: Audio Device (ID: 8) registered with world 'SpaceMap'.
+[2021.01.28-21.07.37:344][264]LogLoad: Game class is 'SpaceShooterManueGameModeBase_BP_C'
+[2021.01.28-21.07.37:345][264]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap up for play (max tick rate 60) at 2021.01.28-16.07.37
+[2021.01.28-21.07.37:346][264]LogWorld: Bringing up level for play took: 0.000502
+[2021.01.28-21.07.37:346][264]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2021.01.28-21.07.37:411][264]PIE: Server logged in
+[2021.01.28-21.07.37:412][264]PIE: Play in editor total start time 0.212 seconds.
+[2021.01.28-21.07.52:641][626]LogWindows: Error: === Critical error: ===
+[2021.01.28-21.07.52:641][626]LogWindows: Error: 
+[2021.01.28-21.07.52:641][626]LogWindows: Error: Fatal error!
+[2021.01.28-21.07.52:641][626]LogWindows: Error: 
+[2021.01.28-21.07.52:641][626]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION 0x00006cda0001b440
+[2021.01.28-21.07.52:641][626]LogWindows: Error: 
+[2021.01.28-21.07.52:641][626]LogWindows: Error: [Callstack] 0x00006cda0001b440 UnknownFunction []
+[2021.01.28-21.07.52:641][626]LogWindows: Error: [Callstack] 0x00007ff8642fafb2 UE4Editor-Engine.dll!UnknownFunction []
+[2021.01.28-21.07.52:641][626]LogWindows: Error: [Callstack] 0x00007ff8b82a3f0b UE4Editor-SpaceShooterManue-0014.dll!UnknownFunction [C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Source\SpaceShooterManue\ObstacleManager.cpp:70]
+[2021.01.28-21.07.52:641][626]LogWindows: Error: [Callstack] 0x00007ff8654b068c UE4Editor-Engine.dll!UnknownFunction []
+[2021.01.28-21.07.52:641][626]LogWindows: Error: [Callstack] 0x00007ff8654dfbb9 UE4Editor-Engine.dll!UnknownFunction []
+[2021.01.28-21.07.52:641][626]LogWindows: Error: [Callstack] 0x00007ff864c04852 UE4Editor-Engine.dll!UnknownFunction []
+[2021.01.28-21.07.52:641][626]LogWindows: Error: [Callstack] 0x00007ff862b391d6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.01.28-21.07.52:641][626]LogWindows: Error: [Callstack] 0x00007ff863451996 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.01.28-21.07.52:641][626]LogWindows: Error: [Callstack] 0x00007ff65f619b6a UE4Editor.exe!UnknownFunction []
+[2021.01.28-21.07.52:641][626]LogWindows: Error: [Callstack] 0x00007ff65f63113c UE4Editor.exe!UnknownFunction []
+[2021.01.28-21.07.52:641][626]LogWindows: Error: [Callstack] 0x00007ff65f63121a UE4Editor.exe!UnknownFunction []
+[2021.01.28-21.07.52:641][626]LogWindows: Error: [Callstack] 0x00007ff65f64527d UE4Editor.exe!UnknownFunction []
+[2021.01.28-21.07.52:641][626]LogWindows: Error: [Callstack] 0x00007ff65f647faa UE4Editor.exe!UnknownFunction []
+[2021.01.28-21.07.52:641][626]LogWindows: Error: [Callstack] 0x00007ff8f31a7c24 KERNEL32.DLL!UnknownFunction []
+[2021.01.28-21.07.52:641][626]LogWindows: Error: [Callstack] 0x00007ff8f514d4d1 ntdll.dll!UnknownFunction []
+[2021.01.28-21.07.52:641][626]LogWindows: Error: 
+[2021.01.28-21.07.52:648][626]LogExit: Executing StaticShutdownAfterError
+[2021.01.28-21.07.52:688][626]LogWindows: FPlatformMisc::RequestExit(1)
+[2021.01.28-21.07.52:688][626]LogCore: Engine exit requested (reason: Win RequestExit)
+[2021.01.28-21.07.52:698][626]Log file closed, 01/28/21 16:07:52

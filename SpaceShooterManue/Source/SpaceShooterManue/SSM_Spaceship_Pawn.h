@@ -29,14 +29,6 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	AActor* SpawnObstacle();
-
-	void MoveObstacle();
-
-	bool IsInRange(FVector pawnLocation, FVector forwardVector, int offset, FVector actorLocation);
-
-	FVector GenerateRandomLocation(FVector pawnLocation, FVector forwardVector, int offset);
-
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		UFloatingPawnMovement* FloatingMovement;
 
@@ -58,11 +50,6 @@ protected:
 		float PitchRateMultiplier;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Flight)
 		float CurrentForwardSpeed;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Spawner)
-	TSubclassOf<AActor> ActorToSpawn;
-
-	TArray<AActor*> Obstacles;
 
 public:	
 	// Called every frame

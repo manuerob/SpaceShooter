@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SpaceShooterManue.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{8017D7A5-F736-41EF-B409-C00C5F0D207F}</UniqueIdentifier>
+      <UniqueIdentifier>{593032A4-A0FD-4D41-A4A6-1B890538A4AB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SpaceShooterManue.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{1596D5CF-8A68-4900-B25A-B94ACE6A6E5E}</UniqueIdentifier>
+      <UniqueIdentifier>{F74B7D5F-6617-4332-A212-B517A873DDE6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -28,7 +28,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\SpaceShooterManue">
-      <UniqueIdentifier>{0F3F17AA-7BCF-40BB-822F-4E63A977861B}</UniqueIdentifier>
+      <UniqueIdentifier>{320C5808-DDAF-4F00-8AAA-60E25190C650}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\SpaceShooterManue\MainMenuGameMode.cpp">
       <Filter>Source\SpaceShooterManue</Filter>
@@ -40,6 +40,12 @@
       <Filter>Source\SpaceShooterManue</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\SpaceShooterManue\MyActor.h">
+      <Filter>Source\SpaceShooterManue</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceShooterManue\ObstacleManager.cpp">
+      <Filter>Source\SpaceShooterManue</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceShooterManue\ObstacleManager.h">
       <Filter>Source\SpaceShooterManue</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\SpaceShooterManue\SpaceshipProjectile.cpp">
