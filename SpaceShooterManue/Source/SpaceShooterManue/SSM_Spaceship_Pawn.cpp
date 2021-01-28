@@ -49,14 +49,24 @@ void ASSM_Spaceship_Pawn::MoveObstacle()
 
 	for (int i = 0; i < 200; i++) {
 
-		FVector actorLocation = Obstacles[i]->GetActorLocation();
+		if (Obstacles[i] != nullptr) {
 
-		if (IsInRange(pawnLocation, forwardVector, 5000, actorLocation)) {
+			FVector actorLocation = Obstacles[i]->GetActorLocation();
 
-			FVector RandomSpawnLocation = GenerateRandomLocation(pawnLocation, forwardVector, 3000);
+			if (IsInRange(pawnLocation, forwardVector, 5000, actorLocation)) {
 
-			Obstacles[i]->SetActorLocation(RandomSpawnLocation);
+				FVector RandomSpawnLocation = GenerateRandomLocation(pawnLocation, forwardVector, 3000);
+
+				Obstacles[i]->SetActorLocation(RandomSpawnLocation);
+			}
 		}
+		else {
+			AActor* newObstacle = SpawnObstacle();
+
+			Obstacles[i] = newObstacle;
+		}
+
+		
 	}
 }
 

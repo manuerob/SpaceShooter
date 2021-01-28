@@ -68,7 +68,7 @@ void ASSM_PlayerController::Shoot()
 
 	DeprojectMousePositionToWorld(mouseLocation, mouseDirection);
 
-	FVector projectileLocation = pawnLocation + forwardVector * 500;
+	FVector projectileLocation = pawnLocation + forwardVector * 100;
 
 	FActorSpawnParameters SpawnInfo;
 
@@ -77,6 +77,6 @@ void ASSM_PlayerController::Shoot()
 	ASpaceshipProjectile* SpaceshipProjectile = Cast<ASpaceshipProjectile>(spawnedProjectile);
 	if (SpaceshipProjectile)
 	{
-		SpaceshipProjectile->setProjectileVelocity((mouseDirection * 15 + forwardVector) * 15000);
+		SpaceshipProjectile->setProjectileVelocity((mouseDirection * 15 + forwardVector) * 5000);
 	}
 }

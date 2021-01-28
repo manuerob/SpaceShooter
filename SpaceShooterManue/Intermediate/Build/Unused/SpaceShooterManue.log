@@ -1,11 +1,13 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter).
+  Invalidating makefile for SpaceShooterManueEditor (SSM_Spaceship_Pawn.cpp modified)
   Building SpaceShooterManueEditor...
   Using Visual Studio 2019 14.28.29336 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 3 actions with 12 processes...
-    [1/3] UE4Editor-SpaceShooterManue-0047.lib
-       Creating library C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-0047.lib and object C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-0047.exp
-    [2/3] UE4Editor-SpaceShooterManue-0047.dll
-       Creating library C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-0047.suppressed.lib and object C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-0047.suppressed.exp
-    [3/3] SpaceShooterManueEditor.target
-  Total time in Parallel executor: 0.62 seconds
-  Total execution time: 1.13 seconds
+  Building 4 actions with 12 processes...
+    [1/4] SSM_Spaceship_Pawn.cpp
+    [2/4] UE4Editor-SpaceShooterManue.lib
+       Creating library C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue.lib and object C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue.exp
+    [3/4] UE4Editor-SpaceShooterManue.dll
+       Creating library C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue.suppressed.lib and object C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue.suppressed.exp
+    [4/4] SpaceShooterManueEditor.target
+  Total time in Parallel executor: 5.20 seconds
+  Total execution time: 7.49 seconds
