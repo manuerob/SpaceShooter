@@ -11,18 +11,22 @@
 #endif
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeSpaceShooterManue_init() {}
+	SPACESHOOTERMANUE_API UFunction* Z_Construct_UDelegateFunction_SpaceShooterManue_TestDelegate__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_SpaceShooterManue()
 	{
 		static UPackage* ReturnPackage = nullptr;
 		if (!ReturnPackage)
 		{
+			static UObject* (*const SingletonFuncArray[])() = {
+				(UObject* (*)())Z_Construct_UDelegateFunction_SpaceShooterManue_TestDelegate__DelegateSignature,
+			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/SpaceShooterManue",
-				nullptr,
-				0,
+				SingletonFuncArray,
+				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x57D5E67D,
-				0x49E5AE5D,
+				0x715ABE09,
+				0x4BD86A15,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

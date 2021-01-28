@@ -24,7 +24,11 @@ void AObstacleManager::BeginPlay()
 
 	for (int i = 0; i < 200; i++) {
 
-		AActor* newObstacle = SpawnObstacle();
+		AMyActor* newObstacle = SpawnObstacle();
+
+		newObstacle->index = i;
+
+		newObstacle->TestDelegate.AddDynamic(this, &AObstacleManager::RespawnObject);
 
 		Obstacles.Add(newObstacle);
 	}
@@ -37,7 +41,14 @@ void AObstacleManager::Tick(float DeltaTime)
 
 }
 
-AActor* AObstacleManager::SpawnObstacle()
+void AObstacleManager::RespawnObject(int index)
+{
+	Obstacles[index]->Destroy();
+
+	Obstacles[index] = SpawnObstacle();
+}
+
+AMyActor* AObstacleManager::SpawnObstacle()
 {
 
 	FVector pawnLocation = PlayerPawn->GetActorLocation();
@@ -47,7 +58,7 @@ AActor* AObstacleManager::SpawnObstacle()
 
 	FActorSpawnParameters SpawnInfo;
 
-	return GetWorld()->SpawnActor<AActor>(ActorToSpawn, RandomSpawnLocation, FRotator(0.0f, 0.0f, 0.0f), SpawnInfo);
+	return GetWorld()->SpawnActor<AMyActor>(ActorToSpawn, RandomSpawnLocation, FRotator(0.0f, 0.0f, 0.0f), SpawnInfo);
 }
 
 void AObstacleManager::MoveObstacle()
@@ -69,7 +80,7 @@ void AObstacleManager::MoveObstacle()
 			}
 		}
 		else {
-			AActor* newObstacle = SpawnObstacle();
+			AMyActor* newObstacle = SpawnObstacle();
 
 			Obstacles[i] = newObstacle;
 		}

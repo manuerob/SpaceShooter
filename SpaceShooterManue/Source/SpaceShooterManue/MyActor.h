@@ -6,6 +6,8 @@
 #include "GameFramework/Actor.h"
 #include "MyActor.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FTestDelegate, int, ObstacleIndex);
+
 UCLASS()
 class SPACESHOOTERMANUE_API AMyActor : public AActor
 {
@@ -23,4 +25,11 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UPROPERTY(BlueprintAssignable, Category = "Test")
+		FTestDelegate TestDelegate;
+
+	UFUNCTION(BlueprintCallable, Category = "Test")
+		void OnObstacleHit();
+
+	int index;
 };

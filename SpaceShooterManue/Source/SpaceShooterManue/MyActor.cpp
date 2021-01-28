@@ -25,3 +25,8 @@ void AMyActor::Tick(float DeltaTime)
 
 }
 
+void AMyActor::OnObstacleHit()
+{
+	TestDelegate.Broadcast(index);
+}
+

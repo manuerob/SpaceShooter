@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Kismet/GameplayStatics.h"
+#include "MyActor.h"
 
 
 #include "ObstacleManager.generated.h"
@@ -22,7 +23,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	AActor* SpawnObstacle();
+	AMyActor* SpawnObstacle();
 
 	void MoveObstacle();
 
@@ -37,8 +38,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Spawner)
 		TSubclassOf<AActor> ActorToSpawn;
 
-	TArray<AActor*> Obstacles;
+	TArray<AMyActor*> Obstacles;
 
 	APawn* PlayerPawn;
+
+	UFUNCTION()
+		void RespawnObject(int index);
 
 };
