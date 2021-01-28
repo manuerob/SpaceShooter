@@ -1129,3 +1129,674 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.28-21.53.22:000][840]AssetCheck: New page: Asset Save: multiple assets
 [2021.01.28-21.53.22:000][840]LogContentValidation: Display: Validating World /Game/Maps/SpaceMap.SpaceMap
 [2021.01.28-21.53.22:000][840]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/SpaceMap_BuiltData.SpaceMap_BuiltData
+[2021.01.28-21.54.08:952][546]LogSlate: Window 'MyMyActor_BP' being destroyed
+[2021.01.28-21.54.08:959][546]LogSlate: Window 'MyMyActor_BP' being destroyed
+[2021.01.28-21.54.08:967][546]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.01.28-21.54.08:967][546]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.28-21.54.09:025][546]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.01.28-21.54.09:025][546]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.01.28-21.54.09:025][546]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.28-21.54.10:164][610]AssetReimport: New page: Outstanding source content changes 11:54:10 AM
+[2021.01.28-21.54.10:188][611]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/Plane 02/Package/Plane02.obj)
+[2021.01.28-21.54.10:206][611]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/Plane 02/Package/Plane02.obj
+[2021.01.28-21.54.10:264][611]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.16:663][611]LogSlate: Window 'FBX Import Options' being destroyed
+[2021.01.28-21.54.16:748][611]LogStaticMesh: Building static mesh Plane02...
+[2021.01.28-21.54.16:862][611]LogStaticMesh: Built static mesh [0.11s] /Game/Assets/Plane_02/Package/Plane02.Plane02
+[2021.01.28-21.54.16:983][612]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Palette.png]
+[2021.01.28-21.54.16:983][612]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Palette.png)
+[2021.01.28-21.54.17:073][612]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.17:131][613]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_01.fbx]
+[2021.01.28-21.54.17:152][613]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_01.fbx
+[2021.01.28-21.54.17:164][613]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.17:173][613]LogStaticMesh: Building static mesh Cliff_01...
+[2021.01.28-21.54.17:183][613]LogStaticMesh: Built static mesh [0.01s] /Engine/Transient.Cliff_01
+[2021.01.28-21.54.17:195][613]LogStaticMesh: Building static mesh Cliff_01...
+[2021.01.28-21.54.17:204][613]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_01.Cliff_01
+[2021.01.28-21.54.17:219][613]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.17:250][614]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_02.fbx]
+[2021.01.28-21.54.17:262][614]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_02.fbx
+[2021.01.28-21.54.17:267][614]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.17:270][614]LogStaticMesh: Building static mesh Cliff_02...
+[2021.01.28-21.54.17:278][614]LogStaticMesh: Built static mesh [0.01s] /Engine/Transient.Cliff_02
+[2021.01.28-21.54.17:285][614]LogStaticMesh: Building static mesh Cliff_02...
+[2021.01.28-21.54.17:292][614]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_02.Cliff_02
+[2021.01.28-21.54.17:303][614]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.17:337][615]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_03.fbx]
+[2021.01.28-21.54.17:347][615]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_03.fbx
+[2021.01.28-21.54.17:353][615]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.17:357][615]LogStaticMesh: Building static mesh Cliff_03...
+[2021.01.28-21.54.17:367][615]LogStaticMesh: Built static mesh [0.01s] /Engine/Transient.Cliff_03
+[2021.01.28-21.54.17:377][615]LogStaticMesh: Building static mesh Cliff_03...
+[2021.01.28-21.54.17:386][615]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_03.Cliff_03
+[2021.01.28-21.54.17:394][615]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.17:421][616]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_04.fbx]
+[2021.01.28-21.54.17:431][616]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_04.fbx
+[2021.01.28-21.54.17:437][616]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.17:439][616]LogStaticMesh: Building static mesh Cliff_04...
+[2021.01.28-21.54.17:446][616]LogStaticMesh: Built static mesh [0.01s] /Engine/Transient.Cliff_04
+[2021.01.28-21.54.17:453][616]LogStaticMesh: Building static mesh Cliff_04...
+[2021.01.28-21.54.17:461][616]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_04.Cliff_04
+[2021.01.28-21.54.17:468][616]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.17:496][617]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_05.fbx]
+[2021.01.28-21.54.17:506][617]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_05.fbx
+[2021.01.28-21.54.17:511][617]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.17:513][617]LogStaticMesh: Building static mesh Cliff_05...
+[2021.01.28-21.54.17:520][617]LogStaticMesh: Built static mesh [0.01s] /Engine/Transient.Cliff_05
+[2021.01.28-21.54.17:528][617]LogStaticMesh: Building static mesh Cliff_05...
+[2021.01.28-21.54.17:535][617]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_05.Cliff_05
+[2021.01.28-21.54.17:544][617]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.17:571][618]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Bush_01.fbx]
+[2021.01.28-21.54.17:580][618]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Bush_01.fbx
+[2021.01.28-21.54.17:586][618]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.17:587][618]LogStaticMesh: Building static mesh Bush_01...
+[2021.01.28-21.54.17:593][618]LogStaticMesh: Built static mesh [0.01s] /Engine/Transient.Bush_01
+[2021.01.28-21.54.17:598][618]LogStaticMesh: Building static mesh Bush_01...
+[2021.01.28-21.54.17:604][618]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Bush_01.Bush_01
+[2021.01.28-21.54.17:613][618]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.17:637][619]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Bush_02.fbx]
+[2021.01.28-21.54.17:645][619]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Bush_02.fbx
+[2021.01.28-21.54.17:651][619]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.17:653][619]LogStaticMesh: Building static mesh Bush_02...
+[2021.01.28-21.54.17:658][619]LogStaticMesh: Built static mesh [0.01s] /Engine/Transient.Bush_02
+[2021.01.28-21.54.17:663][619]LogStaticMesh: Building static mesh Bush_02...
+[2021.01.28-21.54.17:669][619]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Bush_02.Bush_02
+[2021.01.28-21.54.17:677][619]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.17:705][620]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_01.fbx]
+[2021.01.28-21.54.17:713][620]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_01.fbx
+[2021.01.28-21.54.17:718][620]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.17:721][620]LogStaticMesh: Building static mesh Grass_01...
+[2021.01.28-21.54.17:728][620]LogStaticMesh: Built static mesh [0.01s] /Engine/Transient.Grass_01
+[2021.01.28-21.54.17:734][620]LogStaticMesh: Building static mesh Grass_01...
+[2021.01.28-21.54.17:739][620]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_01.Grass_01
+[2021.01.28-21.54.17:751][620]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.17:781][621]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_02.fbx]
+[2021.01.28-21.54.17:791][621]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_02.fbx
+[2021.01.28-21.54.17:797][621]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.17:799][621]LogStaticMesh: Building static mesh Grass_02...
+[2021.01.28-21.54.17:804][621]LogStaticMesh: Built static mesh [0.01s] /Engine/Transient.Grass_02
+[2021.01.28-21.54.17:809][621]LogStaticMesh: Building static mesh Grass_02...
+[2021.01.28-21.54.17:815][621]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_02.Grass_02
+[2021.01.28-21.54.17:825][621]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.17:859][622]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_03.fbx]
+[2021.01.28-21.54.17:868][622]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_03.fbx
+[2021.01.28-21.54.17:873][622]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.17:874][622]LogStaticMesh: Building static mesh Grass_03...
+[2021.01.28-21.54.17:878][622]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.Grass_03
+[2021.01.28-21.54.17:882][622]LogStaticMesh: Building static mesh Grass_03...
+[2021.01.28-21.54.17:885][622]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_03.Grass_03
+[2021.01.28-21.54.17:894][622]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.17:918][623]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_04.fbx]
+[2021.01.28-21.54.17:927][623]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_04.fbx
+[2021.01.28-21.54.17:931][623]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.17:933][623]LogStaticMesh: Building static mesh Grass_04...
+[2021.01.28-21.54.17:937][623]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.Grass_04
+[2021.01.28-21.54.17:941][623]LogStaticMesh: Building static mesh Grass_04...
+[2021.01.28-21.54.17:946][623]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_04.Grass_04
+[2021.01.28-21.54.17:955][623]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.17:977][624]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_05.fbx]
+[2021.01.28-21.54.17:987][624]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_05.fbx
+[2021.01.28-21.54.17:991][624]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.17:993][624]LogStaticMesh: Building static mesh Grass_05...
+[2021.01.28-21.54.17:997][624]LogStaticMesh: Built static mesh [0.01s] /Engine/Transient.Grass_05
+[2021.01.28-21.54.18:002][624]LogStaticMesh: Building static mesh Grass_05...
+[2021.01.28-21.54.18:006][624]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_05.Grass_05
+[2021.01.28-21.54.18:010][624]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.18:031][625]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_06.fbx]
+[2021.01.28-21.54.18:037][625]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_06.fbx
+[2021.01.28-21.54.18:042][625]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.18:043][625]LogStaticMesh: Building static mesh Grass_06...
+[2021.01.28-21.54.18:048][625]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.Grass_06
+[2021.01.28-21.54.18:052][625]LogStaticMesh: Building static mesh Grass_06...
+[2021.01.28-21.54.18:056][625]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_06.Grass_06
+[2021.01.28-21.54.18:062][625]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.18:084][626]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_01.fbx]
+[2021.01.28-21.54.18:091][626]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_01.fbx
+[2021.01.28-21.54.18:096][626]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.18:097][626]LogStaticMesh: Building static mesh Mushroom_01...
+[2021.01.28-21.54.18:101][626]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.Mushroom_01
+[2021.01.28-21.54.18:104][626]LogStaticMesh: Building static mesh Mushroom_01...
+[2021.01.28-21.54.18:107][626]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_01.Mushroom_01
+[2021.01.28-21.54.18:112][626]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.18:138][627]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_02.fbx]
+[2021.01.28-21.54.18:145][627]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_02.fbx
+[2021.01.28-21.54.18:149][627]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.18:151][627]LogStaticMesh: Building static mesh Mushroom_02...
+[2021.01.28-21.54.18:155][627]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.Mushroom_02
+[2021.01.28-21.54.18:158][627]LogStaticMesh: Building static mesh Mushroom_02...
+[2021.01.28-21.54.18:161][627]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_02.Mushroom_02
+[2021.01.28-21.54.18:167][627]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.18:188][628]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_03.fbx]
+[2021.01.28-21.54.18:194][628]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_03.fbx
+[2021.01.28-21.54.18:198][628]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.18:200][628]LogStaticMesh: Building static mesh Mushroom_03...
+[2021.01.28-21.54.18:207][628]LogStaticMesh: Built static mesh [0.01s] /Engine/Transient.Mushroom_03
+[2021.01.28-21.54.18:213][628]LogStaticMesh: Building static mesh Mushroom_03...
+[2021.01.28-21.54.18:220][628]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_03.Mushroom_03
+[2021.01.28-21.54.18:226][628]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.18:246][629]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_04.fbx]
+[2021.01.28-21.54.18:252][629]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_04.fbx
+[2021.01.28-21.54.18:256][629]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.18:258][629]LogStaticMesh: Building static mesh Mushroom_04...
+[2021.01.28-21.54.18:262][629]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.Mushroom_04
+[2021.01.28-21.54.18:266][629]LogStaticMesh: Building static mesh Mushroom_04...
+[2021.01.28-21.54.18:270][629]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_04.Mushroom_04
+[2021.01.28-21.54.18:276][629]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.18:290][630]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Plant_01.fbx]
+[2021.01.28-21.54.18:297][630]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Plant_01.fbx
+[2021.01.28-21.54.18:301][630]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.18:302][630]LogStaticMesh: Building static mesh Plant_01...
+[2021.01.28-21.54.18:307][630]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.Plant_01
+[2021.01.28-21.54.18:311][630]LogStaticMesh: Building static mesh Plant_01...
+[2021.01.28-21.54.18:315][630]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Plant_01.Plant_01
+[2021.01.28-21.54.18:320][630]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.18:344][631]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Big_Rock_01.fbx]
+[2021.01.28-21.54.18:352][631]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Big_Rock_01.fbx
+[2021.01.28-21.54.18:356][631]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.18:358][631]LogStaticMesh: Building static mesh Big_Rock_01...
+[2021.01.28-21.54.18:361][631]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.Big_Rock_01
+[2021.01.28-21.54.18:365][631]LogStaticMesh: Building static mesh Big_Rock_01...
+[2021.01.28-21.54.18:368][631]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Big_Rock_01.Big_Rock_01
+[2021.01.28-21.54.18:374][631]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.18:389][632]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Big_Rock_02.fbx]
+[2021.01.28-21.54.18:396][632]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Big_Rock_02.fbx
+[2021.01.28-21.54.18:400][632]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.18:401][632]LogStaticMesh: Building static mesh Big_Rock_02...
+[2021.01.28-21.54.18:405][632]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.Big_Rock_02
+[2021.01.28-21.54.18:408][632]LogStaticMesh: Building static mesh Big_Rock_02...
+[2021.01.28-21.54.18:412][632]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Big_Rock_02.Big_Rock_02
+[2021.01.28-21.54.18:417][632]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.18:433][633]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_01.fbx]
+[2021.01.28-21.54.18:440][633]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_01.fbx
+[2021.01.28-21.54.18:443][633]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.18:445][633]LogStaticMesh: Building static mesh Rock_01...
+[2021.01.28-21.54.18:449][633]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.Rock_01
+[2021.01.28-21.54.18:452][633]LogStaticMesh: Building static mesh Rock_01...
+[2021.01.28-21.54.18:456][633]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_01.Rock_01
+[2021.01.28-21.54.18:461][633]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.18:479][634]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_02.fbx]
+[2021.01.28-21.54.18:486][634]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_02.fbx
+[2021.01.28-21.54.18:489][634]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.18:491][634]LogStaticMesh: Building static mesh Rock_02...
+[2021.01.28-21.54.18:494][634]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.Rock_02
+[2021.01.28-21.54.18:498][634]LogStaticMesh: Building static mesh Rock_02...
+[2021.01.28-21.54.18:501][634]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_02.Rock_02
+[2021.01.28-21.54.18:507][634]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.18:525][635]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_03.fbx]
+[2021.01.28-21.54.18:532][635]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_03.fbx
+[2021.01.28-21.54.18:536][635]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.18:537][635]LogStaticMesh: Building static mesh Rock_03...
+[2021.01.28-21.54.18:542][635]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.Rock_03
+[2021.01.28-21.54.18:546][635]LogStaticMesh: Building static mesh Rock_03...
+[2021.01.28-21.54.18:550][635]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_03.Rock_03
+[2021.01.28-21.54.18:555][635]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.18:576][636]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_04.fbx]
+[2021.01.28-21.54.18:583][636]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_04.fbx
+[2021.01.28-21.54.18:587][636]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.18:589][636]LogStaticMesh: Building static mesh Rock_04...
+[2021.01.28-21.54.18:592][636]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.Rock_04
+[2021.01.28-21.54.18:595][636]LogStaticMesh: Building static mesh Rock_04...
+[2021.01.28-21.54.18:599][636]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_04.Rock_04
+[2021.01.28-21.54.18:604][636]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.18:622][637]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_05.fbx]
+[2021.01.28-21.54.18:629][637]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_05.fbx
+[2021.01.28-21.54.18:633][637]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.18:634][637]LogStaticMesh: Building static mesh Rock_05...
+[2021.01.28-21.54.18:638][637]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.Rock_05
+[2021.01.28-21.54.18:642][637]LogStaticMesh: Building static mesh Rock_05...
+[2021.01.28-21.54.18:645][637]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_05.Rock_05
+[2021.01.28-21.54.18:650][637]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.18:670][638]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_06.fbx]
+[2021.01.28-21.54.18:677][638]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_06.fbx
+[2021.01.28-21.54.18:681][638]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.18:682][638]LogStaticMesh: Building static mesh Rock_06...
+[2021.01.28-21.54.18:686][638]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.Rock_06
+[2021.01.28-21.54.18:689][638]LogStaticMesh: Building static mesh Rock_06...
+[2021.01.28-21.54.18:694][638]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_06.Rock_06
+[2021.01.28-21.54.18:699][638]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.18:714][639]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_07.fbx]
+[2021.01.28-21.54.18:721][639]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_07.fbx
+[2021.01.28-21.54.18:725][639]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.18:726][639]LogStaticMesh: Building static mesh Rock_07...
+[2021.01.28-21.54.18:729][639]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.Rock_07
+[2021.01.28-21.54.18:732][639]LogStaticMesh: Building static mesh Rock_07...
+[2021.01.28-21.54.18:735][639]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_07.Rock_07
+[2021.01.28-21.54.18:740][639]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.18:758][640]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_08.fbx]
+[2021.01.28-21.54.18:765][640]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_08.fbx
+[2021.01.28-21.54.18:769][640]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.18:776][640]LogStaticMesh: Building static mesh Rock_08...
+[2021.01.28-21.54.18:801][640]LogStaticMesh: Built static mesh [0.03s] /Engine/Transient.Rock_08
+[2021.01.28-21.54.18:817][640]LogStaticMesh: Building static mesh Rock_08...
+[2021.01.28-21.54.18:842][640]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_08.Rock_08
+[2021.01.28-21.54.18:851][640]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.18:870][641]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_09.fbx]
+[2021.01.28-21.54.18:876][641]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_09.fbx
+[2021.01.28-21.54.18:881][641]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.18:885][641]LogStaticMesh: Building static mesh Rock_09...
+[2021.01.28-21.54.18:897][641]LogStaticMesh: Built static mesh [0.01s] /Engine/Transient.Rock_09
+[2021.01.28-21.54.18:905][641]LogStaticMesh: Building static mesh Rock_09...
+[2021.01.28-21.54.18:916][641]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_09.Rock_09
+[2021.01.28-21.54.18:922][641]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.18:939][642]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_10.fbx]
+[2021.01.28-21.54.18:946][642]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_10.fbx
+[2021.01.28-21.54.18:950][642]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.18:954][642]LogStaticMesh: Building static mesh Rock_10...
+[2021.01.28-21.54.18:966][642]LogStaticMesh: Built static mesh [0.01s] /Engine/Transient.Rock_10
+[2021.01.28-21.54.18:975][642]LogStaticMesh: Building static mesh Rock_10...
+[2021.01.28-21.54.18:987][642]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_10.Rock_10
+[2021.01.28-21.54.18:993][642]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.19:013][643]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Dead_Tree_01.fbx]
+[2021.01.28-21.54.19:019][643]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Dead_Tree_01.fbx
+[2021.01.28-21.54.19:023][643]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.19:025][643]LogStaticMesh: Building static mesh Dead_Tree_01...
+[2021.01.28-21.54.19:034][643]LogStaticMesh: Built static mesh [0.01s] /Engine/Transient.Dead_Tree_01
+[2021.01.28-21.54.19:044][643]LogStaticMesh: Building static mesh Dead_Tree_01...
+[2021.01.28-21.54.19:052][643]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Dead_Tree_01.Dead_Tree_01
+[2021.01.28-21.54.19:057][643]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.19:075][644]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Dead_Tree_02.fbx]
+[2021.01.28-21.54.19:081][644]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Dead_Tree_02.fbx
+[2021.01.28-21.54.19:085][644]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.19:087][644]LogStaticMesh: Building static mesh Dead_Tree_02...
+[2021.01.28-21.54.19:095][644]LogStaticMesh: Built static mesh [0.01s] /Engine/Transient.Dead_Tree_02
+[2021.01.28-21.54.19:103][644]LogStaticMesh: Building static mesh Dead_Tree_02...
+[2021.01.28-21.54.19:111][644]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Dead_Tree_02.Dead_Tree_02
+[2021.01.28-21.54.19:116][644]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.19:135][645]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Pine_Tree_01.fbx]
+[2021.01.28-21.54.19:141][645]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Pine_Tree_01.fbx
+[2021.01.28-21.54.19:145][645]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.19:147][645]LogStaticMesh: Building static mesh Pine_Tree_01...
+[2021.01.28-21.54.19:153][645]LogStaticMesh: Built static mesh [0.01s] /Engine/Transient.Pine_Tree_01
+[2021.01.28-21.54.19:156][645]LogStaticMesh: Building static mesh Pine_Tree_01...
+[2021.01.28-21.54.19:162][645]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Pine_Tree_01.Pine_Tree_01
+[2021.01.28-21.54.19:167][645]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.19:184][646]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Pine_Tree_02.fbx]
+[2021.01.28-21.54.19:191][646]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Pine_Tree_02.fbx
+[2021.01.28-21.54.19:195][646]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.19:197][646]LogStaticMesh: Building static mesh Pine_Tree_02...
+[2021.01.28-21.54.19:204][646]LogStaticMesh: Built static mesh [0.01s] /Engine/Transient.Pine_Tree_02
+[2021.01.28-21.54.19:212][646]LogStaticMesh: Building static mesh Pine_Tree_02...
+[2021.01.28-21.54.19:219][646]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Pine_Tree_02.Pine_Tree_02
+[2021.01.28-21.54.19:225][646]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.19:243][647]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Pine_Tree_03.fbx]
+[2021.01.28-21.54.19:249][647]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Pine_Tree_03.fbx
+[2021.01.28-21.54.19:253][647]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.19:255][647]LogStaticMesh: Building static mesh Pine_Tree_03...
+[2021.01.28-21.54.19:262][647]LogStaticMesh: Built static mesh [0.01s] /Engine/Transient.Pine_Tree_03
+[2021.01.28-21.54.19:268][647]LogStaticMesh: Building static mesh Pine_Tree_03...
+[2021.01.28-21.54.19:275][647]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Pine_Tree_03.Pine_Tree_03
+[2021.01.28-21.54.19:281][647]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.19:302][648]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_01.fbx]
+[2021.01.28-21.54.19:308][648]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_01.fbx
+[2021.01.28-21.54.19:312][648]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.19:315][648]LogStaticMesh: Building static mesh Tree_01...
+[2021.01.28-21.54.19:322][648]LogStaticMesh: Built static mesh [0.01s] /Engine/Transient.Tree_01
+[2021.01.28-21.54.19:328][648]LogStaticMesh: Building static mesh Tree_01...
+[2021.01.28-21.54.19:335][648]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_01.Tree_01
+[2021.01.28-21.54.19:340][648]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.19:360][649]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_02.fbx]
+[2021.01.28-21.54.19:366][649]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_02.fbx
+[2021.01.28-21.54.19:370][649]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.19:372][649]LogStaticMesh: Building static mesh Tree_02...
+[2021.01.28-21.54.19:383][649]LogStaticMesh: Built static mesh [0.01s] /Engine/Transient.Tree_02
+[2021.01.28-21.54.19:390][649]LogStaticMesh: Building static mesh Tree_02...
+[2021.01.28-21.54.19:400][649]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_02.Tree_02
+[2021.01.28-21.54.19:406][649]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.19:422][650]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_03.fbx]
+[2021.01.28-21.54.19:429][650]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_03.fbx
+[2021.01.28-21.54.19:433][650]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.19:434][650]LogStaticMesh: Building static mesh Tree_03...
+[2021.01.28-21.54.19:441][650]LogStaticMesh: Built static mesh [0.01s] /Engine/Transient.Tree_03
+[2021.01.28-21.54.19:446][650]LogStaticMesh: Building static mesh Tree_03...
+[2021.01.28-21.54.19:453][650]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_03.Tree_03
+[2021.01.28-21.54.19:458][650]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.19:476][651]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_04.fbx]
+[2021.01.28-21.54.19:482][651]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_04.fbx
+[2021.01.28-21.54.19:486][651]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.19:488][651]LogStaticMesh: Building static mesh Tree_04...
+[2021.01.28-21.54.19:492][651]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.Tree_04
+[2021.01.28-21.54.19:497][651]LogStaticMesh: Building static mesh Tree_04...
+[2021.01.28-21.54.19:501][651]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_04.Tree_04
+[2021.01.28-21.54.19:507][651]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.19:529][652]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Trunk_01.fbx]
+[2021.01.28-21.54.19:536][652]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Trunk_01.fbx
+[2021.01.28-21.54.19:540][652]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.19:541][652]LogStaticMesh: Building static mesh Trunk_01...
+[2021.01.28-21.54.19:546][652]LogStaticMesh: Built static mesh [0.01s] /Engine/Transient.Trunk_01
+[2021.01.28-21.54.19:551][652]LogStaticMesh: Building static mesh Trunk_01...
+[2021.01.28-21.54.19:555][652]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Trunk_01.Trunk_01
+[2021.01.28-21.54.19:561][652]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.19:579][653]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Trunk_02.fbx]
+[2021.01.28-21.54.19:585][653]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Trunk_02.fbx
+[2021.01.28-21.54.19:589][653]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.19:591][653]LogStaticMesh: Building static mesh Trunk_02...
+[2021.01.28-21.54.19:594][653]LogStaticMesh: Built static mesh [0.00s] /Engine/Transient.Trunk_02
+[2021.01.28-21.54.19:597][653]LogStaticMesh: Building static mesh Trunk_02...
+[2021.01.28-21.54.19:600][653]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Trunk_02.Trunk_02
+[2021.01.28-21.54.19:605][653]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.19:624][654]LogEditorFactories: Performing atomic reimport of [C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Trunk_03.fbx]
+[2021.01.28-21.54.19:631][654]LogFbx: Loading FBX Scene from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Trunk_03.fbx
+[2021.01.28-21.54.19:635][654]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.28-21.54.19:637][654]LogStaticMesh: Building static mesh Trunk_03...
+[2021.01.28-21.54.19:642][654]LogStaticMesh: Built static mesh [0.01s] /Engine/Transient.Trunk_03
+[2021.01.28-21.54.19:649][654]LogStaticMesh: Building static mesh Trunk_03...
+[2021.01.28-21.54.19:654][654]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Trunk_03.Trunk_03
+[2021.01.28-21.54.19:660][654]LogEditorFactories: -- imported successfully
+[2021.01.28-21.54.19:760][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Plane02EF795892447A02D52ECF4F94F0A783A9.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/Plane_02/Package/Plane02.uasset'
+[2021.01.28-21.54.19:768][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Palette8F49E6EF45C705419C5504B2309CE171.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Palette.uasset'
+[2021.01.28-21.54.19:797][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Cliff_0191CA887244D3DFF04AA9E4B43D6F7122.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_01.uasset'
+[2021.01.28-21.54.19:823][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Cliff_02817C639043F14A85733CB88CF8709CDB.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_02.uasset'
+[2021.01.28-21.54.19:853][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Cliff_03EAC9FB724AD099B4E6ED82AB78961F6B.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_03.uasset'
+[2021.01.28-21.54.19:881][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Cliff_049FC0F06142B25F5DB74535B0CEBBC038.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_04.uasset'
+[2021.01.28-21.54.19:916][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Cliff_05D097A10E4BE29AEE38178A9CE14A317B.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_05.uasset'
+[2021.01.28-21.54.19:945][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Bush_0101235F6E49D44D7CD157418AB6867AB5.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Bush_01.uasset'
+[2021.01.28-21.54.19:973][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Bush_02A92C7FAE4E7FD465D235DE8CF59042AD.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Bush_02.uasset'
+[2021.01.28-21.54.20:000][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Grass_014EF0AF944CB60398CFD28EA1EC1668A2.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_01.uasset'
+[2021.01.28-21.54.20:027][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Grass_02D28A807A42195317BD4D87ABE22FDA1F.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_02.uasset'
+[2021.01.28-21.54.20:054][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Grass_03FC613048407509C4C8EA2E845D72270C.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_03.uasset'
+[2021.01.28-21.54.20:082][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Grass_04D2885BC94DA99E9F86CA829897607110.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_04.uasset'
+[2021.01.28-21.54.20:111][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Grass_059F1DACF64BF386FE489507B0D43A056A.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_05.uasset'
+[2021.01.28-21.54.20:138][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Grass_0684420F764417E6267764E9A9675E883B.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_06.uasset'
+[2021.01.28-21.54.20:165][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Mushroom_010DB5DBFA4D31478DC2AC8E9B9692D084.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_01.uasset'
+[2021.01.28-21.54.20:192][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Mushroom_024FC50C9746CE784CCE6E3C9E057BA99F.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_02.uasset'
+[2021.01.28-21.54.20:220][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Mushroom_036A1D722845996A4210603082B3E4028E.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_03.uasset'
+[2021.01.28-21.54.20:247][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Mushroom_045935E1B34B51B738B129C49DCAE7681A.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_04.uasset'
+[2021.01.28-21.54.20:274][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Plant_01DAE03107465D46C7842B17821BFAE417.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Plant_01.uasset'
+[2021.01.28-21.54.20:301][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Big_Rock_01B52B6BD8496F992A19C5F7BD8D0215AB.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Big_Rock_01.uasset'
+[2021.01.28-21.54.20:330][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Big_Rock_028BBDFE0749B2BE0E462765897AEDBE76.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Big_Rock_02.uasset'
+[2021.01.28-21.54.20:358][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Rock_01E251990A423B57ECBBCE269628245AA4.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_01.uasset'
+[2021.01.28-21.54.20:385][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Rock_02C13B7E934A67D80E87856D9196789C75.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_02.uasset'
+[2021.01.28-21.54.20:413][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Rock_033C84F4004E0E826DB5DFD2B7C52641BD.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_03.uasset'
+[2021.01.28-21.54.20:440][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Rock_04A0ACEAC34BD69510F8EC03B1D3221DF4.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_04.uasset'
+[2021.01.28-21.54.20:467][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Rock_05F9C4FE71422F1DF4781FE7A0D3377D7C.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_05.uasset'
+[2021.01.28-21.54.20:492][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Rock_06465D81C04D93A9B1AE5264834B568101.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_06.uasset'
+[2021.01.28-21.54.20:515][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Rock_076DB812DA4FEA96C932489E85FD6F61CA.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_07.uasset'
+[2021.01.28-21.54.20:544][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Rock_0886C4D05A4BCA6BA91FF1C8BB0B23C79B.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_08.uasset'
+[2021.01.28-21.54.20:570][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Rock_0947F7BE2B4490B4C5CB17C3A3A5EAD028.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_09.uasset'
+[2021.01.28-21.54.20:596][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Rock_10E291D400468378BE1D9FEEA168D0C756.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_10.uasset'
+[2021.01.28-21.54.20:620][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Dead_Tree_014C2032DE459673CC48ECBAB928B986DA.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Dead_Tree_01.uasset'
+[2021.01.28-21.54.20:645][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Dead_Tree_02DFBA8A14400BA68B0A97248D9C052F38.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Dead_Tree_02.uasset'
+[2021.01.28-21.54.20:669][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Pine_Tree_0172C551B3458F6C7E3E0ABC90A28D17A3.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Pine_Tree_01.uasset'
+[2021.01.28-21.54.20:694][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Pine_Tree_0218635B1B4508020622AE53A7D3DD7F52.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Pine_Tree_02.uasset'
+[2021.01.28-21.54.20:720][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Pine_Tree_0367E92B8D42C5E120ABFEBB8C8D85FB7C.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Pine_Tree_03.uasset'
+[2021.01.28-21.54.20:749][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Tree_01AC067C2F4CFA08C13AC54F879FB48CC7.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_01.uasset'
+[2021.01.28-21.54.20:776][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Tree_0287DB61C34019E2B5F4DBF7A99CCC3EA4.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_02.uasset'
+[2021.01.28-21.54.20:806][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Tree_03384AA9A444EE0BBFEE39279C604B1B21.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_03.uasset'
+[2021.01.28-21.54.20:832][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Tree_04B97841204D324F51425494BE5833A5DC.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_04.uasset'
+[2021.01.28-21.54.20:858][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Trunk_012BD8412B42E0A87C87DF79AAA8DB7655.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Trunk_01.uasset'
+[2021.01.28-21.54.20:882][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Trunk_02CFB306B840EACCB123169FBA514B6E67.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Trunk_02.uasset'
+[2021.01.28-21.54.20:906][655]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/Trunk_03280AF01C4430AAE6004254AE664BDE9C.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Trunk_03.uasset'
+[2021.01.28-21.54.20:958][656]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.28-21.54.20:958][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_07.Rock_07
+[2021.01.28-21.54.20:958][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Trunk_03.Trunk_03
+[2021.01.28-21.54.20:958][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Trunk_02.Trunk_02
+[2021.01.28-21.54.20:958][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Trunk_01.Trunk_01
+[2021.01.28-21.54.20:958][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_04.Tree_04
+[2021.01.28-21.54.20:958][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_03.Tree_03
+[2021.01.28-21.54.20:958][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_02.Tree_02
+[2021.01.28-21.54.20:958][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_01.Tree_01
+[2021.01.28-21.54.20:958][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Pine_Tree_03.Pine_Tree_03
+[2021.01.28-21.54.20:958][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Pine_Tree_02.Pine_Tree_02
+[2021.01.28-21.54.20:958][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Pine_Tree_01.Pine_Tree_01
+[2021.01.28-21.54.20:958][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Dead_Tree_02.Dead_Tree_02
+[2021.01.28-21.54.20:958][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Dead_Tree_01.Dead_Tree_01
+[2021.01.28-21.54.20:958][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_10.Rock_10
+[2021.01.28-21.54.20:958][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_09.Rock_09
+[2021.01.28-21.54.20:958][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_08.Rock_08
+[2021.01.28-21.54.20:958][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_06.Rock_06
+[2021.01.28-21.54.20:958][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_05.Rock_05
+[2021.01.28-21.54.20:959][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_04.Rock_04
+[2021.01.28-21.54.20:959][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_03.Rock_03
+[2021.01.28-21.54.20:959][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_02.Rock_02
+[2021.01.28-21.54.20:959][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_01.Rock_01
+[2021.01.28-21.54.20:959][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Big_Rock_02.Big_Rock_02
+[2021.01.28-21.54.20:959][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Big_Rock_01.Big_Rock_01
+[2021.01.28-21.54.20:959][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Plant_01.Plant_01
+[2021.01.28-21.54.20:959][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_04.Mushroom_04
+[2021.01.28-21.54.20:959][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_03.Mushroom_03
+[2021.01.28-21.54.20:959][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_02.Mushroom_02
+[2021.01.28-21.54.20:959][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_01.Mushroom_01
+[2021.01.28-21.54.20:959][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_06.Grass_06
+[2021.01.28-21.54.20:959][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_05.Grass_05
+[2021.01.28-21.54.20:959][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_04.Grass_04
+[2021.01.28-21.54.20:959][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_03.Grass_03
+[2021.01.28-21.54.20:959][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_02.Grass_02
+[2021.01.28-21.54.20:959][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_01.Grass_01
+[2021.01.28-21.54.20:959][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Bush_02.Bush_02
+[2021.01.28-21.54.20:959][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Bush_01.Bush_01
+[2021.01.28-21.54.20:959][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_05.Cliff_05
+[2021.01.28-21.54.20:959][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_04.Cliff_04
+[2021.01.28-21.54.20:959][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_03.Cliff_03
+[2021.01.28-21.54.20:959][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_02.Cliff_02
+[2021.01.28-21.54.20:959][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_01.Cliff_01
+[2021.01.28-21.54.20:959][656]LogContentValidation: Display: Validating Texture2D /Game/Assets/LowPolyNaturePack/LowPolyNaturePack/Palette.Palette
+[2021.01.28-21.54.20:959][656]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Plane_02/Package/Plane02.Plane02
+[2021.01.28-21.54.23:196][790]LogSlate: Window 'Message Log' being destroyed
+[2021.01.28-21.54.23:201][790]LogSlate: Window 'Message Log' being destroyed
+[2021.01.28-21.54.23:918][833]AssetReimport: Importing new asset /Game/Assets/Plane_02/Package/Plane02.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Palette from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Palette.png.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Cliff_01 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_01.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Cliff_02 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_02.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Cliff_03 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_03.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Cliff_04 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_04.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Cliff_05 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Cliffs/Cliff_05.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Bush_01 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Bush_01.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Bush_02 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Bush_02.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Grass_01 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_01.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Grass_02 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_02.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Grass_03 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_03.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Grass_04 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_04.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Grass_05 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_05.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Grass_06 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Grass_06.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Mushroom_01 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_01.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Mushroom_02 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_02.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Mushroom_03 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_03.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Mushroom_04 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Mushroom_04.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Plant_01 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Others/Plant_01.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Big_Rock_01 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Big_Rock_01.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Big_Rock_02 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Big_Rock_02.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Rock_01 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_01.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Rock_02 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_02.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Rock_03 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_03.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Rock_04 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_04.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Rock_05 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_05.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Rock_06 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_06.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Rock_07 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_07.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Rock_08 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_08.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Rock_09 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_09.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Rock_10 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Rocks/Rock_10.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Dead_Tree_01 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Dead_Tree_01.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Dead_Tree_02 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Dead_Tree_02.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Pine_Tree_01 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Pine_Tree_01.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Pine_Tree_02 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Pine_Tree_02.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Pine_Tree_03 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Pine_Tree_03.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Tree_01 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_01.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Tree_02 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_02.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Tree_03 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_03.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Tree_04 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Tree_04.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Trunk_01 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Trunk_01.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Trunk_02 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Trunk_02.fbx.
+[2021.01.28-21.54.23:918][833]AssetReimport: Reimported asset Trunk_03 from C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/LowPolyNaturePack/LowPolyNaturePack/Trees/Trunk_03.fbx.
+[2021.01.28-21.54.27:730][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2021.01.28-21.54.27:774][ 58]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/defaultMat5B6760434CD8CB6F15F4D1B234133F43.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Assets/Plane_02/Package/defaultMat.uasset'
+[2021.01.28-21.54.27:787][ 58]AssetCheck: New page: Asset Save: defaultMat
+[2021.01.28-21.54.27:787][ 58]LogContentValidation: Display: Validating Material /Game/Assets/Plane_02/Package/defaultMat.defaultMat
+[2021.01.28-21.54.37:265][375]Candidate modules for hot reload:
+[2021.01.28-21.54.37:265][375]  SpaceShooterManue
+[2021.01.28-21.54.37:265][375]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SpaceShooterManue,1277 SpaceShooterManueEditor Win64 Development -Project="C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/SpaceShooterManue.uproject" "C:/Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/SpaceShooterManue.uproject"  -IgnoreJunk]
+[2021.01.28-21.54.37:270][375]Warning: Starting HotReload took  0.0s.
+[2021.01.28-21.54.38:925][473]CompilerResultsLog: New page: Compilation - Jan 28, 2021, 11:54:38 AM
+[2021.01.28-21.54.38:925][473]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter).
+[2021.01.28-21.54.38:925][473]CompilerResultsLog: Building SpaceShooterManueEditor...
+[2021.01.28-21.54.38:925][473]CompilerResultsLog: Using Visual Studio 2019 14.28.29336 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.28-21.54.38:925][473]CompilerResultsLog: Building 3 actions with 12 processes...
+[2021.01.28-21.54.38:925][473]CompilerResultsLog:   [1/3] UE4Editor-SpaceShooterManue-1277.lib
+[2021.01.28-21.54.38:925][473]CompilerResultsLog:      Creating library C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-1277.lib and object C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-1277.exp
+[2021.01.28-21.54.38:925][473]CompilerResultsLog:   [2/3] UE4Editor-SpaceShooterManue-1277.dll
+[2021.01.28-21.54.38:925][473]CompilerResultsLog:      Creating library C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-1277.suppressed.lib and object C:\Users\emman\Desktop\Legacy Mob Game Jams\SpaceShooter\SpaceShooterManue\Intermediate\Build\Win64\UE4Editor\Development\SpaceShooterManue\UE4Editor-SpaceShooterManue-1277.suppressed.exp
+[2021.01.28-21.54.38:925][473]CompilerResultsLog:   [3/3] SpaceShooterManueEditor.target
+[2021.01.28-21.54.38:925][473]CompilerResultsLog: Total time in Parallel executor: 0.93 seconds
+[2021.01.28-21.54.38:925][473]CompilerResultsLog: Total execution time: 1.50 seconds
+[2021.01.28-21.54.38:925][473]LogMainFrame: MainFrame: Module compiling took 1.669 seconds
+[2021.01.28-21.54.39:451][473]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SpaceShooterManue' in 0.0002 seconds. Added 7 classes and 2 folders.
+[2021.01.28-21.54.39:455][473]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2021.01.28-21.54.39:561][473]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0077 seconds. Added 3608 classes and 861 folders.
+[2021.01.28-21.54.39:562][473]Display: HotReload took  2.3s.
+[2021.01.28-21.55.22:601][  1]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.28-21.55.22:609][  1]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.28-21.55.22:610][  1]PIE: New page: PIE session: SpaceMap (Jan 28, 2021, 11:55:22 AM)
+[2021.01.28-21.55.22:610][  1]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.28-21.55.22:611][  1]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001785s)
+[2021.01.28-21.55.22:613][  1]LogAIModule: Creating AISystem for world SpaceMap
+[2021.01.28-21.55.22:613][  1]LogPlayLevel: PIE: World Init took: (0.001298s)
+[2021.01.28-21.55.22:613][  1]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SpaceMap.SpaceMap to /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap (0.003184s)
+[2021.01.28-21.55.22:695][  1]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
+[2021.01.28-21.55.22:699][  1]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.01.28-21.55.22:699][  1]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.28-21.55.22:699][  1]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.28-21.55.22:699][  1]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.28-21.55.22:699][  1]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.28-21.55.22:699][  1]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.28-21.55.22:699][  1]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.28-21.55.22:699][  1]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.28-21.55.22:699][  1]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.28-21.55.22:699][  1]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.28-21.55.22:699][  1]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.28-21.55.22:703][  1]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.28-21.55.22:703][  1]LogAudioMixer: Display: 1: FrontRight
+[2021.01.28-21.55.22:712][  1]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR VOID ELITE Wireless Gaming Dongle)
+[2021.01.28-21.55.22:712][  1]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.28-21.55.22:712][  1]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.28-21.55.22:712][  1]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.28-21.55.22:712][  1]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.28-21.55.22:712][  1]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.28-21.55.22:712][  1]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.28-21.55.22:726][  1]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.28-21.55.22:726][  1]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.28-21.55.22:726][  1]LogInit: FAudioDevice initialized.
+[2021.01.28-21.55.22:726][  1]LogAudio: Display: Audio Device (ID: 6) registered with world 'SpaceMap'.
+[2021.01.28-21.55.22:735][  1]LogLoad: Game class is 'SpaceShooterManueGameModeBase_BP_C'
+[2021.01.28-21.55.22:736][  1]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap up for play (max tick rate 60) at 2021.01.28-16.55.22
+[2021.01.28-21.55.22:736][  1]LogWorld: Bringing up level for play took: 0.000345
+[2021.01.28-21.55.22:736][  1]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.01.28-21.55.22:771][  1]PIE: Server logged in
+[2021.01.28-21.55.22:772][  1]PIE: Play in editor total start time 0.165 seconds.
+[2021.01.28-21.55.45:598][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.28-21.55.45:598][368]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.28-21.55.45:598][368]LogWorld: UWorld::CleanupWorld for SpaceMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.28-21.55.45:599][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.28-21.55.45:604][368]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.28-21.55.45:612][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.28-21.55.45:625][368]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.28-21.55.45:631][368]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.28-21.55.45:632][368]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.28-21.55.45:646][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.28-21.55.45:663][368]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2021.01.28-21.55.45:684][369]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.01.28-22.00.03:401][ 36]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/MyMyActor_BP.MyMyActor_BP
+[2021.01.28-22.00.33:560][813]BlueprintLog: New page: Compile MyMyActor_BP
+[2021.01.28-22.00.33:593][813]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2021.01.28-22.00.34:020][834]LogSavePackage: Moving '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Saved/MyMyActor_BP6F49C05743FF9CD8C80AE6B7359AD213.tmp' to '../../../../../../Users/emman/Desktop/Legacy Mob Game Jams/SpaceShooter/SpaceShooterManue/Content/Blueprint/MyMyActor_BP.uasset'
+[2021.01.28-22.00.34:034][834]AssetCheck: New page: Asset Save: MyMyActor_BP
+[2021.01.28-22.00.34:035][834]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/MyMyActor_BP.MyMyActor_BP
+[2021.01.28-22.00.38:578][102]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.28-22.00.38:587][102]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.28-22.00.38:587][102]PIE: New page: PIE session: SpaceMap (Jan 28, 2021, 12:00:38 PM)
+[2021.01.28-22.00.38:587][102]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.28-22.00.38:589][102]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001998s)
+[2021.01.28-22.00.38:591][102]LogAIModule: Creating AISystem for world SpaceMap
+[2021.01.28-22.00.38:591][102]LogPlayLevel: PIE: World Init took: (0.001346s)
+[2021.01.28-22.00.38:591][102]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SpaceMap.SpaceMap to /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap (0.003454s)
+[2021.01.28-22.00.38:609][102]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2021.01.28-22.00.38:610][102]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2021.01.28-22.00.38:610][102]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.28-22.00.38:610][102]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.28-22.00.38:610][102]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.28-22.00.38:610][102]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.28-22.00.38:610][102]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.28-22.00.38:610][102]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.28-22.00.38:610][102]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.28-22.00.38:610][102]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.28-22.00.38:611][102]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.28-22.00.38:611][102]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.28-22.00.38:615][102]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.28-22.00.38:615][102]LogAudioMixer: Display: 1: FrontRight
+[2021.01.28-22.00.38:625][102]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR VOID ELITE Wireless Gaming Dongle)
+[2021.01.28-22.00.38:625][102]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.28-22.00.38:625][102]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.28-22.00.38:625][102]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.28-22.00.38:626][102]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.28-22.00.38:626][102]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.28-22.00.38:626][102]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.28-22.00.38:640][102]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.28-22.00.38:640][102]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.28-22.00.38:640][102]LogInit: FAudioDevice initialized.
+[2021.01.28-22.00.38:640][102]LogAudio: Display: Audio Device (ID: 7) registered with world 'SpaceMap'.
+[2021.01.28-22.00.38:647][102]LogLoad: Game class is 'SpaceShooterManueGameModeBase_BP_C'
+[2021.01.28-22.00.38:648][102]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap up for play (max tick rate 60) at 2021.01.28-17.00.38
+[2021.01.28-22.00.38:649][102]LogWorld: Bringing up level for play took: 0.000433
+[2021.01.28-22.00.38:649][102]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.01.28-22.00.38:686][102]PIE: Server logged in
+[2021.01.28-22.00.38:686][102]PIE: Play in editor total start time 0.101 seconds.
+[2021.01.28-22.01.26:667][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.28-22.01.26:667][977]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.28-22.01.26:667][977]LogWorld: UWorld::CleanupWorld for SpaceMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.28-22.01.26:669][977]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.28-22.01.26:678][977]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.28-22.01.26:686][977]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.28-22.01.26:703][977]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.28-22.01.26:703][977]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.28-22.01.26:704][977]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.28-22.01.26:719][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.28-22.01.26:723][977]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2021.01.28-22.01.26:744][978]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.01.28-22.03.49:070][515]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.28-22.03.49:079][515]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.28-22.03.49:079][515]PIE: New page: PIE session: SpaceMap (Jan 28, 2021, 12:03:49 PM)
+[2021.01.28-22.03.49:079][515]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.28-22.03.49:081][515]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001740s)
+[2021.01.28-22.03.49:082][515]LogAIModule: Creating AISystem for world SpaceMap
+[2021.01.28-22.03.49:082][515]LogPlayLevel: PIE: World Init took: (0.001074s)
+[2021.01.28-22.03.49:082][515]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/SpaceMap.SpaceMap to /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap (0.002951s)
+[2021.01.28-22.03.49:102][515]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.01.28-22.03.49:103][515]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2021.01.28-22.03.49:103][515]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.28-22.03.49:103][515]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.28-22.03.49:104][515]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.28-22.03.49:104][515]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.28-22.03.49:104][515]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.28-22.03.49:104][515]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.28-22.03.49:104][515]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.28-22.03.49:104][515]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.28-22.03.49:104][515]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.28-22.03.49:104][515]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.28-22.03.49:108][515]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.28-22.03.49:108][515]LogAudioMixer: Display: 1: FrontRight
+[2021.01.28-22.03.49:118][515]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR VOID ELITE Wireless Gaming Dongle)
+[2021.01.28-22.03.49:118][515]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.28-22.03.49:118][515]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.28-22.03.49:118][515]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.28-22.03.49:119][515]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.28-22.03.49:119][515]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.28-22.03.49:119][515]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.28-22.03.49:134][515]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.28-22.03.49:134][515]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.28-22.03.49:134][515]LogInit: FAudioDevice initialized.
+[2021.01.28-22.03.49:134][515]LogAudio: Display: Audio Device (ID: 8) registered with world 'SpaceMap'.
+[2021.01.28-22.03.49:141][515]LogLoad: Game class is 'SpaceShooterManueGameModeBase_BP_C'
+[2021.01.28-22.03.49:143][515]LogWorld: Bringing World /Game/Maps/UEDPIE_0_SpaceMap.SpaceMap up for play (max tick rate 60) at 2021.01.28-17.03.49
+[2021.01.28-22.03.49:143][515]LogWorld: Bringing up level for play took: 0.000874
+[2021.01.28-22.03.49:143][515]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2021.01.28-22.03.49:181][515]PIE: Server logged in
+[2021.01.28-22.03.49:181][515]PIE: Play in editor total start time 0.104 seconds.
+[2021.01.28-22.05.01:917][876]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.28-22.05.01:917][876]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_SpaceMap
+[2021.01.28-22.05.01:918][876]LogWorld: UWorld::CleanupWorld for SpaceMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.28-22.05.01:920][876]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.28-22.05.01:929][876]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.28-22.05.01:936][876]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.28-22.05.01:953][876]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.28-22.05.01:953][876]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.28-22.05.01:954][876]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.28-22.05.01:971][876]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2021.01.28-22.05.01:992][877]LogPlayLevel: Display: Destroying online subsystem :Context_16
