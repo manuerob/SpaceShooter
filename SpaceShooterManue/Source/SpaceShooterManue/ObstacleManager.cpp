@@ -58,7 +58,12 @@ AMyActor* AObstacleManager::SpawnObstacle()
 
 	FActorSpawnParameters SpawnInfo;
 
-	return GetWorld()->SpawnActor<AMyActor>(ActorToSpawn, RandomSpawnLocation, FRotator(0.0f, 0.0f, 0.0f), SpawnInfo);
+	FRotator RRot;
+	RRot.Yaw = FMath::FRand() * 360.f;
+	RRot.Pitch = FMath::FRand() * 360.f;
+	RRot.Roll = FMath::FRand() * 360.f;
+
+	return GetWorld()->SpawnActor<AMyActor>(ActorToSpawn, RandomSpawnLocation, RRot, SpawnInfo);
 }
 
 void AObstacleManager::MoveObstacle()
