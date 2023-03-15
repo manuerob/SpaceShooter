@@ -15,7 +15,7 @@ This small space shooter project is made with Unreal (c++ and Blueprint project)
 - Menu interactions
 
 
-## INSTRUCTION
+## INSTRUCTIONS
 
 Download the executable from itch.io or clone the repository and package the project in Unreal
 
