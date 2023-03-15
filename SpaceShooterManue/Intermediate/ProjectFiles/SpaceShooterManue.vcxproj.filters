@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SpaceShooterManue.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{593032A4-A0FD-4D41-A4A6-1B890538A4AB}</UniqueIdentifier>
+      <UniqueIdentifier>{AF3B8289-5AE3-4BA5-8F4C-CCBCC4679C74}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SpaceShooterManue.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{F74B7D5F-6617-4332-A212-B517A873DDE6}</UniqueIdentifier>
+      <UniqueIdentifier>{40B2E6A4-77E1-4E1F-AD02-713889432E0B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -28,7 +28,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\SpaceShooterManue">
-      <UniqueIdentifier>{320C5808-DDAF-4F00-8AAA-60E25190C650}</UniqueIdentifier>
+      <UniqueIdentifier>{C8F01B03-2EB9-4252-AE3B-111C7E16BBF7}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\SpaceShooterManue\MainMenuGameMode.cpp">
       <Filter>Source\SpaceShooterManue</Filter>
